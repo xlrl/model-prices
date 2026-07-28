@@ -1,0 +1,481 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Model price history</title>
+<style>
+  :root {
+    color-scheme: light;
+    --surface: #fcfcfb;
+    --page: #f9f9f7;
+    --text-primary: #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted: #898781;
+    --gridline: #e1e0d9;
+    --baseline: #c3c2b7;
+    --border: rgba(11,11,11,0.10);
+    --chip-bg: #f0efec;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      color-scheme: dark;
+      --surface: #1a1a19;
+      --page: #0d0d0d;
+      --text-primary: #ffffff;
+      --text-secondary: #c3c2b7;
+      --text-muted: #898781;
+      --gridline: #2c2c2a;
+      --baseline: #383835;
+      --border: rgba(255,255,255,0.10);
+      --chip-bg: #2c2c2a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 24px;
+    background: var(--page);
+    color: var(--text-primary);
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  h1 { font-size: 1.25rem; margin: 0 0 4px; }
+  p.sub { color: var(--text-secondary); margin: 0 0 20px; font-size: 0.9rem; }
+  p.sub a { color: inherit; }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .filter-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+  }
+  .autocomplete {
+    position: relative;
+    flex: 1 1 320px;
+    min-width: 260px;
+  }
+  .autocomplete input {
+    width: 100%;
+    padding: 8px 10px;
+    font-size: 0.95rem;
+    border: 1px solid var(--baseline);
+    border-radius: 6px;
+    background: var(--surface);
+    color: var(--text-primary);
+  }
+  .autocomplete input:focus { outline: 2px solid #2a78d6; outline-offset: 1px; }
+  .suggestions {
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 0;
+    right: 0;
+    max-height: 260px;
+    overflow-y: auto;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    z-index: 10;
+    display: none;
+  }
+  .suggestions.open { display: block; }
+  .suggestion {
+    padding: 7px 10px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    color: var(--text-primary);
+  }
+  .suggestion.active, .suggestion:hover { background: var(--chip-bg); }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--chip-bg);
+    border-radius: 999px;
+    padding: 4px 6px 4px 10px;
+    font-size: 0.85rem;
+  }
+  .chip .swatch { width: 10px; height: 10px; border-radius: 50%; flex: none; }
+  .chip button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    line-height: 1;
+    padding: 2px 4px;
+  }
+  .chip button:hover { color: var(--text-primary); }
+  .hint { color: var(--text-muted); font-size: 0.8rem; margin: 4px 0 0; }
+  #chart { width: 100%; height: 560px; }
+  .toolbar { display: flex; justify-content: flex-end; gap: 8px; margin-top: 8px; }
+  button.link {
+    background: none;
+    border: none;
+    color: var(--text-secondary);
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 0.85rem;
+    padding: 0;
+  }
+  table.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+    margin-top: 12px;
+  }
+  table.data-table th, table.data-table td {
+    text-align: right;
+    padding: 4px 8px;
+    border-bottom: 1px solid var(--gridline);
+    font-variant-numeric: tabular-nums;
+  }
+  table.data-table th:first-child, table.data-table td:first-child { text-align: left; }
+  #table-view { display: none; overflow-x: auto; }
+  .hoverlayer { display: none !important; }
+  #custom-tooltip {
+    position: fixed;
+    pointer-events: none;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 8px 10px;
+    font-size: 0.8rem;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+    z-index: 1000;
+    display: none;
+    max-width: 300px;
+  }
+  #custom-tooltip .tt-date { color: var(--text-secondary); font-size: 0.72rem; margin-bottom: 4px; }
+  #custom-tooltip .tt-row { display: flex; align-items: center; gap: 6px; padding: 2px 0; white-space: nowrap; }
+  #custom-tooltip .tt-swatch { width: 14px; height: 0; border-top: 2px solid; flex: none; }
+  #custom-tooltip .tt-swatch.dash { border-top-style: dashed; }
+  #custom-tooltip .tt-value { font-weight: 600; font-variant-numeric: tabular-nums; color: var(--text-primary); }
+  #custom-tooltip .tt-name { color: var(--text-secondary); }
+</style>
+</head>
+<body>
+<div class="card">
+  <h1>Model price history</h1>
+  <p class="sub">Solid = input cost, dashed = output cost, both $ / Mtok on a log scale. Pick up to 8 models.
+    Data points mark irregular, arbitrary times when the underlying model list was refreshed, not a fixed schedule &mdash;
+    gaps between points don't imply price stability. Source: <a href="https://github.com/xlrl/model-prices" target="_blank" rel="noopener">github.com/xlrl/model-prices</a>.</p>
+
+  <div class="filter-row">
+    <div class="autocomplete">
+      <input id="search" type="text" placeholder="Search models&hellip;" autocomplete="off" aria-label="Search models">
+      <div id="suggestions" class="suggestions"></div>
+    </div>
+  </div>
+  <div id="chips" class="chips"></div>
+  <p id="hint" class="hint"></p>
+
+  <div id="chart"></div>
+  <div class="toolbar">
+    <button class="link" id="toggle-table">Show data table</button>
+  </div>
+  <div id="table-view"></div>
+</div>
+<div id="custom-tooltip"></div>
+
+<script>__PLOTLYJS__</script>
+<script>
+const DATA = __DATA__;
+const ALL_LABELS = __ALL_LABELS__;
+const DEFAULT_LABELS = __DEFAULT_LABELS__;
+const PALETTE = __PALETTE__;
+const MAX_SERIES = 8;
+
+const colorAssignment = new Map();
+let nextColorIndex = 0;
+function colorFor(label) {
+  if (!colorAssignment.has(label)) {
+    colorAssignment.set(label, PALETTE[nextColorIndex % PALETTE.length]);
+    nextColorIndex += 1;
+  }
+  return colorAssignment.get(label);
+}
+
+let selected = DEFAULT_LABELS.slice(0, MAX_SERIES);
+selected.forEach(colorFor);
+
+const searchInput = document.getElementById("search");
+const suggestionsEl = document.getElementById("suggestions");
+const chipsEl = document.getElementById("chips");
+const hintEl = document.getElementById("hint");
+const chartEl = document.getElementById("chart");
+const tableView = document.getElementById("table-view");
+const toggleTableBtn = document.getElementById("toggle-table");
+
+let activeSuggestion = -1;
+let currentMatches = [];
+
+function isDark() {
+  return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+}
+
+function themeColors() {
+  return isDark()
+    ? { surface: "#1a1a19", ink: "#ffffff", secondary: "#c3c2b7", grid: "#2c2c2a", baseline: "#383835" }
+    : { surface: "#fcfcfb", ink: "#0b0b0b", secondary: "#52514e", grid: "#e1e0d9", baseline: "#c3c2b7" };
+}
+
+function renderChips() {
+  chipsEl.innerHTML = "";
+  selected.forEach((label) => {
+    const chip = document.createElement("div");
+    chip.className = "chip";
+
+    const swatch = document.createElement("span");
+    swatch.className = "swatch";
+    swatch.style.background = colorFor(label);
+    chip.appendChild(swatch);
+
+    const text = document.createElement("span");
+    text.textContent = label;
+    chip.appendChild(text);
+
+    const removeBtn = document.createElement("button");
+    removeBtn.type = "button";
+    removeBtn.setAttribute("aria-label", "Remove " + label);
+    removeBtn.textContent = "×";
+    removeBtn.addEventListener("click", () => {
+      selected = selected.filter((l) => l !== label);
+      renderChips();
+      renderChart();
+      renderTable();
+    });
+    chip.appendChild(removeBtn);
+
+    chipsEl.appendChild(chip);
+  });
+
+  hintEl.textContent = selected.length >= MAX_SERIES
+    ? "Maximum " + MAX_SERIES + " models shown at once — remove one to add another."
+    : "";
+}
+
+function renderChart() {
+  const theme = themeColors();
+  const traces = [];
+  selected.forEach((label) => {
+    const rows = DATA[label] || [];
+    const x = rows.map((r) => r[0]);
+    const color = colorFor(label);
+    traces.push({
+      x, y: rows.map((r) => r[1]),
+      mode: "lines+markers",
+      name: label + " (input)",
+      line: { color, width: 2, dash: "solid" },
+      marker: { size: 6 },
+      hoverinfo: "none",
+    });
+    traces.push({
+      x, y: rows.map((r) => r[2]),
+      mode: "lines+markers",
+      name: label + " (output)",
+      line: { color, width: 2, dash: "dash" },
+      marker: { size: 6, symbol: "diamond" },
+      hoverinfo: "none",
+    });
+  });
+
+  const layout = {
+    yaxis: { type: "log", title: "$ / Mtok (log scale)", gridcolor: theme.grid, zerolinecolor: theme.baseline, color: theme.secondary },
+    xaxis: {
+      title: "snapshot date", gridcolor: theme.grid, zerolinecolor: theme.baseline, color: theme.secondary,
+      showspikes: true, spikemode: "across", spikesnap: "cursor", spikedash: "solid", spikethickness: 1, spikecolor: theme.secondary,
+    },
+    hovermode: "x",
+    legend: { orientation: "h", yanchor: "bottom", y: 1.02, font: { color: theme.secondary } },
+    margin: { t: selected.length ? 60 : 40, l: 60, r: 20, b: 50 },
+    paper_bgcolor: theme.surface,
+    plot_bgcolor: theme.surface,
+    font: { color: theme.ink, family: "system-ui, -apple-system, Segoe UI, sans-serif" },
+    height: 520,
+  };
+
+  if (!traces.length) {
+    layout.annotations = [{
+      text: "Search above and pick a model to plot", showarrow: false,
+      x: 0.5, y: 0.5, xref: "paper", yref: "paper", font: { color: theme.secondary, size: 14 },
+    }];
+  }
+
+  Plotly.react(chartEl, traces, layout, { responsive: true, displaylogo: false });
+}
+
+function renderTable() {
+  if (tableView.style.display === "none") return;
+  tableView.innerHTML = "";
+  if (!selected.length) {
+    tableView.textContent = "No models selected.";
+    return;
+  }
+  const table = document.createElement("table");
+  table.className = "data-table";
+  const thead = document.createElement("thead");
+  const headRow = document.createElement("tr");
+  ["Timestamp", ...selected.flatMap((l) => [l + " input", l + " output"])].forEach((h) => {
+    const th = document.createElement("th");
+    th.textContent = h;
+    headRow.appendChild(th);
+  });
+  thead.appendChild(headRow);
+  table.appendChild(thead);
+
+  const timestamps = [...new Set(selected.flatMap((l) => (DATA[l] || []).map((r) => r[0])))].sort();
+  const tbody = document.createElement("tbody");
+  timestamps.forEach((ts) => {
+    const row = document.createElement("tr");
+    const tsCell = document.createElement("td");
+    tsCell.textContent = ts;
+    tsCell.style.textAlign = "left";
+    row.appendChild(tsCell);
+    selected.forEach((label) => {
+      const rec = (DATA[label] || []).find((r) => r[0] === ts);
+      const inCell = document.createElement("td");
+      inCell.textContent = rec ? rec[1].toFixed(3) : "–";
+      row.appendChild(inCell);
+      const outCell = document.createElement("td");
+      outCell.textContent = rec ? rec[2].toFixed(3) : "–";
+      row.appendChild(outCell);
+    });
+    tbody.appendChild(row);
+  });
+  table.appendChild(tbody);
+  tableView.appendChild(table);
+}
+
+const tooltipEl = document.getElementById("custom-tooltip");
+
+function showTooltip(evt) {
+  if (!evt.points || !evt.points.length) return;
+  const pts = [...evt.points].sort((a, b) => b.y - a.y);
+
+  tooltipEl.innerHTML = "";
+  const dateRow = document.createElement("div");
+  dateRow.className = "tt-date";
+  dateRow.textContent = pts[0].x;
+  tooltipEl.appendChild(dateRow);
+
+  pts.forEach((p) => {
+    const row = document.createElement("div");
+    row.className = "tt-row";
+
+    const swatch = document.createElement("span");
+    swatch.className = "tt-swatch" + (p.data.line.dash === "dash" ? " dash" : "");
+    swatch.style.borderTopColor = p.data.line.color;
+    row.appendChild(swatch);
+
+    const value = document.createElement("span");
+    value.className = "tt-value";
+    value.textContent = "$" + p.y.toFixed(3);
+    row.appendChild(value);
+
+    const name = document.createElement("span");
+    name.className = "tt-name";
+    name.textContent = p.data.name;
+    row.appendChild(name);
+
+    tooltipEl.appendChild(row);
+  });
+
+  const src = evt.event;
+  if (src) {
+    const maxLeft = window.innerWidth - 320;
+    const maxTop = window.innerHeight - 160;
+    tooltipEl.style.left = Math.max(8, Math.min(src.clientX + 16, maxLeft)) + "px";
+    tooltipEl.style.top = Math.max(8, Math.min(src.clientY + 16, maxTop)) + "px";
+  }
+  tooltipEl.style.display = "block";
+}
+
+function hideTooltip() {
+  tooltipEl.style.display = "none";
+}
+
+function closeSuggestions() {
+  suggestionsEl.classList.remove("open");
+  suggestionsEl.innerHTML = "";
+  activeSuggestion = -1;
+  currentMatches = [];
+}
+
+function addLabel(label) {
+  if (selected.includes(label) || selected.length >= MAX_SERIES) return;
+  selected.push(label);
+  colorFor(label);
+  searchInput.value = "";
+  closeSuggestions();
+  renderChips();
+  renderChart();
+  renderTable();
+}
+
+function showSuggestions(query) {
+  const q = query.trim().toLowerCase();
+  if (!q) { closeSuggestions(); return; }
+  currentMatches = ALL_LABELS.filter((l) => !selected.includes(l) && l.toLowerCase().includes(q)).slice(0, 25);
+  suggestionsEl.innerHTML = "";
+  if (!currentMatches.length) { closeSuggestions(); return; }
+  currentMatches.forEach((label, i) => {
+    const item = document.createElement("div");
+    item.className = "suggestion" + (i === 0 ? " active" : "");
+    item.textContent = label;
+    item.addEventListener("mousedown", (e) => { e.preventDefault(); addLabel(label); });
+    suggestionsEl.appendChild(item);
+  });
+  activeSuggestion = 0;
+  suggestionsEl.classList.add("open");
+}
+
+searchInput.addEventListener("input", (e) => showSuggestions(e.target.value));
+searchInput.addEventListener("keydown", (e) => {
+  if (!currentMatches.length) return;
+  if (e.key === "ArrowDown") {
+    e.preventDefault();
+    activeSuggestion = (activeSuggestion + 1) % currentMatches.length;
+  } else if (e.key === "ArrowUp") {
+    e.preventDefault();
+    activeSuggestion = (activeSuggestion - 1 + currentMatches.length) % currentMatches.length;
+  } else if (e.key === "Enter") {
+    e.preventDefault();
+    if (activeSuggestion >= 0) addLabel(currentMatches[activeSuggestion]);
+    return;
+  } else if (e.key === "Escape") {
+    closeSuggestions();
+    return;
+  } else {
+    return;
+  }
+  [...suggestionsEl.children].forEach((el, i) => el.classList.toggle("active", i === activeSuggestion));
+});
+searchInput.addEventListener("blur", () => setTimeout(closeSuggestions, 100));
+
+toggleTableBtn.addEventListener("click", () => {
+  const showing = tableView.style.display === "block";
+  tableView.style.display = showing ? "none" : "block";
+  toggleTableBtn.textContent = showing ? "Show data table" : "Hide data table";
+  if (!showing) renderTable();
+});
+
+if (window.matchMedia) {
+  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", renderChart);
+}
+
+renderChips();
+renderChart();
+chartEl.on("plotly_hover", showTooltip);
+chartEl.on("plotly_unhover", hideTooltip);
+</script>
+</body>
+</html>
