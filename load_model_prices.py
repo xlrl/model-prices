@@ -35,7 +35,21 @@ def flatten_snapshot(data: dict, timestamp: str) -> list[dict]:
     return rows
 
 
+def rename_untimestamped_snapshot(data_dir: str) -> None:
+    path = os.path.join(data_dir, "models.json")
+    if not os.path.exists(path):
+        return
+    with open(path) as f:
+        data = json.load(f)
+    timestamp = resolve_timestamp(data, path)
+    suffix = timestamp.replace(":", "").replace("-", "")
+    new_path = os.path.join(data_dir, f"models_{suffix}.json")
+    os.rename(path, new_path)
+    print(f"Renamed {path} -> {new_path}")
+
+
 def load_price_history(data_dir: str) -> list[dict]:
+    rename_untimestamped_snapshot(data_dir)
     rows: list[dict] = []
     for path in sorted(glob.glob(os.path.join(data_dir, "models_*.json"))):
         with open(path) as f:
