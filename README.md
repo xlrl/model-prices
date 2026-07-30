@@ -16,8 +16,20 @@ between points means no snapshot was taken, not that the price was stable.
 - `generate_price_chart.py` — renders `model_prices.csv` + `price_chart_template.html`
   into `index.html`, the file published via GitHub Pages
 - `default_models.txt` — models preselected when the chart loads
+- `generate.sh` — runs the full pipeline (refresh + render)
 
 ## Usage
+
+```sh
+./generate.sh
+```
+
+This re-runs `load_model_prices.py` (renaming any un-timestamped
+`data/models.json` snapshot along the way) and then `generate_price_chart.py`
+to rebuild `index.html`. Extra arguments are passed through to
+`generate_price_chart.py`, e.g. `./generate.sh --no-open`.
+
+To run the steps individually:
 
 ```sh
 uv run load_model_prices.py
