@@ -166,7 +166,7 @@
 <body>
 <div class="card">
   <h1>Model price history</h1>
-  <p class="sub">Solid = input cost, dashed = output cost, both $ / Mtok on a log scale. Pick up to 8 models.
+  <p class="sub">Solid = output cost, dashed = input cost, both $ / Mtok. Pick up to 8 models.
     Data points mark irregular, arbitrary times when the underlying model list was refreshed, not a fixed schedule &mdash;
     gaps between points don't imply price stability. Source: <a href="https://github.com/xlrl/model-prices" target="_blank" rel="noopener">github.com/xlrl/model-prices</a>.</p>
 
@@ -181,6 +181,7 @@
 
   <div id="chart"></div>
   <div class="toolbar">
+    <button class="link" id="toggle-scale">Switch to linear scale</button>
     <button class="link" id="toggle-table">Show data table</button>
   </div>
   <div id="table-view"></div>
@@ -215,6 +216,9 @@ const hintEl = document.getElementById("hint");
 const chartEl = document.getElementById("chart");
 const tableView = document.getElementById("table-view");
 const toggleTableBtn = document.getElementById("toggle-table");
+const toggleScaleBtn = document.getElementById("toggle-scale");
+
+let yAxisType = "log";
 
 let activeSuggestion = -1;
 let currentMatches = [];
@@ -275,7 +279,7 @@ function renderChart() {
       x, y: rows.map((r) => r[1]),
       mode: "lines+markers",
       name: label + " (input)",
-      line: { color, width: 2, dash: "solid" },
+      line: { color, width: 2, dash: "dash" },
       marker: { size: 6 },
       hoverinfo: "none",
     });
@@ -283,14 +287,17 @@ function renderChart() {
       x, y: rows.map((r) => r[2]),
       mode: "lines+markers",
       name: label + " (output)",
-      line: { color, width: 2, dash: "dash" },
+      line: { color, width: 2, dash: "solid" },
       marker: { size: 6, symbol: "diamond" },
       hoverinfo: "none",
     });
   });
 
   const layout = {
-    yaxis: { type: "log", title: "$ / Mtok (log scale)", gridcolor: theme.grid, zerolinecolor: theme.baseline, color: theme.secondary },
+    yaxis: {
+      type: yAxisType, title: "$ / Mtok (" + yAxisType + " scale)", gridcolor: theme.grid, zerolinecolor: theme.baseline, color: theme.secondary,
+      ...(yAxisType === "linear" ? { rangemode: "tozero" } : {}),
+    },
     xaxis: {
       title: "snapshot date", gridcolor: theme.grid, zerolinecolor: theme.baseline, color: theme.secondary,
       showspikes: true, spikemode: "across", spikesnap: "cursor", spikedash: "solid", spikethickness: 1, spikecolor: theme.secondary,
@@ -467,6 +474,12 @@ toggleTableBtn.addEventListener("click", () => {
   tableView.style.display = showing ? "none" : "block";
   toggleTableBtn.textContent = showing ? "Show data table" : "Hide data table";
   if (!showing) renderTable();
+});
+
+toggleScaleBtn.addEventListener("click", () => {
+  yAxisType = yAxisType === "log" ? "linear" : "log";
+  toggleScaleBtn.textContent = yAxisType === "log" ? "Switch to linear scale" : "Switch to log scale";
+  renderChart();
 });
 
 if (window.matchMedia) {
