@@ -104,7 +104,12 @@ def render_rss(df: pd.DataFrame) -> str:
     <description><![CDATA[<ul>{list_items}</ul>]]></description>
   </item>""")
 
-    build_date = datetime.now(UTC).strftime("%a, %d %b %Y %H:%M:%S %z")
+    newest_ts = max(changes) if changes else None
+    build_date = (
+        datetime.fromisoformat(newest_ts).replace(tzinfo=UTC).strftime("%a, %d %b %Y %H:%M:%S %z")
+        if newest_ts
+        else datetime.fromtimestamp(0, UTC).strftime("%a, %d %b %Y %H:%M:%S %z")
+    )
     items_xml = "\n".join(items)
     return f"""<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
