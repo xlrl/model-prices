@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Model price history</title>
+<link rel="alternate" type="application/rss+xml" title="Model price history" href="feed.xml">
 <style>
   :root {
     color-scheme: light;
@@ -116,6 +117,13 @@
   }
   .chip button:hover { color: var(--text-primary); }
   .hint { color: var(--text-muted); font-size: 0.8rem; margin: 4px 0 0; }
+  .rss-badge {
+    display: inline-flex; align-items: center; gap: 3px;
+    background: #ee802f; color: #fff !important; text-decoration: none;
+    font-size: 0.7rem; font-weight: 700; letter-spacing: 0.02em;
+    padding: 1px 5px; border-radius: 3px; vertical-align: middle;
+  }
+  .rss-badge:hover { background: #d76e22; }
   #chart { width: 100%; height: 560px; }
   .toolbar { display: flex; justify-content: flex-end; gap: 8px; margin-top: 8px; }
   button.link {
@@ -168,7 +176,14 @@
   <h1>Model price history</h1>
   <p class="sub">Solid = output cost, dashed = input cost, both $ / Mtok. Pick up to 8 models.
     Data points mark irregular, arbitrary times when the underlying model list was refreshed, not a fixed schedule &mdash;
-    gaps between points don't imply price stability. Source: <a href="https://github.com/xlrl/model-prices" target="_blank" rel="noopener">github.com/xlrl/model-prices</a>.</p>
+    gaps between points don't imply price stability. Source: <a href="https://github.com/xlrl/model-prices" target="_blank" rel="noopener">github.com/xlrl/model-prices</a>.
+    <a class="rss-badge" href="feed.xml" title="RSS feed of price changes" aria-label="RSS feed of price changes">
+      <svg viewBox="0 0 16 16" width="12" height="12" fill="#fff" aria-hidden="true">
+        <circle cx="3.5" cy="12.5" r="1.75"/>
+        <path d="M2 6.2v2.3c3.6 0 6.5 2.9 6.5 6.5h2.3c0-4.9-3.9-8.8-8.8-8.8z"/>
+        <path d="M2 2v2.3c6 0 10.9 4.9 10.9 10.9H15.2C15.2 7.4 9.8 2 2 2z"/>
+      </svg>
+      RSS</a> feed of price changes.</p>
 
   <div class="filter-row">
     <div class="autocomplete">
