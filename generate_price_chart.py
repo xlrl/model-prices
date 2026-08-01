@@ -148,7 +148,6 @@ def main() -> None:
     parser.add_argument("--max-default", type=int, default=6, help="Number of models preselected if defaults-file is empty/missing")
     parser.add_argument("--defaults-file", default=str(HERE / "default_models.txt"), help="Editable list of default models to preselect")
     parser.add_argument("--refresh", action="store_true", help="Re-run load_model_prices.py before rendering")
-    parser.add_argument("--no-open", action="store_true", help="Don't launch xdg-open after writing the file")
     args = parser.parse_args()
 
     if args.refresh:
@@ -163,15 +162,6 @@ def main() -> None:
     rss = render_rss(df)
     Path(args.rss_out).write_text(rss)
     print(f"Wrote {args.rss_out}")
-
-    if not args.no_open:
-        try:
-            result = subprocess.run(["xdg-open", args.out], check=False)
-            failed = result.returncode != 0
-        except FileNotFoundError:
-            failed = True
-        if failed:
-            print(f"xdg-open unavailable or failed; open manually: {args.out}", file=sys.stderr)
 
 
 if __name__ == "__main__":
