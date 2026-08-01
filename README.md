@@ -14,7 +14,8 @@ between points means no snapshot was taken, not that the price was stable.
 - `data/models_<timestamp>.json` — raw snapshots of provider/model pricing
 - `load_model_prices.py` — flattens the snapshots into `model_prices.csv`
 - `generate_price_chart.py` — renders `model_prices.csv` + `price_chart_template.html`
-  into `index.html`, the file published via GitHub Pages
+  into `index.html`, the file published via GitHub Pages, and also writes `feed.xml`,
+  an RSS feed of price changes linked from `index.html`
 - `default_models.txt` — models preselected when the chart loads
 - `generate.sh` — runs the full pipeline (refresh + render)
 
