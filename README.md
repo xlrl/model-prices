@@ -14,8 +14,8 @@ between points means no snapshot was taken, not that the price was stable.
 - `data/models_<timestamp>.json` — raw snapshots of provider/model pricing
 - `load_model_prices.py` — flattens the snapshots into `model_prices.csv`
 - `generate_price_chart.py` — renders `model_prices.csv` + `price_chart_template.html`
-  into `index.html`, the file published via GitHub Pages, and also writes `feed.xml`,
-  an RSS feed of price changes linked from `index.html`
+  into `index.html`, the file published via GitHub Pages, and also writes `feed.xml`
+  and `atom.xml`, RSS and Atom feeds of price changes linked and badged from `index.html`
 - `default_models.txt` — models preselected when the chart loads
 - `generate.sh` — runs the full pipeline (refresh + render)
 
@@ -27,13 +27,13 @@ between points means no snapshot was taken, not that the price was stable.
 
 This re-runs `load_model_prices.py` (renaming any un-timestamped
 `data/models.json` snapshot along the way) and then `generate_price_chart.py`
-to rebuild `index.html` and `feed.xml`. Extra arguments are passed through to
-`generate_price_chart.py`, e.g. `./generate.sh --max-default 8`.
+to rebuild `index.html`, `feed.xml`, and `atom.xml`. Extra arguments are passed
+through to `generate_price_chart.py`, e.g. `./generate.sh --max-default 8`.
 
 Pass `--commit-and-push` to have `generate.sh` stage `index.html`, `feed.xml`,
-`model_prices.csv`, and `data/`, then commit and push — but only if that
-staging actually produced a diff (a re-run with no real price changes is a
-no-op, since `feed.xml`'s build date is derived from the data, not
+`atom.xml`, `model_prices.csv`, and `data/`, then commit and push — but only if
+that staging actually produced a diff (a re-run with no real price changes is
+a no-op, since the feeds' build dates are derived from the data, not
 wall-clock time).
 
 To run the steps individually:

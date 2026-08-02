@@ -124,6 +124,44 @@ def render_rss(df: pd.DataFrame) -> str:
 """
 
 
+def render_atom(df: pd.DataFrame) -> str:
+    df = df.copy()
+    df["label"] = df["provider"] + "/" + df["model_id"]
+    changes = find_price_changes(df)
+
+    entries = []
+    for ts in sorted(changes, reverse=True):
+        lines = changes[ts]
+        updated = datetime.fromisoformat(ts).replace(tzinfo=UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
+        title = f"Price changes – {ts[:10]} ({len(lines)} model{'s' if len(lines) != 1 else ''})"
+        list_items = "".join(f"<li>{escape(line)}</li>" for line in lines)
+        entries.append(f"""  <entry>
+    <title>{escape(title)}</title>
+    <link href="{escape(SITE_URL)}"/>
+    <id>tag:model-prices,{ts[:10]}:{ts}</id>
+    <updated>{updated}</updated>
+    <content type="html">{escape(f"<ul>{list_items}</ul>")}</content>
+  </entry>""")
+
+    newest_ts = max(changes) if changes else None
+    feed_updated = (
+        datetime.fromisoformat(newest_ts).replace(tzinfo=UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
+        if newest_ts
+        else datetime.fromtimestamp(0, UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
+    )
+    entries_xml = "\n".join(entries)
+    return f"""<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Model price history</title>
+  <link href="{escape(SITE_URL)}"/>
+  <link href="{escape(SITE_URL)}atom.xml" rel="self"/>
+  <id>{escape(SITE_URL)}</id>
+  <updated>{feed_updated}</updated>
+{entries_xml}
+</feed>
+"""
+
+
 def render_html(df: pd.DataFrame, max_default: int, defaults_file: Path) -> str:
     df = df.copy()
     df["label"] = df["provider"] + "/" + df["model_id"]
@@ -150,6 +188,7 @@ def main() -> None:
     parser.add_argument("--csv", default=str(HERE / "model_prices.csv"), help="Input CSV from load_model_prices.py")
     parser.add_argument("--out", default=str(HERE / "index.html"), help="Output HTML path")
     parser.add_argument("--rss-out", default=str(HERE / "feed.xml"), help="Output RSS feed path")
+    parser.add_argument("--atom-out", default=str(HERE / "atom.xml"), help="Output Atom feed path")
     parser.add_argument("--max-default", type=int, default=6, help="Number of models preselected if defaults-file is empty/missing")
     parser.add_argument("--defaults-file", default=str(HERE / "default_models.txt"), help="Editable list of default models to preselect")
     parser.add_argument("--refresh", action="store_true", help="Re-run load_model_prices.py before rendering")
@@ -167,6 +206,10 @@ def main() -> None:
     rss = render_rss(df)
     Path(args.rss_out).write_text(rss)
     print(f"Wrote {args.rss_out}")
+
+    atom = render_atom(df)
+    Path(args.atom_out).write_text(atom)
+    print(f"Wrote {args.atom_out}")
 
 
 if __name__ == "__main__":

@@ -16,7 +16,7 @@ done
 uv run generate_price_chart.py --refresh "${args[@]}"
 
 if [ "$commit_and_push" = 1 ]; then
-  git add index.html feed.xml model_prices.csv data/
+  git add index.html feed.xml atom.xml model_prices.csv data/
   if git diff --cached --quiet; then
     echo "No changes to commit."
   else
