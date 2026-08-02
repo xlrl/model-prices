@@ -10,7 +10,6 @@ Models are sorted by ID for easier comparison and tracking.
 import copy
 import glob
 import json
-import sys
 import urllib.error
 import urllib.request
 from datetime import UTC, datetime
@@ -355,8 +354,6 @@ def main() -> None:
     # Start the new snapshot from the old one so untouched providers are preserved
     models_data = copy.deepcopy(old_models_data)
     models_data.pop("_meta", None)
-
-    updated = False
 
     # OpenRouter configuration
     openrouter_default = {
