@@ -13,6 +13,7 @@ for arg in "$@"; do
   fi
 done
 
+uv run update_models.py
 uv run generate_price_chart.py --refresh "${args[@]}"
 
 if [ "$commit_and_push" = 1 ]; then
