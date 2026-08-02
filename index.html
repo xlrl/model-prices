@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Model price history</title>
 <link rel="alternate" type="application/rss+xml" title="Model price history" href="feed.xml">
+<link rel="alternate" type="application/atom+xml" title="Model price history" href="atom.xml">
 <style>
   :root {
     color-scheme: light;
@@ -124,6 +125,13 @@
     padding: 1px 5px; border-radius: 3px; vertical-align: middle;
   }
   .rss-badge:hover { background: #d76e22; }
+  .atom-badge {
+    display: inline-flex; align-items: center; gap: 3px;
+    background: #5a8f2f; color: #fff !important; text-decoration: none;
+    font-size: 0.7rem; font-weight: 700; letter-spacing: 0.02em;
+    padding: 1px 5px; border-radius: 3px; vertical-align: middle;
+  }
+  .atom-badge:hover { background: #48731f; }
   #chart { width: 100%; height: 560px; }
   .toolbar { display: flex; justify-content: flex-end; gap: 8px; margin-top: 8px; }
   button.link {
@@ -183,7 +191,14 @@
         <path d="M2 6.2v2.3c3.6 0 6.5 2.9 6.5 6.5h2.3c0-4.9-3.9-8.8-8.8-8.8z"/>
         <path d="M2 2v2.3c6 0 10.9 4.9 10.9 10.9H15.2C15.2 7.4 9.8 2 2 2z"/>
       </svg>
-      RSS</a> feed of price changes.</p>
+      RSS</a> or
+    <a class="atom-badge" href="atom.xml" title="Atom feed of price changes" aria-label="Atom feed of price changes">
+      <svg viewBox="0 0 16 16" width="12" height="12" fill="#fff" aria-hidden="true">
+        <circle cx="3.5" cy="12.5" r="1.75"/>
+        <path d="M2 6.2v2.3c3.6 0 6.5 2.9 6.5 6.5h2.3c0-4.9-3.9-8.8-8.8-8.8z"/>
+        <path d="M2 2v2.3c6 0 10.9 4.9 10.9 10.9H15.2C15.2 7.4 9.8 2 2 2z"/>
+      </svg>
+      Atom</a> feed of price changes.</p>
 
   <div class="filter-row">
     <div class="autocomplete">
