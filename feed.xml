@@ -4,7 +4,14 @@
   <title>Model price history</title>
   <link>https://xlrl.github.io/model-prices/</link>
   <description>Price changes tracked for LLM API models.</description>
-  <lastBuildDate>Tue, 04 Aug 2026 16:00:07 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 04 Aug 2026 22:00:13 +0000</lastBuildDate>
+  <item>
+    <title>Price changes – 2026-08-04 (2 models)</title>
+    <link>https://xlrl.github.io/model-prices/</link>
+    <guid isPermaLink="false">model-prices-2026-08-04T22:00:13</guid>
+    <pubDate>Tue, 04 Aug 2026 22:00:13 +0000</pubDate>
+    <description><![CDATA[<ul><li>openrouter/minimax/minimax-m2.7: input $0.25 → $0.27, output $1 → $1.08 (per Mtok)</li><li>openrouter/mistralai/mistral-small-3.2-24b-instruct: input $0.075 → $0.09375, output $0.2 → $0.25 (per Mtok)</li></ul>]]></description>
+  </item>
   <item>
     <title>Price changes – 2026-08-04 (1 model)</title>
     <link>https://xlrl.github.io/model-prices/</link>

@@ -4,7 +4,14 @@
   <link href="https://xlrl.github.io/model-prices/"/>
   <link href="https://xlrl.github.io/model-prices/atom.xml" rel="self"/>
   <id>https://xlrl.github.io/model-prices/</id>
-  <updated>2026-08-04T16:00:07Z</updated>
+  <updated>2026-08-04T22:00:13Z</updated>
+  <entry>
+    <title>Price changes – 2026-08-04 (2 models)</title>
+    <link href="https://xlrl.github.io/model-prices/"/>
+    <id>tag:model-prices,2026-08-04:2026-08-04T22:00:13</id>
+    <updated>2026-08-04T22:00:13Z</updated>
+    <content type="html">&lt;ul&gt;&lt;li&gt;openrouter/minimax/minimax-m2.7: input $0.25 → $0.27, output $1 → $1.08 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/mistralai/mistral-small-3.2-24b-instruct: input $0.075 → $0.09375, output $0.2 → $0.25 (per Mtok)&lt;/li&gt;&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>Price changes – 2026-08-04 (1 model)</title>
     <link href="https://xlrl.github.io/model-prices/"/>
