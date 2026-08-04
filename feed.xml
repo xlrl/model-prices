@@ -4,7 +4,14 @@
   <title>Model price history</title>
   <link>https://xlrl.github.io/model-prices/</link>
   <description>Price changes tracked for LLM API models.</description>
-  <lastBuildDate>Mon, 03 Aug 2026 04:00:09 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 04 Aug 2026 04:00:07 +0000</lastBuildDate>
+  <item>
+    <title>Price changes – 2026-08-04 (9 models)</title>
+    <link>https://xlrl.github.io/model-prices/</link>
+    <guid isPermaLink="false">model-prices-2026-08-04T04:00:07</guid>
+    <pubDate>Tue, 04 Aug 2026 04:00:07 +0000</pubDate>
+    <description><![CDATA[<ul><li>openrouter/gryphe/mythomax-l2-13b: input $0.06 → $0.08, output $0.06 → $0.11 (per Mtok)</li><li>openrouter/meta-llama/llama-3.3-70b-instruct: input $0.13 → $0.1, output $0.4 → $0.32 (per Mtok)</li><li>openrouter/moonshotai/kimi-k2.6: input $0.6 → $0.589, output $3.41 → $2.48 (per Mtok)</li><li>openrouter/qwen/qwen3-coder-30b-a3b-instruct: input $0.07 → $0.07, output $0.28 → $0.27 (per Mtok)</li><li>openrouter/qwen/qwen3-next-80b-a3b-instruct: input $0.1 → $0.09, output $1.1 → $1.1 (per Mtok)</li><li>openrouter/qwen/qwen3-vl-30b-a3b-instruct: input $0.13 → $0.15, output $0.52 → $0.6 (per Mtok)</li><li>openrouter/qwen/qwen3.5-122b-a10b: input $0.4 → $0.26, output $3.2 → $2.08 (per Mtok)</li><li>openrouter/qwen/qwen3.6-27b: input $0.3 → $0.289, output $2 → $2.4 (per Mtok)</li><li>openrouter/z-ai/glm-5.2: input $1.19 → $0.76, output $3.74 → $2.42 (per Mtok)</li></ul>]]></description>
+  </item>
   <item>
     <title>Price changes – 2026-08-03 (8 models)</title>
     <link>https://xlrl.github.io/model-prices/</link>
