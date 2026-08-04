@@ -4,7 +4,14 @@
   <title>Model price history</title>
   <link>https://xlrl.github.io/model-prices/</link>
   <description>Price changes tracked for LLM API models.</description>
-  <lastBuildDate>Tue, 04 Aug 2026 04:00:07 +0000</lastBuildDate>
+  <lastBuildDate>Tue, 04 Aug 2026 16:00:07 +0000</lastBuildDate>
+  <item>
+    <title>Price changes – 2026-08-04 (1 model)</title>
+    <link>https://xlrl.github.io/model-prices/</link>
+    <guid isPermaLink="false">model-prices-2026-08-04T16:00:07</guid>
+    <pubDate>Tue, 04 Aug 2026 16:00:07 +0000</pubDate>
+    <description><![CDATA[<ul><li>openrouter/qwen/qwen2.5-vl-72b-instruct: input $0.8 → $0.25, output $1 → $0.75 (per Mtok)</li></ul>]]></description>
+  </item>
   <item>
     <title>Price changes – 2026-08-04 (9 models)</title>
     <link>https://xlrl.github.io/model-prices/</link>
