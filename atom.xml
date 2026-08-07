@@ -4,7 +4,14 @@
   <link href="https://xlrl.github.io/model-prices/"/>
   <link href="https://xlrl.github.io/model-prices/atom.xml" rel="self"/>
   <id>https://xlrl.github.io/model-prices/</id>
-  <updated>2026-08-07T16:00:09Z</updated>
+  <updated>2026-08-07T22:00:13Z</updated>
+  <entry>
+    <title>Price changes – 2026-08-07 (1 model)</title>
+    <link href="https://xlrl.github.io/model-prices/"/>
+    <id>tag:model-prices,2026-08-07:2026-08-07T22:00:13</id>
+    <updated>2026-08-07T22:00:13Z</updated>
+    <content type="html">&lt;ul&gt;&lt;li&gt;openrouter/z-ai/glm-5.2: input $0.76 → $0.4746, output $2.42 → $1.4916 (per Mtok)&lt;/li&gt;&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>Price changes – 2026-08-07 (3 models)</title>
     <link href="https://xlrl.github.io/model-prices/"/>
