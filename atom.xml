@@ -4,7 +4,14 @@
   <link href="https://xlrl.github.io/model-prices/"/>
   <link href="https://xlrl.github.io/model-prices/atom.xml" rel="self"/>
   <id>https://xlrl.github.io/model-prices/</id>
-  <updated>2026-08-07T10:00:10Z</updated>
+  <updated>2026-08-07T16:00:09Z</updated>
+  <entry>
+    <title>Price changes – 2026-08-07 (3 models)</title>
+    <link href="https://xlrl.github.io/model-prices/"/>
+    <id>tag:model-prices,2026-08-07:2026-08-07T16:00:09</id>
+    <updated>2026-08-07T16:00:09Z</updated>
+    <content type="html">&lt;ul&gt;&lt;li&gt;openrouter/deepseek/deepseek-v4-flash: input $0.0882 → $0.14, output $0.1764 → $0.28 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/moonshotai/kimi-k2.6: input $0.589 → $0.5795, output $2.48 → $2.44 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/nvidia/nemotron-3-super-120b-a12b: input $0.3 → $0.085, output $0.9 → $0.4 (per Mtok)&lt;/li&gt;&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>Price changes – 2026-08-07 (3 models)</title>
     <link href="https://xlrl.github.io/model-prices/"/>
