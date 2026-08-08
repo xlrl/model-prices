@@ -4,7 +4,14 @@
   <title>Model price history</title>
   <link>https://xlrl.github.io/model-prices/</link>
   <description>Price changes tracked for LLM API models.</description>
-  <lastBuildDate>Sat, 08 Aug 2026 04:00:05 +0000</lastBuildDate>
+  <lastBuildDate>Sat, 08 Aug 2026 10:00:09 +0000</lastBuildDate>
+  <item>
+    <title>Price changes – 2026-08-08 (1 model)</title>
+    <link>https://xlrl.github.io/model-prices/</link>
+    <guid isPermaLink="false">model-prices-2026-08-08T10:00:09</guid>
+    <pubDate>Sat, 08 Aug 2026 10:00:09 +0000</pubDate>
+    <description><![CDATA[<ul><li>openrouter/z-ai/glm-5.2: input $0.378 → $0.252, output $1.188 → $0.792 (per Mtok)</li></ul>]]></description>
+  </item>
   <item>
     <title>Price changes – 2026-08-08 (3 models)</title>
     <link>https://xlrl.github.io/model-prices/</link>
