@@ -4,7 +4,14 @@
   <link href="https://xlrl.github.io/model-prices/"/>
   <link href="https://xlrl.github.io/model-prices/atom.xml" rel="self"/>
   <id>https://xlrl.github.io/model-prices/</id>
-  <updated>2026-08-07T22:00:13Z</updated>
+  <updated>2026-08-08T04:00:05Z</updated>
+  <entry>
+    <title>Price changes – 2026-08-08 (3 models)</title>
+    <link href="https://xlrl.github.io/model-prices/"/>
+    <id>tag:model-prices,2026-08-08:2026-08-08T04:00:05</id>
+    <updated>2026-08-08T04:00:05Z</updated>
+    <content type="html">&lt;ul&gt;&lt;li&gt;openrouter/deepseek/deepseek-v3.2: input $0.269 → $0.26, output $0.4 → $0.38 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/thinkingmachines/inkling: input $1 → $0.95, output $4.05 → $4.05 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/z-ai/glm-5.2: input $0.4746 → $0.378, output $1.4916 → $1.188 (per Mtok)&lt;/li&gt;&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>Price changes – 2026-08-07 (1 model)</title>
     <link href="https://xlrl.github.io/model-prices/"/>
