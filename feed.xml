@@ -4,7 +4,14 @@
   <title>Model price history</title>
   <link>https://xlrl.github.io/model-prices/</link>
   <description>Price changes tracked for LLM API models.</description>
-  <lastBuildDate>Sat, 08 Aug 2026 22:00:25 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 09 Aug 2026 04:00:08 +0000</lastBuildDate>
+  <item>
+    <title>Price changes – 2026-08-09 (4 models)</title>
+    <link>https://xlrl.github.io/model-prices/</link>
+    <guid isPermaLink="false">model-prices-2026-08-09T04:00:08</guid>
+    <pubDate>Sun, 09 Aug 2026 04:00:08 +0000</pubDate>
+    <description><![CDATA[<ul><li>openrouter/deepseek/deepseek-v3.2: input $0.269 → $0.26, output $0.4 → $0.38 (per Mtok)</li><li>openrouter/nvidia/nemotron-3-super-120b-a12b: input $0.085 → $0.3, output $0.4 → $0.9 (per Mtok)</li><li>openrouter/z-ai/glm-5.2: input $0.182 → $0.098, output $0.572 → $0.308 (per Mtok)</li><li>openrouter/~deepseek/deepseek-v4-flash-latest: input $0.0896 → $0.079996, output $0.1792 → $0.252 (per Mtok)</li></ul>]]></description>
+  </item>
   <item>
     <title>Price changes – 2026-08-08 (3 models)</title>
     <link>https://xlrl.github.io/model-prices/</link>
