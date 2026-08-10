@@ -21768,3 +21768,403 @@ timestamp,provider,model_id,model_name,input_cost,output_cost,cache_read_cost,ca
 2026-08-10T16:00:08Z,openrouter,~openai/gpt-latest,OR: OpenAI GPT Latest,5.0,30.0,0.0,0.0
 2026-08-10T16:00:08Z,openrouter,~openai/gpt-mini-latest,OR: OpenAI GPT Mini Latest,0.75,4.5,0.0,0.0
 2026-08-10T16:00:08Z,openrouter,~x-ai/grok-latest,OR: xAI: Grok Latest,2.0,6.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,ai21/jamba-large-1.7,OR: AI21: Jamba Large 1.7,2.0,8.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,aion-labs/aion-2.0,OR: AionLabs: Aion-2.0,0.7999999999999999,1.5999999999999999,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,aion-labs/aion-3.0,OR: AionLabs: Aion-3.0,3.0,6.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,aion-labs/aion-3.0-mini,OR: AionLabs: Aion-3.0-Mini,0.7,1.4,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,aion-labs/aion-rp-llama-3.1-8b,OR: AionLabs: Aion-RP 1.0 (8B),0.7999999999999999,1.5999999999999999,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,allenai/olmo-3-32b-think,OR: AllenAI: Olmo 3 32B Think,0.15,0.5,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,amazon/nova-2-lite-v1,OR: Amazon: Nova 2 Lite,0.3,2.5,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,amazon/nova-lite-v1,OR: Amazon: Nova Lite 1.0,0.06,0.24,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,amazon/nova-micro-v1,OR: Amazon: Nova Micro 1.0,0.035,0.14,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,amazon/nova-premier-v1,OR: Amazon: Nova Premier 1.0,2.5,12.5,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,amazon/nova-pro-v1,OR: Amazon: Nova Pro 1.0,0.7999999999999999,3.1999999999999997,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,anthracite-org/magnum-v4-72b,OR: Magnum v4 72B,3.0,5.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,anthropic/claude-3-haiku,OR: Anthropic: Claude 3 Haiku,0.25,1.25,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,anthropic/claude-fable-5,OR: Anthropic: Claude Fable 5,10.0,50.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,anthropic/claude-fable-5:batch,OR: Anthropic: Claude Fable 5 (batch),5.0,25.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,anthropic/claude-haiku-4.5,OR: Anthropic: Claude Haiku 4.5,1.0,5.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,anthropic/claude-haiku-4.5:batch,OR: Anthropic: Claude Haiku 4.5 (batch),0.5,2.5,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,anthropic/claude-opus-4,OR: Anthropic: Claude Opus 4,15.0,75.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,anthropic/claude-opus-4.1,OR: Anthropic: Claude Opus 4.1,15.0,75.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,anthropic/claude-opus-4.1:batch,OR: Anthropic: Claude Opus 4.1 (batch),7.5,37.5,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,anthropic/claude-opus-4.5,OR: Anthropic: Claude Opus 4.5,5.0,25.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,anthropic/claude-opus-4.5:batch,OR: Anthropic: Claude Opus 4.5 (batch),2.5,12.5,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,anthropic/claude-opus-4.6,OR: Anthropic: Claude Opus 4.6,5.0,25.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,anthropic/claude-opus-4.6:batch,OR: Anthropic: Claude Opus 4.6 (batch),2.5,12.5,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,anthropic/claude-opus-4.7,OR: Anthropic: Claude Opus 4.7,5.0,25.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,anthropic/claude-opus-4.7-fast,OR: Anthropic: Claude Opus 4.7 (Fast),30.0,150.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,anthropic/claude-opus-4.7:batch,OR: Anthropic: Claude Opus 4.7 (batch),2.5,12.5,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,anthropic/claude-opus-4.8,OR: Anthropic: Claude Opus 4.8,5.0,25.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,anthropic/claude-opus-4.8-fast,OR: Anthropic: Claude Opus 4.8 (Fast),10.0,50.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,anthropic/claude-opus-4.8:batch,OR: Anthropic: Claude Opus 4.8 (batch),2.5,12.5,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,anthropic/claude-opus-5,OR: Claude Opus 5,5.0,25.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,anthropic/claude-opus-5-fast,OR: Claude Opus 5 (Fast),10.0,50.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,anthropic/claude-opus-5:batch,OR: Claude Opus 5 (batch),2.5,12.5,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,anthropic/claude-sonnet-4,OR: Anthropic: Claude Sonnet 4,3.0,15.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,anthropic/claude-sonnet-4.5,OR: Anthropic: Claude Sonnet 4.5,3.0,15.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,anthropic/claude-sonnet-4.5:batch,OR: Anthropic: Claude Sonnet 4.5 (batch),1.5,7.5,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,anthropic/claude-sonnet-4.6,OR: Anthropic: Claude Sonnet 4.6,3.0,15.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,anthropic/claude-sonnet-4.6:batch,OR: Anthropic: Claude Sonnet 4.6 (batch),1.5,7.5,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,anthropic/claude-sonnet-5,OR: Anthropic: Claude Sonnet 5,2.0,10.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,anthropic/claude-sonnet-5:batch,OR: Anthropic: Claude Sonnet 5 (batch),1.0,5.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,arcee-ai/trinity-large-thinking,OR: Arcee AI: Trinity Large Thinking,0.22,0.85,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,arcee-ai/virtuoso-large,OR: Arcee AI: Virtuoso Large,0.75,1.2,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,baidu/ernie-4.5-vl-424b-a47b,OR: Baidu: ERNIE 4.5 VL 424B A47B ,0.42,1.25,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,bytedance-seed/seed-1.6,OR: ByteDance Seed: Seed 1.6,0.25,2.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,bytedance-seed/seed-1.6-flash,OR: ByteDance Seed: Seed 1.6 Flash,0.075,0.3,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,bytedance-seed/seed-2.0-lite,OR: ByteDance Seed: Seed-2.0-Lite,0.25,2.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,bytedance-seed/seed-2.0-mini,OR: ByteDance Seed: Seed-2.0-Mini,0.09999999999999999,0.39999999999999997,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,bytedance/ui-tars-1.5-7b,OR: ByteDance: UI-TARS 7B ,0.09999999999999999,0.19999999999999998,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,cognitivecomputations/dolphin-mistral-24b-venice-edition,OR: Venice: Uncensored,0.19999999999999998,0.8999999999999999,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,cohere/command-a,OR: Cohere: Command A,2.5,10.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,cohere/command-r-08-2024,OR: Cohere: Command R (08-2024),0.15,0.6,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,cohere/command-r-plus-08-2024,OR: Cohere: Command R+ (08-2024),2.5,10.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,cohere/command-r7b-12-2024,OR: Cohere: Command R7B (12-2024),0.0375,0.15,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,cohere/north-mini-code:free,OR: Cohere: North Mini Code (free),0.0,0.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,deepcogito/cogito-v2.1-671b,OR: Deep Cogito: Cogito v2.1 671B,1.25,1.25,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,deepseek/deepseek-chat,OR: DeepSeek: DeepSeek V3,0.2574,1.0287,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,deepseek/deepseek-chat-v3-0324,OR: DeepSeek: DeepSeek V3 0324,0.27,1.12,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,deepseek/deepseek-chat-v3.1,OR: DeepSeek: DeepSeek V3.1,0.25,0.95,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,deepseek/deepseek-r1,OR: DeepSeek: R1,0.7,2.5,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,deepseek/deepseek-r1-0528,OR: DeepSeek: R1 0528,0.5,2.1500000000000004,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,deepseek/deepseek-r1-distill-llama-70b,OR: DeepSeek: R1 Distill Llama 70B,0.7999999999999999,0.7999999999999999,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,deepseek/deepseek-v3.1-terminus,OR: DeepSeek: DeepSeek V3.1 Terminus,0.27,1.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,deepseek/deepseek-v3.2,OR: DeepSeek: DeepSeek V3.2,0.26899999999999996,0.39999999999999997,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,deepseek/deepseek-v3.2-exp,OR: DeepSeek: DeepSeek V3.2 Exp,0.27,0.41,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,deepseek/deepseek-v4-flash,OR: DeepSeek: DeepSeek V4 Flash 0423,0.14,0.28,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,deepseek/deepseek-v4-flash-0731,OR: DeepSeek: DeepSeek V4 Flash 0731,0.08,0.18,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,deepseek/deepseek-v4-pro,OR: DeepSeek: DeepSeek V4 Pro,0.435,0.87,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,google/gemini-2.5-flash,OR: Google: Gemini 2.5 Flash,0.3,2.5,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,google/gemini-2.5-flash-image,OR: Google: Nano Banana (Gemini 2.5 Flash Image),0.3,2.5,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,google/gemini-2.5-flash-lite,OR: Google: Gemini 2.5 Flash Lite,0.09999999999999999,0.39999999999999997,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,google/gemini-2.5-flash-lite:batch,OR: Google: Gemini 2.5 Flash Lite (batch),0.049999999999999996,0.19999999999999998,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,google/gemini-2.5-flash:batch,OR: Google: Gemini 2.5 Flash (batch),0.15,1.25,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,google/gemini-2.5-pro,OR: Google: Gemini 2.5 Pro,1.25,10.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,google/gemini-2.5-pro-preview,OR: Google: Gemini 2.5 Pro Preview 06-05,1.25,10.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,google/gemini-2.5-pro-preview-05-06,OR: Google: Gemini 2.5 Pro Preview 05-06,1.25,10.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,google/gemini-2.5-pro:batch,OR: Google: Gemini 2.5 Pro (batch),0.625,5.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,google/gemini-3-flash-preview,OR: Google: Gemini 3 Flash Preview,0.5,3.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,google/gemini-3-flash-preview:batch,OR: Google: Gemini 3 Flash Preview (batch),0.25,1.5,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,google/gemini-3-pro-image,OR: Google: Nano Banana Pro (Gemini 3 Pro Image),2.0,12.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,google/gemini-3-pro-image-preview,OR: Google: Nano Banana Pro (Gemini 3 Pro Image Preview),2.0,12.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,google/gemini-3.1-flash-image,OR: Google: Nano Banana 2 (Gemini 3.1 Flash Image),0.5,3.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,google/gemini-3.1-flash-image-preview,OR: Google: Nano Banana 2 (Gemini 3.1 Flash Image Preview),0.5,3.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,google/gemini-3.1-flash-lite,OR: Google: Gemini 3.1 Flash Lite,0.25,1.5,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,google/gemini-3.1-flash-lite-image,OR: Google: Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image),0.25,1.5,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,google/gemini-3.1-flash-lite-preview,OR: Google: Gemini 3.1 Flash Lite Preview,0.25,1.5,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,google/gemini-3.1-flash-lite:batch,OR: Google: Gemini 3.1 Flash Lite (batch),0.125,0.75,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,google/gemini-3.1-pro-preview,OR: Google: Gemini 3.1 Pro Preview,2.0,12.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,google/gemini-3.1-pro-preview-customtools,OR: Google: Gemini 3.1 Pro Preview Custom Tools,2.0,12.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,google/gemini-3.1-pro-preview:batch,OR: Google: Gemini 3.1 Pro Preview (batch),1.0,6.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,google/gemini-3.5-flash,OR: Google: Gemini 3.5 Flash,1.5,9.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,google/gemini-3.5-flash-lite,OR: Google: Gemini 3.5 Flash Lite,0.3,2.5,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,google/gemini-3.5-flash-lite:batch,OR: Google: Gemini 3.5 Flash Lite (batch),0.15,1.25,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,google/gemini-3.5-flash:batch,OR: Google: Gemini 3.5 Flash (batch),0.75,4.5,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,google/gemini-3.6-flash,OR: Google: Gemini 3.6 Flash,1.5,7.5,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,google/gemini-3.6-flash:batch,OR: Google: Gemini 3.6 Flash (batch),0.75,3.75,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,google/gemma-2-27b-it,OR: Google: Gemma 2 27B,0.65,0.65,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,google/gemma-3-12b-it,OR: Google: Gemma 3 12B,0.049999999999999996,0.15,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,google/gemma-3-27b-it,OR: Google: Gemma 3 27B,0.08,0.44999999999999996,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,google/gemma-3-4b-it,OR: Google: Gemma 3 4B,0.049999999999999996,0.09999999999999999,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,google/gemma-3n-e4b-it,OR: Google: Gemma 3n 4B,0.06,0.12,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,google/gemma-4-26b-a4b-it,OR: Google: Gemma 4 26B A4B ,0.12,0.39999999999999997,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,google/gemma-4-26b-a4b-it:free,OR: Google: Gemma 4 26B A4B  (free),0.0,0.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,google/gemma-4-31b-it,OR: Google: Gemma 4 31B,0.09999999999999999,0.33999999999999997,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,google/gemma-4-31b-it:free,OR: Google: Gemma 4 31B (free),0.0,0.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,google/lyria-3-clip-preview,OR: Google: Lyria 3 Clip Preview,0.0,0.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,google/lyria-3-pro-preview,OR: Google: Lyria 3 Pro Preview,0.0,0.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,gryphe/mythomax-l2-13b,OR: MythoMax 13B,0.06,0.06,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,ibm-granite/granite-4.0-h-micro,OR: IBM: Granite 4.0 Micro,0.017,0.112,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,ibm-granite/granite-4.1-8b,OR: IBM: Granite 4.1 8B,0.049999999999999996,0.09999999999999999,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,inception/mercury-2,OR: Inception: Mercury 2,0.25,0.75,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,inclusionai/ling-2.6-1t,OR: inclusionAI: Ling-2.6-1T,0.075,0.625,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,inclusionai/ling-2.6-flash,OR: inclusionAI: Ling-2.6-flash,0.01,0.03,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,inclusionai/ling-3.0-flash,OR: Ling-3.0-flash,0.020999999999999998,0.063,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,inclusionai/ling-3.0-tiny:free,OR: inclusionAI: Ling 3.0 Tiny (free),0.0,0.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,inclusionai/ring-2.6-1t,OR: inclusionAI: Ring-2.6-1T,0.075,0.625,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,kwaipilot/kat-coder-air-v2.5,OR: Kwaipilot: KAT-Coder-Air V2.5,0.15,0.6,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,kwaipilot/kat-coder-pro-v2,OR: Kwaipilot: KAT-Coder-Pro V2,0.3,1.2,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,kwaipilot/kat-coder-pro-v2.5,OR: Kwaipilot: KAT-Coder-Pro V2.5,0.74,2.96,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,mancer/weaver,OR: Mancer: Weaver (alpha),0.5,0.75,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,meituan/longcat-2.0,OR: Meituan: LongCat 2.0,0.3,1.2,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,meta-llama/llama-3.1-70b-instruct,OR: Meta: Llama 3.1 70B Instruct,0.39999999999999997,0.39999999999999997,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,meta-llama/llama-3.1-8b-instruct,OR: Meta: Llama 3.1 8B Instruct,0.049999999999999996,0.08,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,meta-llama/llama-3.2-1b-instruct,OR: Meta: Llama 3.2 1B Instruct,0.027,0.201,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,meta-llama/llama-3.2-3b-instruct,OR: Meta: Llama 3.2 3B Instruct,0.049999999999999996,0.33,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,meta-llama/llama-3.3-70b-instruct,OR: Meta: Llama 3.3 70B Instruct,0.09999999999999999,0.32,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,meta-llama/llama-4-maverick,OR: Meta: Llama 4 Maverick,0.19999999999999998,0.7999999999999999,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,meta-llama/llama-4-scout,OR: Meta: Llama 4 Scout,0.09999999999999999,0.3,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,meta-llama/llama-guard-4-12b,OR: Meta: Llama Guard 4 12B,0.18,0.18,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,meta/muse-glimmer-30b,OR: Meta: Muse Glimmer 30B,0.35,1.5,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,meta/muse-spark-1.1,OR: Meta: Muse Spark 1.1,1.25,4.25,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,meta/muse-spark-1.2,OR: Meta: Muse Spark 1.2,1.25,4.25,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,microsoft/phi-4,OR: Microsoft: Phi 4,0.07,0.14,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,microsoft/wizardlm-2-8x22b,OR: WizardLM-2 8x22B,0.62,0.62,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,minimax/minimax-01,OR: MiniMax: MiniMax-01,0.19999999999999998,1.1,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,minimax/minimax-m1,OR: MiniMax: MiniMax M1,0.55,2.2,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,minimax/minimax-m2,OR: MiniMax: MiniMax M2,0.255,1.02,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,minimax/minimax-m2-her,OR: MiniMax: MiniMax M2-her,0.3,1.2,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,minimax/minimax-m2.1,OR: MiniMax: MiniMax M2.1,0.3,1.2,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,minimax/minimax-m2.5,OR: MiniMax: MiniMax M2.5,0.22,0.8999999999999999,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,minimax/minimax-m2.7,OR: MiniMax: MiniMax M2.7,0.3,1.2,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,minimax/minimax-m3,OR: MiniMax: MiniMax M3,0.3,1.2,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,minimax/minimax-m3:batch,OR: MiniMax: MiniMax M3 (batch),0.15,0.6,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,mistralai/codestral-2508,OR: Mistral: Codestral 2508,0.3,0.8999999999999999,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,mistralai/ministral-14b-2512,OR: Mistral: Ministral 3 14B 2512,0.19999999999999998,0.19999999999999998,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,mistralai/ministral-3b-2512,OR: Mistral: Ministral 3 3B 2512,0.09999999999999999,0.09999999999999999,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,mistralai/ministral-8b-2512,OR: Mistral: Ministral 3 8B 2512,0.15,0.15,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,mistralai/mistral-large,OR: Mistral Large,2.0,6.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,mistralai/mistral-large-2407,OR: Mistral Large 2407,2.0,6.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,mistralai/mistral-large-2512,OR: Mistral: Mistral Large 3 2512,0.5,1.5,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,mistralai/mistral-medium-3,OR: Mistral: Mistral Medium 3,0.39999999999999997,2.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,mistralai/mistral-medium-3-5,OR: Mistral: Mistral Medium 3.5,1.5,7.5,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,mistralai/mistral-medium-3.1,OR: Mistral: Mistral Medium 3.1,0.39999999999999997,2.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,mistralai/mistral-nemo,OR: Mistral: Mistral Nemo,0.019000000000000003,0.03,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,mistralai/mistral-saba,OR: Mistral: Saba,0.19999999999999998,0.6,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,mistralai/mistral-small-24b-instruct-2501,OR: Mistral: Mistral Small 3,0.049999999999999996,0.08,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,mistralai/mistral-small-2603,OR: Mistral: Mistral Small 4,0.15,0.6,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,mistralai/mistral-small-3.1-24b-instruct,OR: Mistral: Mistral Small 3.1 24B,0.351,0.5549999999999999,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,mistralai/mistral-small-3.2-24b-instruct,OR: Mistral: Mistral Small 3.2 24B,0.09375,0.25,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,mistralai/mixtral-8x22b-instruct,OR: Mistral: Mixtral 8x22B Instruct,2.0,6.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,mistralai/voxtral-small-24b-2507,OR: Mistral: Voxtral Small 24B 2507,0.09999999999999999,0.3,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,moonshotai/kimi-k2,OR: MoonshotAI: Kimi K2 0711,0.5700000000000001,2.3,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,moonshotai/kimi-k2-0905,OR: MoonshotAI: Kimi K2 0905,0.6,2.5,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,moonshotai/kimi-k2-thinking,OR: MoonshotAI: Kimi K2 Thinking,0.6,2.5,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,moonshotai/kimi-k2.5,OR: MoonshotAI: Kimi K2.5,0.5700000000000001,2.8499999999999996,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,moonshotai/kimi-k2.6,OR: MoonshotAI: Kimi K2.6,0.5795,2.44,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,moonshotai/kimi-k2.7-code,OR: MoonshotAI: Kimi K2.7 Code,0.7,3.5,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,moonshotai/kimi-k2.7-code:batch,OR: MoonshotAI: Kimi K2.7 Code (batch),0.475,2.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,moonshotai/kimi-k3,OR: MoonshotAI: Kimi K3,3.0,15.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,morph/morph-v3-fast,OR: Morph: Morph V3 Fast,0.7999999999999999,1.2,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,morph/morph-v3-large,OR: Morph: Morph V3 Large,0.8999999999999999,1.9,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,nex-agi/nex-n2-mini,OR: Nex AGI: Nex-N2-Mini,0.024999999999999998,0.09999999999999999,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,nex-agi/nex-n2-pro,OR: Nex AGI: Nex-N2-Pro,0.25,1.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,nousresearch/hermes-3-llama-3.1-405b,OR: Nous: Hermes 3 405B Instruct,1.0,1.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,nousresearch/hermes-3-llama-3.1-70b,OR: Nous: Hermes 3 70B Instruct,0.7,0.7,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,nousresearch/hermes-4-405b,OR: Nous: Hermes 4 405B,1.0,3.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,nousresearch/hermes-4-70b,OR: Nous: Hermes 4 70B,0.13,0.39999999999999997,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,nvidia/nemotron-3-nano-30b-a3b,OR: NVIDIA: Nemotron 3 Nano 30B A3B,0.049999999999999996,0.19999999999999998,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,nvidia/nemotron-3-nano-30b-a3b:free,OR: NVIDIA: Nemotron 3 Nano 30B A3B (free),0.0,0.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free,OR: NVIDIA: Nemotron 3 Nano Omni (free),0.0,0.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,nvidia/nemotron-3-super-120b-a12b,OR: NVIDIA: Nemotron 3 Super,0.08499999999999999,0.39999999999999997,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,nvidia/nemotron-3-super-120b-a12b:free,OR: NVIDIA: Nemotron 3 Super (free),0.0,0.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,nvidia/nemotron-3-ultra-550b-a55b,OR: NVIDIA: Nemotron 3 Ultra,0.6,3.5999999999999996,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,nvidia/nemotron-3-ultra-550b-a55b:batch,OR: NVIDIA: Nemotron 3 Ultra (batch),0.3,1.7999999999999998,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,nvidia/nemotron-3-ultra-550b-a55b:free,OR: NVIDIA: Nemotron 3 Ultra (free),0.0,0.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,nvidia/nemotron-3.5-content-safety:free,OR: NVIDIA: Nemotron 3.5 Content Safety (free),0.0,0.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,nvidia/nemotron-nano-12b-v2-vl:free,OR: NVIDIA: Nemotron Nano 12B 2 VL (free),0.0,0.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,nvidia/nemotron-nano-9b-v2:free,OR: NVIDIA: Nemotron Nano 9B V2 (free),0.0,0.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-3.5-turbo,OR: OpenAI: GPT-3.5 Turbo,0.5,1.5,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-3.5-turbo-0613,OR: OpenAI: GPT-3.5 Turbo (older v0613),1.0,2.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-3.5-turbo-16k,OR: OpenAI: GPT-3.5 Turbo 16k,3.0,4.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-3.5-turbo-instruct,OR: OpenAI: GPT-3.5 Turbo Instruct,1.5,2.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-3.5-turbo:batch,OR: OpenAI: GPT-3.5 Turbo (batch),0.25,0.75,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-4,OR: OpenAI: GPT-4,30.0,60.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-4-turbo,OR: OpenAI: GPT-4 Turbo,10.0,30.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-4-turbo-preview,OR: OpenAI: GPT-4 Turbo Preview,10.0,30.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-4-turbo:batch,OR: OpenAI: GPT-4 Turbo (batch),5.0,15.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-4.1,OR: OpenAI: GPT-4.1,2.0,8.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-4.1-mini,OR: OpenAI: GPT-4.1 Mini,0.39999999999999997,1.5999999999999999,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-4.1-mini:batch,OR: OpenAI: GPT-4.1 Mini (batch),0.19999999999999998,0.7999999999999999,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-4.1-nano,OR: OpenAI: GPT-4.1 Nano,0.09999999999999999,0.39999999999999997,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-4.1-nano:batch,OR: OpenAI: GPT-4.1 Nano (batch),0.049999999999999996,0.19999999999999998,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-4.1:batch,OR: OpenAI: GPT-4.1 (batch),1.0,4.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-4o,OR: OpenAI: GPT-4o,2.5,10.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-4o-2024-05-13,OR: OpenAI: GPT-4o (2024-05-13),5.0,15.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-4o-2024-08-06,OR: OpenAI: GPT-4o (2024-08-06),2.5,10.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-4o-2024-11-20,OR: OpenAI: GPT-4o (2024-11-20),2.5,10.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-4o-mini,OR: OpenAI: GPT-4o-mini,0.15,0.6,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-4o-mini-2024-07-18,OR: OpenAI: GPT-4o-mini (2024-07-18),0.15,0.6,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-4o-mini:batch,OR: OpenAI: GPT-4o-mini (batch),0.075,0.3,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-4o:batch,OR: OpenAI: GPT-4o (batch),1.25,5.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5,OR: OpenAI: GPT-5,1.25,10.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5-codex:batch,OR: OpenAI: GPT-5 Codex (batch),0.625,5.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5-image,OR: OpenAI: GPT-5 Image,10.0,10.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5-image-mini,OR: OpenAI: GPT-5 Image Mini,2.5,2.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5-mini,OR: OpenAI: GPT-5 Mini,0.25,2.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5-mini:batch,OR: OpenAI: GPT-5 Mini (batch),0.125,1.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5-nano,OR: OpenAI: GPT-5 Nano,0.049999999999999996,0.39999999999999997,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5-nano:batch,OR: OpenAI: GPT-5 Nano (batch),0.024999999999999998,0.19999999999999998,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5-pro,OR: OpenAI: GPT-5 Pro,15.0,120.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5-pro:batch,OR: OpenAI: GPT-5 Pro (batch),7.5,60.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5.1,OR: OpenAI: GPT-5.1,1.25,10.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5.1-codex,OR: OpenAI: GPT-5.1-Codex,1.25,10.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5.1-codex-max,OR: OpenAI: GPT-5.1-Codex-Max,1.25,10.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5.1-codex-mini,OR: OpenAI: GPT-5.1-Codex-Mini,0.25,2.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5.1:batch,OR: OpenAI: GPT-5.1 (batch),0.625,5.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5.2,OR: OpenAI: GPT-5.2,1.75,14.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5.2-chat,OR: OpenAI: GPT-5.2 Chat,1.75,14.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5.2-codex,OR: OpenAI: GPT-5.2-Codex,1.75,14.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5.2-pro,OR: OpenAI: GPT-5.2 Pro,21.0,168.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5.2-pro:batch,OR: OpenAI: GPT-5.2 Pro (batch),10.5,84.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5.2:batch,OR: OpenAI: GPT-5.2 (batch),0.875,7.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5.3-codex,OR: OpenAI: GPT-5.3-Codex,1.75,14.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5.4,OR: OpenAI: GPT-5.4,2.5,15.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5.4-image-2,OR: OpenAI: GPT-5.4 Image 2,8.0,15.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5.4-mini,OR: OpenAI: GPT-5.4 Mini,0.75,4.5,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5.4-mini:batch,OR: OpenAI: GPT-5.4 Mini (batch),0.375,2.25,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5.4-nano,OR: OpenAI: GPT-5.4 Nano,0.19999999999999998,1.25,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5.4-nano:batch,OR: OpenAI: GPT-5.4 Nano (batch),0.09999999999999999,0.625,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5.4-pro,OR: OpenAI: GPT-5.4 Pro,30.0,180.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5.4-pro:batch,OR: OpenAI: GPT-5.4 Pro (batch),15.0,90.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5.4:batch,OR: OpenAI: GPT-5.4 (batch),1.25,7.5,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5.5,OR: OpenAI: GPT-5.5,5.0,30.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5.5-pro,OR: OpenAI: GPT-5.5 Pro,30.0,180.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5.5-pro:batch,OR: OpenAI: GPT-5.5 Pro (batch),15.0,90.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5.5:batch,OR: OpenAI: GPT-5.5 (batch),2.5,15.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5.6-luna,OR: OpenAI: GPT-5.6 Luna,0.09999999999999999,0.6,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5.6-luna-pro,OR: OpenAI: GPT-5.6 Luna Pro,0.09999999999999999,0.6,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5.6-luna-pro:batch,OR: OpenAI: GPT-5.6 Luna Pro (batch),0.09999999999999999,0.6,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5.6-luna:batch,OR: OpenAI: GPT-5.6 Luna (batch),0.09999999999999999,0.6,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5.6-sol,OR: OpenAI: GPT-5.6 Sol,5.0,30.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5.6-sol-pro,OR: OpenAI: GPT-5.6 Sol Pro,5.0,30.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5.6-sol-pro:batch,OR: OpenAI: GPT-5.6 Sol Pro (batch),2.5,15.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5.6-sol:batch,OR: OpenAI: GPT-5.6 Sol (batch),2.5,15.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5.6-terra,OR: OpenAI: GPT-5.6 Terra,1.0,6.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5.6-terra-pro,OR: OpenAI: GPT-5.6 Terra Pro,1.0,6.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5.6-terra-pro:batch,OR: OpenAI: GPT-5.6 Terra Pro (batch),1.0,6.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5.6-terra:batch,OR: OpenAI: GPT-5.6 Terra (batch),1.0,6.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-5:batch,OR: OpenAI: GPT-5 (batch),0.625,5.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-audio,OR: OpenAI: GPT Audio,2.5,10.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-audio-mini,OR: OpenAI: GPT Audio Mini,0.6,2.4,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-chat-latest,OR: OpenAI: GPT Chat Latest,5.0,30.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-oss-120b,OR: OpenAI: gpt-oss-120b,0.037,0.16999999999999998,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-oss-20b,OR: OpenAI: gpt-oss-20b,0.03,0.13,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-oss-20b:free,OR: OpenAI: gpt-oss-20b (free),0.0,0.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/gpt-oss-safeguard-20b,OR: OpenAI: gpt-oss-safeguard-20b,0.075,0.3,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/o1,OR: OpenAI: o1,15.0,60.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/o1-pro,OR: OpenAI: o1-pro,150.0,600.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/o1-pro:batch,OR: OpenAI: o1-pro (batch),75.0,300.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/o1:batch,OR: OpenAI: o1 (batch),7.5,30.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/o3,OR: OpenAI: o3,2.0,8.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/o3-mini,OR: OpenAI: o3 Mini,1.1,4.4,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/o3-mini-high,OR: OpenAI: o3 Mini High,1.1,4.4,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/o3-mini-high:batch,OR: OpenAI: o3 Mini High (batch),0.55,2.2,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/o3-mini:batch,OR: OpenAI: o3 Mini (batch),0.55,2.2,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/o3-pro,OR: OpenAI: o3 Pro,20.0,80.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/o3-pro:batch,OR: OpenAI: o3 Pro (batch),10.0,40.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/o3:batch,OR: OpenAI: o3 (batch),1.0,4.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/o4-mini,OR: OpenAI: o4 Mini,1.1,4.4,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/o4-mini-high,OR: OpenAI: o4 Mini High,1.1,4.4,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/o4-mini-high:batch,OR: OpenAI: o4 Mini High (batch),0.55,2.2,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openai/o4-mini:batch,OR: OpenAI: o4 Mini (batch),0.55,2.2,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openrouter/auto,OR: Auto Router,-1000000.0,-1000000.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openrouter/auto-beta,OR: Auto Router (Beta),-1000000.0,-1000000.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openrouter/bodybuilder,OR: Body Builder (beta),-1000000.0,-1000000.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openrouter/free,OR: Free Models Router,0.0,0.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openrouter/fusion,OR: OpenRouter: Fusion,-1000000.0,-1000000.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,openrouter/pareto-code,OR: Pareto Code Router,-1000000.0,-1000000.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,perceptron/perceptron-mk1,OR: Perceptron: Perceptron Mk1,0.15,1.5,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,perplexity/sonar,OR: Perplexity: Sonar,1.0,1.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,perplexity/sonar-deep-research,OR: Perplexity: Sonar Deep Research,2.0,8.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,perplexity/sonar-pro,OR: Perplexity: Sonar Pro,3.0,15.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,perplexity/sonar-pro-search,OR: Perplexity: Sonar Pro Search,3.0,15.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,perplexity/sonar-reasoning-pro,OR: Perplexity: Sonar Reasoning Pro,2.0,8.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,poolside/laguna-s-2.1,OR: Poolside: Laguna S 2.1,0.09,0.18,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,poolside/laguna-s-2.1:free,OR: Poolside: Laguna S 2.1 (free),0.0,0.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,poolside/laguna-xs-2.1,OR: Poolside: Laguna XS 2.1,0.06,0.12,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,poolside/laguna-xs-2.1:free,OR: Poolside: Laguna XS 2.1 (free),0.0,0.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen-2.5-72b-instruct,OR: Qwen2.5 72B Instruct,0.36,0.39999999999999997,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen-2.5-7b-instruct,OR: Qwen: Qwen2.5 7B Instruct,0.09999999999999999,0.19999999999999998,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen-2.5-coder-32b-instruct,OR: Qwen2.5 Coder 32B Instruct,0.66,1.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen-plus,OR: Qwen: Qwen-Plus,0.26,0.78,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen-plus-2025-07-28,OR: Qwen: Qwen Plus 0728,0.26,0.78,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen-plus-2025-07-28:thinking,OR: Qwen: Qwen Plus 0728 (thinking),0.39999999999999997,1.2,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen2.5-vl-72b-instruct,OR: Qwen: Qwen2.5 VL 72B Instruct,0.25,0.75,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3-14b,OR: Qwen: Qwen3 14B,0.12,0.24,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3-235b-a22b,OR: Qwen: Qwen3 235B A22B,0.45499999999999996,1.8199999999999998,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3-235b-a22b-2507,OR: Qwen: Qwen3 235B A22B Instruct 2507,0.09,0.55,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3-235b-a22b-thinking-2507,OR: Qwen: Qwen3 235B A22B Thinking 2507,0.22999999999999998,2.3,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3-30b-a3b,OR: Qwen: Qwen3 30B A3B,0.12,0.5,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3-30b-a3b-instruct-2507,OR: Qwen: Qwen3 30B A3B Instruct 2507,0.04815,0.19305,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3-30b-a3b-thinking-2507,OR: Qwen: Qwen3 30B A3B Thinking 2507,0.19999999999999998,2.4,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3-32b,OR: Qwen: Qwen3 32B,0.08,0.28,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3-8b,OR: Qwen: Qwen3 8B,0.117,0.45499999999999996,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3-coder,OR: Qwen: Qwen3 Coder 480B A35B,0.3,1.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3-coder-30b-a3b-instruct,OR: Qwen: Qwen3 Coder 30B A3B Instruct,0.07,0.28,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3-coder-flash,OR: Qwen: Qwen3 Coder Flash,0.195,0.975,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3-coder-next,OR: Qwen: Qwen3 Coder Next,0.12,0.7999999999999999,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3-coder-plus,OR: Qwen: Qwen3 Coder Plus,0.65,3.25,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3-max,OR: Qwen: Qwen3 Max,0.78,3.9,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3-max-thinking,OR: Qwen: Qwen3 Max Thinking,0.78,3.9,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3-next-80b-a3b-instruct,OR: Qwen: Qwen3 Next 80B A3B Instruct,0.09,1.1,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3-next-80b-a3b-thinking,OR: Qwen: Qwen3 Next 80B A3B Thinking,0.15,1.2,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3-vl-235b-a22b-instruct,OR: Qwen: Qwen3 VL 235B A22B Instruct,0.21,1.9,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3-vl-235b-a22b-thinking,OR: Qwen: Qwen3 VL 235B A22B Thinking,0.39999999999999997,4.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3-vl-30b-a3b-instruct,OR: Qwen: Qwen3 VL 30B A3B Instruct,0.15,0.6,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3-vl-30b-a3b-thinking,OR: Qwen: Qwen3 VL 30B A3B Thinking,0.19999999999999998,2.4,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3-vl-32b-instruct,OR: Qwen: Qwen3 VL 32B Instruct,0.10400000000000001,0.41600000000000004,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3-vl-8b-instruct,OR: Qwen: Qwen3 VL 8B Instruct,0.117,0.45499999999999996,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3-vl-8b-thinking,OR: Qwen: Qwen3 VL 8B Thinking,0.18,2.0999999999999996,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3.5-122b-a10b,OR: Qwen: Qwen3.5-122B-A10B,0.29,2.4,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3.5-27b,OR: Qwen: Qwen3.5-27B,0.195,1.56,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3.5-35b-a3b,OR: Qwen: Qwen3.5-35B-A3B,0.14,1.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3.5-397b-a17b,OR: Qwen: Qwen3.5 397B A17B,0.39,2.34,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3.5-9b,OR: Qwen: Qwen3.5-9B,0.09999999999999999,0.15,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3.5-flash-02-23,OR: Qwen: Qwen3.5-Flash,0.065,0.26,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3.5-plus-02-15,OR: Qwen: Qwen3.5 Plus 2026-02-15,0.26,1.56,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3.5-plus-20260420,OR: Qwen: Qwen3.5 Plus 2026-04-20,0.3,1.7999999999999998,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3.6-27b,OR: Qwen: Qwen3.6 27B,0.6,3.5999999999999996,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3.6-35b-a3b,OR: Qwen: Qwen3.6 35B A3B,0.15,1.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3.6-flash,OR: Qwen: Qwen3.6 Flash,0.1875,1.125,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3.6-max-preview,OR: Qwen: Qwen3.6 Max Preview,1.0270000000000001,6.162,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3.6-plus,OR: Qwen: Qwen3.6 Plus,0.325,1.95,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3.7-flash,OR: Qwen: Qwen3.7 Flash,0.03,0.13,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3.7-max,OR: Qwen: Qwen3.7 Max,1.475,4.425,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3.7-plus,OR: Qwen: Qwen3.7 Plus,0.32,1.28,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,qwen/qwen3.8-max,OR: Qwen: Qwen3.8 Max,2.0,6.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,rekaai/reka-edge,OR: Reka Edge,0.09999999999999999,0.09999999999999999,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,rekaai/reka-flash-3,OR: Reka Flash 3,0.09999999999999999,0.19999999999999998,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,relace/relace-apply-3,OR: Relace: Relace Apply 3,0.85,1.25,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,relace/relace-search,OR: Relace: Relace Search,1.0,3.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,sakana/fugu-ultra,OR: Sakana: Fugu Ultra,5.0,30.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,sao10k/l3-lunaris-8b,OR: Sao10K: Llama 3 8B Lunaris,0.04,0.049999999999999996,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,sao10k/l3.1-euryale-70b,OR: Sao10K: Llama 3.1 Euryale 70B v2.2,0.85,0.85,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,sao10k/l3.3-euryale-70b,OR: Sao10K: Llama 3.3 Euryale 70B,0.65,0.75,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,stepfun/step-3.5-flash,OR: StepFun: Step 3.5 Flash,0.09999999999999999,0.3,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,stepfun/step-3.7-flash,OR: StepFun: Step 3.7 Flash,0.19999999999999998,1.15,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,tencent/hunyuan-a13b-instruct,OR: Tencent: Hunyuan A13B Instruct,0.14,0.5700000000000001,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,tencent/hy3,OR: Tencent: Hy3,0.13199999999999998,0.5279999999999999,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,tencent/hy3-preview,OR: Tencent: Hy3 preview,0.063,0.21,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,thedrummer/cydonia-24b-v4.1,OR: TheDrummer: Cydonia 24B V4.1,0.3,0.5,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,thedrummer/rocinante-12b,OR: TheDrummer: Rocinante 12B,0.25,0.5,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,thedrummer/skyfall-36b-v2,OR: TheDrummer: Skyfall 36B V2,0.55,0.7999999999999999,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,thedrummer/unslopnemo-12b,OR: TheDrummer: UnslopNemo 12B,0.39999999999999997,0.39999999999999997,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,thinkingmachines/inkling,OR: Thinking Machines: Inkling,0.95,4.05,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,thinkingmachines/inkling-small,OR: Thinking Machines: Inkling Small,0.44999999999999996,1.2,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,thinkingmachines/inkling:batch,OR: Thinking Machines: Inkling (batch),0.5,2.025,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,undi95/remm-slerp-l2-13b,OR: ReMM SLERP 13B,0.44999999999999996,0.65,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,upstage/solar-pro-3,OR: Upstage: Solar Pro 3,0.15,0.6,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,writer/palmyra-x5,OR: Writer: Palmyra X5,0.6,6.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,x-ai/grok-4.20,OR: SpaceXAI: Grok 4.20,1.25,2.5,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,x-ai/grok-4.20-multi-agent,OR: SpaceXAI: Grok 4.20 Multi-Agent,1.25,2.5,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,x-ai/grok-4.3,OR: SpaceXAI: Grok 4.3,1.25,2.5,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,x-ai/grok-4.5,OR: SpaceXAI: Grok 4.5,2.0,6.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,x-ai/grok-build-0.1,OR: SpaceXAI: Grok Build 0.1,1.0,2.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,xiaomi/mimo-v2.5,OR: Xiaomi: MiMo-V2.5,0.14,0.28,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,xiaomi/mimo-v2.5-pro,OR: Xiaomi: MiMo-V2.5-Pro,0.435,0.87,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,z-ai/glm-4.5,OR: Z.ai: GLM 4.5,0.6,2.2,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,z-ai/glm-4.5-air,OR: Z.ai: GLM 4.5 Air,0.13,0.85,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,z-ai/glm-4.5v,OR: Z.ai: GLM 4.5V,0.6,1.7999999999999998,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,z-ai/glm-4.6,OR: Z.ai: GLM 4.6,0.5,2.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,z-ai/glm-4.6v,OR: Z.ai: GLM 4.6V,0.3,0.8999999999999999,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,z-ai/glm-4.7,OR: Z.ai: GLM 4.7,0.39999999999999997,1.75,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,z-ai/glm-4.7-flash,OR: Z.ai: GLM 4.7 Flash,0.06,0.39999999999999997,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,z-ai/glm-5,OR: Z.ai: GLM 5,0.95,2.5500000000000003,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,z-ai/glm-5-turbo,OR: Z.ai: GLM 5 Turbo,1.2,4.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,z-ai/glm-5.1,OR: Z.ai: GLM 5.1,0.952,2.992,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,z-ai/glm-5.2,OR: Z.ai: GLM 5.2,0.5025999999999999,1.5796000000000001,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,z-ai/glm-5.2:batch,OR: Z.ai: GLM 5.2 (batch),0.7,2.2,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,z-ai/glm-5v-turbo,OR: Z.ai: GLM 5V Turbo,1.2,4.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,~anthropic/claude-fable-latest,OR: Anthropic: Claude Fable Latest,10.0,50.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,~anthropic/claude-haiku-latest,OR: Anthropic Claude Haiku Latest,1.0,5.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,~anthropic/claude-opus-latest,OR: Anthropic: Claude Opus Latest,5.0,25.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,~anthropic/claude-sonnet-latest,OR: Anthropic Claude Sonnet Latest,2.0,10.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,~deepseek/deepseek-v4-flash-latest,OR: DeepSeek V4 Flash Latest,0.0798,0.1596,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,~google/gemini-flash-latest,OR: Google Gemini Flash Latest,1.5,7.5,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,~google/gemini-pro-latest,OR: Google Gemini Pro Latest,2.0,12.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,~moonshotai/kimi-latest,OR: MoonshotAI Kimi Latest,2.8,14.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,~openai/gpt-latest,OR: OpenAI GPT Latest,5.0,30.0,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,~openai/gpt-mini-latest,OR: OpenAI GPT Mini Latest,0.75,4.5,0.0,0.0
+2026-08-10T22:00:11Z,openrouter,~x-ai/grok-latest,OR: xAI: Grok Latest,2.0,6.0,0.0,0.0
