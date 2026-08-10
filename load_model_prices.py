@@ -69,6 +69,7 @@ def main() -> None:
 
     rows = load_price_history(args.data_dir)
     df = pd.DataFrame(rows)
+    df = df.sort_values("timestamp", kind="stable").reset_index(drop=True)
     df.to_csv(args.out, index=False)
 
     n_snapshots = df["timestamp"].nunique()
