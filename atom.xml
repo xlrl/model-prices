@@ -4,7 +4,14 @@
   <link href="https://xlrl.github.io/model-prices/"/>
   <link href="https://xlrl.github.io/model-prices/atom.xml" rel="self"/>
   <id>https://xlrl.github.io/model-prices/</id>
-  <updated>2026-08-09T16:00:09Z</updated>
+  <updated>2026-08-10T04:00:09Z</updated>
+  <entry>
+    <title>Price changes – 2026-08-10 (8 models)</title>
+    <link href="https://xlrl.github.io/model-prices/"/>
+    <id>tag:model-prices,2026-08-10:2026-08-10T04:00:09</id>
+    <updated>2026-08-10T04:00:09Z</updated>
+    <content type="html">&lt;ul&gt;&lt;li&gt;openrouter/google/gemma-4-26b-a4b-it: input $0.07 → $0.12, output $0.34 → $0.4 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/meta-llama/llama-4-maverick: input $0.2 → $0.2, output $0.8 → $0.696 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/moonshotai/kimi-k2.6: input $0.5795 → $0.95, output $2.44 → $4 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/nvidia/nemotron-3-super-120b-a12b: input $0.3 → $0.085, output $0.9 → $0.4 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/qwen/qwen3-14b: input $0.2275 → $0.12, output $0.91 → $0.24 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/qwen/qwen3.5-397b-a17b: input $0.5 → $0.39, output $3.6 → $2.34 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/z-ai/glm-5.1: input $0.952 → $1.4, output $2.992 → $4.4 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/z-ai/glm-5.2: input $0.07 → $0.76, output $0.22 → $2.42 (per Mtok)&lt;/li&gt;&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>Price changes – 2026-08-09 (2 models)</title>
     <link href="https://xlrl.github.io/model-prices/"/>
