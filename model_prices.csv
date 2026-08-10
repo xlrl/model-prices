@@ -1,143 +1,4 @@
 timestamp,provider,model_id,model_name,input_cost,output_cost,cache_read_cost,cache_write_cost
-2026-04-29T09:25:47.485693Z,openrouter,anthropic/claude-sonnet-4,OR: Claude Sonnet 4,3.0,15.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,anthropic/claude-3.7-sonnet,OR: Claude 3.7 Sonnet,3.0,15.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,anthropic/claude-3.5-haiku,OR: Claude 3.5 Haiku,0.8,4.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,anthropic/claude-opus-4,OR: Claude Opus 4,15.0,75.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,google/gemini-2.5-pro,OR: Gemini 2.5 Pro,1.25,10.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,google/gemini-2.5-flash,OR: Gemini 2.5 Flash,0.3,2.5,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,google/gemini-2.0-flash-001,OR: Gemini 2.0 Flash,0.09999999999999999,0.39999999999999997,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,openai/gpt-4.1,OR: GPT-4.1,2.0,8.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,openai/gpt-4.1-mini,OR: GPT-4.1 Mini,0.39999999999999997,1.5999999999999999,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,openai/gpt-4o,OR: GPT-4o,2.5,10.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,openai/gpt-4o-mini,OR: GPT-4o Mini,0.15,0.6,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,openai/o3,OR: o3,2.0,8.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,openai/o4-mini,OR: o4 Mini,1.1,4.4,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,deepseek/deepseek-chat,OR: DeepSeek V3,0.32,0.8899999999999999,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,deepseek/deepseek-r1,OR: DeepSeek R1,0.7,2.5,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,deepseek/deepseek-r1-0528,OR: DeepSeek R1 0528,0.5,2.1500000000000004,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,meta-llama/llama-4-maverick,OR: Llama 4 Maverick,0.15,0.6,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,meta-llama/llama-4-scout,OR: Llama 4 Scout,0.08,0.3,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,meta-llama/llama-3.3-70b-instruct,OR: Llama 3.3 70B,0.09999999999999999,0.32,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,mistralai/mistral-large-2512,OR: Mistral Large 3,0.5,1.5,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,mistralai/devstral-small,OR: Devstral Small,0.09999999999999999,0.3,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,mistralai/codestral-2508,OR: Codestral 2508,0.3,0.8999999999999999,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,x-ai/grok-4,OR: Grok 4,3.0,15.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,x-ai/grok-3,OR: Grok 3,3.0,15.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,x-ai/grok-3-mini,OR: Grok 3 Mini,0.3,0.5,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,qwen/qwen3-235b-a22b,OR: Qwen3 235B,0.45499999999999996,1.8199999999999998,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,qwen/qwen3-32b,OR: Qwen3 32B,0.08,0.24,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,qwen/qwen3-coder,OR: Qwen3 Coder 480B,0.22,1.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,deepseek-v3,EURouter: DeepSeek V3,0.3,1.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,llama-4-maverick,EURouter: Llama 4 Maverick,0.14,0.6799999999999999,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,llama-guard-3-8b,EURouter: Llama Guard 3 8B,0.02,0.06,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,pixtral-12b,EURouter: Pixtral 12B,0.15,0.15,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,bge-m3,EURouter: BGE-M3,0.01,0.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,ministral-3-14b,EURouter: Ministral 3 14B,0.19999999999999998,0.19999999999999998,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,o3,EURouter: o3,2.2,8.8,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,gpt-4.1-mini,EURouter: GPT-4.1 Mini,0.39999999999999997,1.5999999999999999,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,pixtral-large,EURouter: Pixtral Large,2.0,6.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,gpt-5-mini,EURouter: GPT-5 Mini,0.25,2.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,deepseek-r1-distill-llama-70b,EURouter: DeepSeek R1 Distill Llama 70B,0.8999999999999999,0.8999999999999999,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,glm-4.5-air,EURouter: GLM 4.5 Air,0.19999999999999998,1.2,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,hermes-4-405b,EURouter: Hermes 4 405B,1.0,3.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,green-embedding,EURouter: Green Embedding,0.19999999999999998,0.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,hermes-4-70b,EURouter: Hermes 4 70B,0.13,0.39999999999999997,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,devstral-2,EURouter: Devstral 2,0.0,0.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,mistral-small-3.1-24b,EURouter: Mistral Small 3.1 24B,0.09999999999999999,0.3,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,qwen3-235b-a22b-instruct,EURouter: Qwen3 235B A22B Instruct,0.07,0.45999999999999996,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,gemma-3-27b-it,EURouter: Gemma 3 27B IT,0.09999999999999999,0.3,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,magistral-small,EURouter: Magistral Small,0.5,1.5,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,green-r,EURouter: GreenR,0.35,0.95,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,nova-pro,EURouter: Amazon Nova Pro,0.7999999999999999,3.1999999999999997,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,qwen3-32b,EURouter: Qwen3 32B,0.08,0.22999999999999998,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,minimax-m2.5,EURouter: MiniMax M2.5,0.28,1.1,0.03,0.0
-2026-04-29T09:25:47.485693Z,eurouter,qwen3-embedding-8b,EURouter: Qwen3 Embedding 8B,0.0,0.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,deepseek-chat-v3.1,EURouter: DeepSeek Chat V3.1,0.19999999999999998,0.7999999999999999,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,nova-lite,EURouter: Amazon Nova Lite,0.06,0.24,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,kimi-k2.5,EURouter: Kimi K2.5,0.5,2.5,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,qwen-2.5-vl-72b-instruct,EURouter: Qwen 2.5 VL 72B Instruct,0.25,0.75,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,voxtral-small-24b,EURouter: Voxtral Small 24B,0.15,0.35,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,minimax-m2,EURouter: MiniMax M2,0.25,1.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,claude-haiku-4.5,EURouter: Claude Haiku 4.5,1.0,5.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,glm-4.5,EURouter: GLM 4.5,0.6,2.2,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,qwen-2.5-coder-7b,EURouter: Qwen 2.5 Coder 7B,0.03,0.09,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,qwen-2.5-72b-instruct,EURouter: Qwen 2.5 72B Instruct,0.07,0.26,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,llama-3.1-8b-instruct,EURouter: Llama 3.1 8B Instruct,0.02,0.06,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,code-llama-13b-instruct,EURouter: Code Llama 13B Instruct,0.5,0.5,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,green-l-raw,EURouter: GreenL Raw,0.25,0.7999999999999999,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,gpt-4.1,EURouter: GPT-4.1,2.0,8.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,green-l,EURouter: GreenL,0.25,0.7999999999999999,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,deepseek-v3.1,EURouter: DeepSeek V3.1,3.0,4.5,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,gemma-2-2b-it,EURouter: Gemma 2 2B Instruct,0.02,0.06,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,mistral-small-24b,EURouter: Mistral Small 24B Instruct,0.11,0.33,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,qwen3-coder-480b-a35b-instruct,EURouter: Qwen3 Coder 480B A35B Instruct,0.39999999999999997,1.7999999999999998,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,claude-opus-4-6,EURouter: Claude Opus 4.6,5.0,25.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,minimax-m2.1,EURouter: MiniMax M2.1,0.3,1.2,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,nemotron-nano-v2-12b,EURouter: Nemotron Nano V2 12B,0.07,0.19999999999999998,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,mistral-small-3.2-24b,EURouter: Mistral Small 3.2 24B,0.09,0.28,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,mistral-7b-instruct-v0.3,EURouter: Mistral 7B Instruct v0.3,0.09999999999999999,0.09999999999999999,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,ministral-3-3b,EURouter: Ministral 3 3B,0.09999999999999999,0.09999999999999999,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,codestral,EURouter: Codestral,0.3,0.8999999999999999,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,claude-3.7-sonnet,EURouter: Claude 3.7 Sonnet,3.0,15.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,deepseek-r1,EURouter: DeepSeek R1,0.66,2.6,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,voxtral-mini,EURouter: Voxtral Mini,0.04,0.04,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,qwen3-30b-a3b-instruct,EURouter: Qwen3 30B A3B Instruct,0.09999999999999999,0.3,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,nova-micro,EURouter: Amazon Nova Micro,0.035,0.14,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,claude-sonnet-4-6,EURouter: Claude Sonnet 4.6,3.0,15.0,0.3,3.75
-2026-04-29T09:25:47.485693Z,eurouter,green-r-raw,EURouter: GreenR Raw,0.35,0.95,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,cohere-embed-v4,EURouter: Cohere Embed v4,0.09999999999999999,0.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,qwen3-next-80b-a3b-thinking,EURouter: Qwen3 Next 80B A3B Thinking,0.15,1.2,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,codestral-embed,EURouter: Codestral Embed,0.15,0.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,magistral-medium,EURouter: Magistral Medium,2.0,5.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,mistral-large-2,EURouter: Mistral Large 2,2.0,6.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,claude-opus-4-5-20251101,EURouter: Claude Opus 4.5,5.0,25.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,glm-4.6,EURouter: GLM 4.6,0.39999999999999997,1.75,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,mistral-medium-3.1,EURouter: Mistral Medium 3.1,0.39999999999999997,2.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,intellect-3,EURouter: INTELLECT-3,0.19999999999999998,1.1,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,gemma-2-9b-it,EURouter: Gemma 2 9B Instruct,0.03,0.09,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,gpt-4o,EURouter: GPT-4o,2.5,10.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,pixtral-large-2502,EURouter: Pixtral Large 25.02,2.0,6.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,qwen3-vl-235b-a22b-instruct,EURouter: Qwen3 VL 235B A22B Instruct,0.21,1.9,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,mixtral-8x22b-instruct,EURouter: Mixtral 8x22B Instruct,2.0,6.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,e5-mistral-7b-instruct,EURouter: E5-Mistral-7B-Instruct,0.0,0.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,llama-3.1-nemotron-ultra-253b,EURouter: Llama 3.1 Nemotron Ultra 253B,0.6,1.7999999999999998,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,paraphrase-multilingual-mpnet-base-v2,EURouter: Paraphrase Multilingual MPNet v2,0.01,0.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,glm-4.7-fp8,EURouter: GLM 4.7 FP8,0.39999999999999997,2.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,bge-large-en-v1.5,EURouter: BGE Large EN v1.5,0.015,0.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,bge-multilingual-gemma2,EURouter: BGE Multilingual Gemma2,0.0,0.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,o4-mini,EURouter: o4-mini,1.1,4.4,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,claude-3-haiku,EURouter: Claude 3 Haiku,0.25,1.25,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,mistral-large-3,EURouter: Mistral Large 3,0.5,1.5,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,bge-en-icl,EURouter: BGE-EN-ICL,0.0,0.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,titan-embed-text-v2,EURouter: Amazon Titan Embeddings v2,0.0,0.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,devstral-small,EURouter: Devstral Small,0.15,0.35,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,claude-sonnet-4-5,EURouter: Claude Sonnet 4.5,3.0,15.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,teuken-7b-instruct,EURouter: Teuken-7B Instruct,0.16999999999999998,0.16999999999999998,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,deepseek-v3.2,EURouter: DeepSeek V3.2,0.3,0.5,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,mistral-nemo-12b,EURouter: Mistral Nemo 12B,0.13,0.13,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,mistral-embed,EURouter: Mistral Embed,0.09999999999999999,0.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,qwen3-30b-a3b-thinking,EURouter: Qwen3 30B A3B Thinking,0.09999999999999999,0.3,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,glm-5,EURouter: GLM 5,1.0,3.1999999999999997,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,qwen-2.5-coder-32b-instruct,EURouter: Qwen 2.5 Coder 32B Instruct,0.8999999999999999,0.8999999999999999,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,gpt-oss-20b,EURouter: GPT-OSS 20B,0.03,0.14,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,llama-3.3-70b-instruct,EURouter: Llama 3.3 70B Instruct,0.09999999999999999,0.31,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,gpt-4o-mini,EURouter: GPT-4o Mini,0.15,0.6,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,ministral-3-8b,EURouter: Ministral 3 8B,0.15,0.15,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,qwen3-coder-30b-a3b,EURouter: Qwen3 Coder 30B A3B,0.06,0.22,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,gpt-oss-120b,EURouter: GPT-OSS 120B,0.04,0.19999999999999998,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,claude-3.5-sonnet,EURouter: Claude 3.5 Sonnet,3.0,15.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,llama-3.1-405b-instruct,EURouter: Llama 3.1 405B Instruct,1.9300000000000002,1.9300000000000002,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,glm-4.7,EURouter: GLM 4.7,0.6,2.2,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,llama-3.2-1b-instruct,EURouter: Llama 3.2 1B Instruct,0.09999999999999999,0.09999999999999999,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,gpt-4.1-nano,EURouter: GPT-4.1 Nano,0.11,0.39999999999999997,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,claude-3-sonnet,EURouter: Claude 3 Sonnet,3.0,15.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,holo2-30b-a3b,EURouter: Holo2 30B A3B,0.3,0.7,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,titan-multimodal-embed,EURouter: Amazon Titan Multimodal Embeddings,0.0,0.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,o3-mini,EURouter: o3-mini,1.21,4.84,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,nemotron-3-nano-30b-a3b,EURouter: Nemotron 3 Nano 30B A3B,0.06,0.24,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,llama-3.2-3b-instruct,EURouter: Llama 3.2 3B Instruct,0.15,0.15,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,qwen3-235b-a22b-thinking,EURouter: Qwen3 235B A22B Thinking,0.19999999999999998,0.7999999999999999,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,kimi-k2-instruct,EURouter: Kimi K2 Instruct,0.5,2.4,0.0,0.0
 2026-04-29T09:29:48Z,openrouter,nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free,OR: NVIDIA: Nemotron 3 Nano Omni (free),0.0,0.0,0.0,0.0
 2026-04-29T09:29:48Z,openrouter,poolside/laguna-xs.2:free,OR: Poolside: Laguna XS.2 (free),0.0,0.0,0.0,0.0
 2026-04-29T09:29:48Z,openrouter,poolside/laguna-m.1:free,OR: Poolside: Laguna M.1 (free),0.0,0.0,0.0,0.0
@@ -12665,6 +12526,145 @@ timestamp,provider,model_id,model_name,input_cost,output_cost,cache_read_cost,ca
 2026-07-31T16:08:50Z,openrouter,~openai/gpt-latest,OR: OpenAI GPT Latest,5.0,30.0,0.0,0.0
 2026-07-31T16:08:50Z,openrouter,~openai/gpt-mini-latest,OR: OpenAI GPT Mini Latest,0.75,4.5,0.0,0.0
 2026-07-31T16:08:50Z,openrouter,~x-ai/grok-latest,OR: xAI: Grok Latest,2.0,6.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,anthropic/claude-sonnet-4,OR: Claude Sonnet 4,3.0,15.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,anthropic/claude-3.7-sonnet,OR: Claude 3.7 Sonnet,3.0,15.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,anthropic/claude-3.5-haiku,OR: Claude 3.5 Haiku,0.8,4.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,anthropic/claude-opus-4,OR: Claude Opus 4,15.0,75.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,google/gemini-2.5-pro,OR: Gemini 2.5 Pro,1.25,10.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,google/gemini-2.5-flash,OR: Gemini 2.5 Flash,0.3,2.5,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,google/gemini-2.0-flash-001,OR: Gemini 2.0 Flash,0.09999999999999999,0.39999999999999997,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,openai/gpt-4.1,OR: GPT-4.1,2.0,8.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,openai/gpt-4.1-mini,OR: GPT-4.1 Mini,0.39999999999999997,1.5999999999999999,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,openai/gpt-4o,OR: GPT-4o,2.5,10.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,openai/gpt-4o-mini,OR: GPT-4o Mini,0.15,0.6,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,openai/o3,OR: o3,2.0,8.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,openai/o4-mini,OR: o4 Mini,1.1,4.4,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,deepseek/deepseek-chat,OR: DeepSeek V3,0.32,0.8899999999999999,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,deepseek/deepseek-r1,OR: DeepSeek R1,0.7,2.5,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,deepseek/deepseek-r1-0528,OR: DeepSeek R1 0528,0.5,2.1500000000000004,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,meta-llama/llama-4-maverick,OR: Llama 4 Maverick,0.15,0.6,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,meta-llama/llama-4-scout,OR: Llama 4 Scout,0.08,0.3,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,meta-llama/llama-3.3-70b-instruct,OR: Llama 3.3 70B,0.09999999999999999,0.32,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,mistralai/mistral-large-2512,OR: Mistral Large 3,0.5,1.5,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,mistralai/devstral-small,OR: Devstral Small,0.09999999999999999,0.3,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,mistralai/codestral-2508,OR: Codestral 2508,0.3,0.8999999999999999,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,x-ai/grok-4,OR: Grok 4,3.0,15.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,x-ai/grok-3,OR: Grok 3,3.0,15.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,x-ai/grok-3-mini,OR: Grok 3 Mini,0.3,0.5,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,qwen/qwen3-235b-a22b,OR: Qwen3 235B,0.45499999999999996,1.8199999999999998,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,qwen/qwen3-32b,OR: Qwen3 32B,0.08,0.24,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,qwen/qwen3-coder,OR: Qwen3 Coder 480B,0.22,1.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,deepseek-v3,EURouter: DeepSeek V3,0.3,1.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,llama-4-maverick,EURouter: Llama 4 Maverick,0.14,0.6799999999999999,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,llama-guard-3-8b,EURouter: Llama Guard 3 8B,0.02,0.06,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,pixtral-12b,EURouter: Pixtral 12B,0.15,0.15,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,bge-m3,EURouter: BGE-M3,0.01,0.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,ministral-3-14b,EURouter: Ministral 3 14B,0.19999999999999998,0.19999999999999998,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,o3,EURouter: o3,2.2,8.8,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,gpt-4.1-mini,EURouter: GPT-4.1 Mini,0.39999999999999997,1.5999999999999999,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,pixtral-large,EURouter: Pixtral Large,2.0,6.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,gpt-5-mini,EURouter: GPT-5 Mini,0.25,2.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,deepseek-r1-distill-llama-70b,EURouter: DeepSeek R1 Distill Llama 70B,0.8999999999999999,0.8999999999999999,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,glm-4.5-air,EURouter: GLM 4.5 Air,0.19999999999999998,1.2,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,hermes-4-405b,EURouter: Hermes 4 405B,1.0,3.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,green-embedding,EURouter: Green Embedding,0.19999999999999998,0.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,hermes-4-70b,EURouter: Hermes 4 70B,0.13,0.39999999999999997,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,devstral-2,EURouter: Devstral 2,0.0,0.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,mistral-small-3.1-24b,EURouter: Mistral Small 3.1 24B,0.09999999999999999,0.3,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,qwen3-235b-a22b-instruct,EURouter: Qwen3 235B A22B Instruct,0.07,0.45999999999999996,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,gemma-3-27b-it,EURouter: Gemma 3 27B IT,0.09999999999999999,0.3,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,magistral-small,EURouter: Magistral Small,0.5,1.5,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,green-r,EURouter: GreenR,0.35,0.95,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,nova-pro,EURouter: Amazon Nova Pro,0.7999999999999999,3.1999999999999997,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,qwen3-32b,EURouter: Qwen3 32B,0.08,0.22999999999999998,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,minimax-m2.5,EURouter: MiniMax M2.5,0.28,1.1,0.03,0.0
+2026-08-01T12:32:04.391308Z,eurouter,qwen3-embedding-8b,EURouter: Qwen3 Embedding 8B,0.0,0.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,deepseek-chat-v3.1,EURouter: DeepSeek Chat V3.1,0.19999999999999998,0.7999999999999999,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,nova-lite,EURouter: Amazon Nova Lite,0.06,0.24,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,kimi-k2.5,EURouter: Kimi K2.5,0.5,2.5,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,qwen-2.5-vl-72b-instruct,EURouter: Qwen 2.5 VL 72B Instruct,0.25,0.75,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,voxtral-small-24b,EURouter: Voxtral Small 24B,0.15,0.35,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,minimax-m2,EURouter: MiniMax M2,0.25,1.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,claude-haiku-4.5,EURouter: Claude Haiku 4.5,1.0,5.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,glm-4.5,EURouter: GLM 4.5,0.6,2.2,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,qwen-2.5-coder-7b,EURouter: Qwen 2.5 Coder 7B,0.03,0.09,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,qwen-2.5-72b-instruct,EURouter: Qwen 2.5 72B Instruct,0.07,0.26,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,llama-3.1-8b-instruct,EURouter: Llama 3.1 8B Instruct,0.02,0.06,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,code-llama-13b-instruct,EURouter: Code Llama 13B Instruct,0.5,0.5,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,green-l-raw,EURouter: GreenL Raw,0.25,0.7999999999999999,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,gpt-4.1,EURouter: GPT-4.1,2.0,8.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,green-l,EURouter: GreenL,0.25,0.7999999999999999,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,deepseek-v3.1,EURouter: DeepSeek V3.1,3.0,4.5,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,gemma-2-2b-it,EURouter: Gemma 2 2B Instruct,0.02,0.06,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,mistral-small-24b,EURouter: Mistral Small 24B Instruct,0.11,0.33,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,qwen3-coder-480b-a35b-instruct,EURouter: Qwen3 Coder 480B A35B Instruct,0.39999999999999997,1.7999999999999998,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,claude-opus-4-6,EURouter: Claude Opus 4.6,5.0,25.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,minimax-m2.1,EURouter: MiniMax M2.1,0.3,1.2,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,nemotron-nano-v2-12b,EURouter: Nemotron Nano V2 12B,0.07,0.19999999999999998,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,mistral-small-3.2-24b,EURouter: Mistral Small 3.2 24B,0.09,0.28,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,mistral-7b-instruct-v0.3,EURouter: Mistral 7B Instruct v0.3,0.09999999999999999,0.09999999999999999,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,ministral-3-3b,EURouter: Ministral 3 3B,0.09999999999999999,0.09999999999999999,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,codestral,EURouter: Codestral,0.3,0.8999999999999999,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,claude-3.7-sonnet,EURouter: Claude 3.7 Sonnet,3.0,15.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,deepseek-r1,EURouter: DeepSeek R1,0.66,2.6,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,voxtral-mini,EURouter: Voxtral Mini,0.04,0.04,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,qwen3-30b-a3b-instruct,EURouter: Qwen3 30B A3B Instruct,0.09999999999999999,0.3,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,nova-micro,EURouter: Amazon Nova Micro,0.035,0.14,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,claude-sonnet-4-6,EURouter: Claude Sonnet 4.6,3.0,15.0,0.3,3.75
+2026-08-01T12:32:04.391308Z,eurouter,green-r-raw,EURouter: GreenR Raw,0.35,0.95,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,cohere-embed-v4,EURouter: Cohere Embed v4,0.09999999999999999,0.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,qwen3-next-80b-a3b-thinking,EURouter: Qwen3 Next 80B A3B Thinking,0.15,1.2,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,codestral-embed,EURouter: Codestral Embed,0.15,0.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,magistral-medium,EURouter: Magistral Medium,2.0,5.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,mistral-large-2,EURouter: Mistral Large 2,2.0,6.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,claude-opus-4-5-20251101,EURouter: Claude Opus 4.5,5.0,25.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,glm-4.6,EURouter: GLM 4.6,0.39999999999999997,1.75,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,mistral-medium-3.1,EURouter: Mistral Medium 3.1,0.39999999999999997,2.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,intellect-3,EURouter: INTELLECT-3,0.19999999999999998,1.1,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,gemma-2-9b-it,EURouter: Gemma 2 9B Instruct,0.03,0.09,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,gpt-4o,EURouter: GPT-4o,2.5,10.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,pixtral-large-2502,EURouter: Pixtral Large 25.02,2.0,6.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,qwen3-vl-235b-a22b-instruct,EURouter: Qwen3 VL 235B A22B Instruct,0.21,1.9,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,mixtral-8x22b-instruct,EURouter: Mixtral 8x22B Instruct,2.0,6.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,e5-mistral-7b-instruct,EURouter: E5-Mistral-7B-Instruct,0.0,0.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,llama-3.1-nemotron-ultra-253b,EURouter: Llama 3.1 Nemotron Ultra 253B,0.6,1.7999999999999998,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,paraphrase-multilingual-mpnet-base-v2,EURouter: Paraphrase Multilingual MPNet v2,0.01,0.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,glm-4.7-fp8,EURouter: GLM 4.7 FP8,0.39999999999999997,2.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,bge-large-en-v1.5,EURouter: BGE Large EN v1.5,0.015,0.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,bge-multilingual-gemma2,EURouter: BGE Multilingual Gemma2,0.0,0.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,o4-mini,EURouter: o4-mini,1.1,4.4,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,claude-3-haiku,EURouter: Claude 3 Haiku,0.25,1.25,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,mistral-large-3,EURouter: Mistral Large 3,0.5,1.5,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,bge-en-icl,EURouter: BGE-EN-ICL,0.0,0.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,titan-embed-text-v2,EURouter: Amazon Titan Embeddings v2,0.0,0.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,devstral-small,EURouter: Devstral Small,0.15,0.35,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,claude-sonnet-4-5,EURouter: Claude Sonnet 4.5,3.0,15.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,teuken-7b-instruct,EURouter: Teuken-7B Instruct,0.16999999999999998,0.16999999999999998,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,deepseek-v3.2,EURouter: DeepSeek V3.2,0.3,0.5,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,mistral-nemo-12b,EURouter: Mistral Nemo 12B,0.13,0.13,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,mistral-embed,EURouter: Mistral Embed,0.09999999999999999,0.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,qwen3-30b-a3b-thinking,EURouter: Qwen3 30B A3B Thinking,0.09999999999999999,0.3,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,glm-5,EURouter: GLM 5,1.0,3.1999999999999997,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,qwen-2.5-coder-32b-instruct,EURouter: Qwen 2.5 Coder 32B Instruct,0.8999999999999999,0.8999999999999999,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,gpt-oss-20b,EURouter: GPT-OSS 20B,0.03,0.14,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,llama-3.3-70b-instruct,EURouter: Llama 3.3 70B Instruct,0.09999999999999999,0.31,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,gpt-4o-mini,EURouter: GPT-4o Mini,0.15,0.6,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,ministral-3-8b,EURouter: Ministral 3 8B,0.15,0.15,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,qwen3-coder-30b-a3b,EURouter: Qwen3 Coder 30B A3B,0.06,0.22,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,gpt-oss-120b,EURouter: GPT-OSS 120B,0.04,0.19999999999999998,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,claude-3.5-sonnet,EURouter: Claude 3.5 Sonnet,3.0,15.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,llama-3.1-405b-instruct,EURouter: Llama 3.1 405B Instruct,1.9300000000000002,1.9300000000000002,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,glm-4.7,EURouter: GLM 4.7,0.6,2.2,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,llama-3.2-1b-instruct,EURouter: Llama 3.2 1B Instruct,0.09999999999999999,0.09999999999999999,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,gpt-4.1-nano,EURouter: GPT-4.1 Nano,0.11,0.39999999999999997,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,claude-3-sonnet,EURouter: Claude 3 Sonnet,3.0,15.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,holo2-30b-a3b,EURouter: Holo2 30B A3B,0.3,0.7,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,titan-multimodal-embed,EURouter: Amazon Titan Multimodal Embeddings,0.0,0.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,o3-mini,EURouter: o3-mini,1.21,4.84,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,nemotron-3-nano-30b-a3b,EURouter: Nemotron 3 Nano 30B A3B,0.06,0.24,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,llama-3.2-3b-instruct,EURouter: Llama 3.2 3B Instruct,0.15,0.15,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,qwen3-235b-a22b-thinking,EURouter: Qwen3 235B A22B Thinking,0.19999999999999998,0.7999999999999999,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,kimi-k2-instruct,EURouter: Kimi K2 Instruct,0.5,2.4,0.0,0.0
 2026-08-02T08:22:22Z,openrouter,ai21/jamba-large-1.7,OR: AI21: Jamba Large 1.7,2.0,8.0,0.0,0.0
 2026-08-02T08:22:22Z,openrouter,aion-labs/aion-2.0,OR: AionLabs: Aion-2.0,0.7999999999999999,1.5999999999999999,0.0,0.0
 2026-08-02T08:22:22Z,openrouter,aion-labs/aion-3.0,OR: AionLabs: Aion-3.0,3.0,6.0,0.0,0.0
