@@ -62,10 +62,36 @@ def test_load_price_history_reads_all_snapshots(tmp_path):
             json.dumps(
                 {
                     "_meta": {"updated": ts},
-                    "providers": {"openrouter": {"models": [{"id": "a/one", "name": "One", "cost": {"input": 1.0, "output": 2.0}}]}},
+                    "providers": {
+                        "openrouter": {
+                            "models": [{"id": "a/one", "name": "One", "cost": {"input": 1.0 + i, "output": 2.0}}]
+                        }
+                    },
                 }
             )
         )
     rows = load_price_history(str(tmp_path))
     assert len(rows) == 2
     assert {r["timestamp"] for r in rows} == {"2026-01-01T00:00:00Z", "2026-01-02T00:00:00Z"}
+
+
+def test_load_price_history_skips_unchanged_provider_data(tmp_path):
+    for i, ts in enumerate(["2026-01-01T00:00:00Z", "2026-01-02T00:00:00Z"]):
+        path = tmp_path / f"models_2026010{i + 1}_000000.json"
+        path.write_text(
+            json.dumps(
+                {
+                    "_meta": {"updated": ts},
+                    "providers": {
+                        "openrouter": {"models": [{"id": "a/one", "name": "One", "cost": {"input": 1.0, "output": 2.0}}]},
+                        "eurouter": {"models": [{"id": "b/three", "name": "Three", "cost": {"input": 3.0, "output": 4.0}}]},
+                    },
+                }
+            )
+        )
+    rows = load_price_history(str(tmp_path))
+    # neither provider's data changed between snapshots -> only the first data point is kept for each
+    for provider in ("openrouter", "eurouter"):
+        provider_rows = [r for r in rows if r["provider"] == provider]
+        assert len(provider_rows) == 1
+        assert provider_rows[0]["timestamp"] == "2026-01-01T00:00:00Z"

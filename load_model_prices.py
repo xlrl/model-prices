@@ -51,11 +51,17 @@ def rename_untimestamped_snapshot(data_dir: str) -> None:
 def load_price_history(data_dir: str) -> list[dict]:
     rename_untimestamped_snapshot(data_dir)
     rows: list[dict] = []
+    last_models: dict[str, list] = {}
     for path in sorted(glob.glob(os.path.join(data_dir, "models_*.json"))):
         with open(path) as f:
             data = json.load(f)
         timestamp = resolve_timestamp(data, path)
-        rows.extend(flatten_snapshot(data, timestamp))
+        for provider, provider_data in data.get("providers", {}).items():
+            models = provider_data.get("models", [])
+            if last_models.get(provider) == models:
+                continue
+            last_models[provider] = models
+            rows.extend(flatten_snapshot({"providers": {provider: provider_data}}, timestamp))
     return rows
 
 
