@@ -4,7 +4,14 @@
   <link href="https://xlrl.github.io/model-prices/"/>
   <link href="https://xlrl.github.io/model-prices/atom.xml" rel="self"/>
   <id>https://xlrl.github.io/model-prices/</id>
-  <updated>2026-08-13T04:00:05Z</updated>
+  <updated>2026-08-13T10:00:06Z</updated>
+  <entry>
+    <title>Price changes – 2026-08-13 (1 model)</title>
+    <link href="https://xlrl.github.io/model-prices/"/>
+    <id>tag:model-prices,2026-08-13:2026-08-13T10:00:06</id>
+    <updated>2026-08-13T10:00:06Z</updated>
+    <content type="html">&lt;ul&gt;&lt;li&gt;openrouter/qwen/qwen3.5-397b-a17b: input $0.45 → $0.5, output $3 → $3.6 (per Mtok)&lt;/li&gt;&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>Price changes – 2026-08-13 (6 models)</title>
     <link href="https://xlrl.github.io/model-prices/"/>
