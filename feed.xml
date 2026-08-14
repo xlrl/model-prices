@@ -4,7 +4,14 @@
   <title>Model price history</title>
   <link>https://xlrl.github.io/model-prices/</link>
   <description>Price changes tracked for LLM API models.</description>
-  <lastBuildDate>Thu, 13 Aug 2026 10:00:06 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 14 Aug 2026 10:00:08 +0000</lastBuildDate>
+  <item>
+    <title>Price changes – 2026-08-14 (8 models)</title>
+    <link>https://xlrl.github.io/model-prices/</link>
+    <guid isPermaLink="false">model-prices-2026-08-14T10:00:08</guid>
+    <pubDate>Fri, 14 Aug 2026 10:00:08 +0000</pubDate>
+    <description><![CDATA[<ul><li>openrouter/deepseek/deepseek-v4-flash-0731: input $0.08 → $0.14, output $0.18 → $0.28 (per Mtok)</li><li>openrouter/google/gemini-3.6-flash: input $1.5 → $0.75, output $7.5 → $3.75 (per Mtok)</li><li>openrouter/google/gemini-3.6-flash:batch: input $0.75 → $0.375, output $3.75 → $1.875 (per Mtok)</li><li>openrouter/meta-llama/llama-4-maverick: input $0.2 → $0.2, output $0.696 → $0.8 (per Mtok)</li><li>openrouter/qwen/qwen3-next-80b-a3b-instruct: input $0.09 → $0.1, output $1.1 → $1.1 (per Mtok)</li><li>openrouter/qwen/qwen3-vl-30b-a3b-instruct: input $0.15 → $0.13, output $0.6 → $0.52 (per Mtok)</li><li>openrouter/z-ai/glm-5.2: input $0.5 → $0.63, output $3.15 → $1.98 (per Mtok)</li><li>openrouter/~google/gemini-flash-latest: input $1.5 → $0.375, output $7.5 → $1.875 (per Mtok)</li></ul>]]></description>
+  </item>
   <item>
     <title>Price changes – 2026-08-13 (1 model)</title>
     <link>https://xlrl.github.io/model-prices/</link>
