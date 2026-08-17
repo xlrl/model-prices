@@ -4,7 +4,14 @@
   <link href="https://xlrl.github.io/model-prices/"/>
   <link href="https://xlrl.github.io/model-prices/atom.xml" rel="self"/>
   <id>https://xlrl.github.io/model-prices/</id>
-  <updated>2026-08-16T10:00:05Z</updated>
+  <updated>2026-08-17T10:00:05Z</updated>
+  <entry>
+    <title>Price changes – 2026-08-17 (13 models)</title>
+    <link href="https://xlrl.github.io/model-prices/"/>
+    <id>tag:model-prices,2026-08-17:2026-08-17T10:00:05</id>
+    <updated>2026-08-17T10:00:05Z</updated>
+    <content type="html">&lt;ul&gt;&lt;li&gt;openrouter/deepseek/deepseek-v4-flash: input $0.06146 → $0.0826, output $0.12292 → $0.1652 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/deepseek/deepseek-v4-pro: input $1.168 → $1.32, output $2.336 → $3.96 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/deepseek/deepseek-v4-pro-0813: input $0.435 → $1.32, output $0.87 → $3.96 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/google/gemma-4-26b-a4b-it: input $0.12 → $0.07, output $0.4 → $0.34 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/moonshotai/kimi-k2.6: input $0.5415 → $0.95, output $2.28 → $4 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/nvidia/nemotron-3.5-lightning: input $0.1 → $0.08, output $0.25 → $0.2 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/qwen/qwen2.5-vl-72b-instruct: input $0.25 → $0.8, output $0.75 → $1 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/qwen/qwen3-vl-235b-a22b-instruct: input $0.26 → $0.21, output $1.04 → $1.9 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/qwen/qwen3.6-27b: input $0.3 → $0.289, output $2 → $2.4 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/qwen/qwen3.6-35b-a3b: input $0.15 → $0.14, output $1 → $1 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/z-ai/glm-5.2: input $0.308 → $1.19, output $0.968 → $3.74 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/~deepseek/deepseek-v4-flash-latest: input $0.0644 → $0.078596, output $0.1288 → $0.157192 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/~moonshotai/kimi-latest: input $2.8 → $2.6, output $14 → $13 (per Mtok)&lt;/li&gt;&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>Price changes – 2026-08-16 (7 models)</title>
     <link href="https://xlrl.github.io/model-prices/"/>
