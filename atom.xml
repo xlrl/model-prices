@@ -4,7 +4,14 @@
   <link href="https://xlrl.github.io/model-prices/"/>
   <link href="https://xlrl.github.io/model-prices/atom.xml" rel="self"/>
   <id>https://xlrl.github.io/model-prices/</id>
-  <updated>2026-08-17T10:00:05Z</updated>
+  <updated>2026-08-18T10:00:08Z</updated>
+  <entry>
+    <title>Price changes – 2026-08-18 (11 models)</title>
+    <link href="https://xlrl.github.io/model-prices/"/>
+    <id>tag:model-prices,2026-08-18:2026-08-18T10:00:08</id>
+    <updated>2026-08-18T10:00:08Z</updated>
+    <content type="html">&lt;ul&gt;&lt;li&gt;openrouter/deepseek/deepseek-v3.1-terminus: input $0.27 → $0.27, output $0.95 → $1 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/openai/gpt-5.6-luna: input $0.1 → $0.2, output $0.6 → $1.2 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/openai/gpt-5.6-luna-pro: input $0.1 → $0.2, output $0.6 → $1.2 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/openai/gpt-5.6-sol: input $5 → $2.5, output $30 → $15 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/openai/gpt-5.6-sol-pro: input $5 → $2.5, output $30 → $15 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/openai/gpt-5.6-sol-pro:batch: input $2.5 → $1.25, output $15 → $7.5 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/openai/gpt-5.6-sol:batch: input $2.5 → $1.25, output $15 → $7.5 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/openai/gpt-5.6-terra: input $1 → $2, output $6 → $12 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/openai/gpt-5.6-terra-pro: input $1 → $2, output $6 → $12 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/z-ai/glm-4.6: input $0.55 → $0.5, output $2.2 → $2 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/~openai/gpt-latest: input $5 → $2.5, output $30 → $15 (per Mtok)&lt;/li&gt;&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>Price changes – 2026-08-17 (13 models)</title>
     <link href="https://xlrl.github.io/model-prices/"/>
