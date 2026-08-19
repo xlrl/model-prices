@@ -4,7 +4,14 @@
   <title>Model price history</title>
   <link>https://xlrl.github.io/model-prices/</link>
   <description>Price changes tracked for LLM API models.</description>
-  <lastBuildDate>Tue, 18 Aug 2026 10:00:08 +0000</lastBuildDate>
+  <lastBuildDate>Wed, 19 Aug 2026 10:00:08 +0000</lastBuildDate>
+  <item>
+    <title>Price changes – 2026-08-19 (13 models)</title>
+    <link>https://xlrl.github.io/model-prices/</link>
+    <guid isPermaLink="false">model-prices-2026-08-19T10:00:08</guid>
+    <pubDate>Wed, 19 Aug 2026 10:00:08 +0000</pubDate>
+    <description><![CDATA[<ul><li>openrouter/deepseek/deepseek-v4-pro: input $1.32 → $1.44, output $3.96 → $2.88 (per Mtok)</li><li>openrouter/google/gemma-4-31b-it: input $0.1 → $0.09, output $0.34 → $0.34 (per Mtok)</li><li>openrouter/minimax/minimax-m3:batch: input $0.15 → $0.3, output $0.6 → $1.2 (per Mtok)</li><li>openrouter/moonshotai/kimi-k2.5: input $0.57 → $0.45, output $2.85 → $2.25 (per Mtok)</li><li>openrouter/moonshotai/kimi-k2.7-code:batch: input $0.475 → $0.95, output $2 → $4 (per Mtok)</li><li>openrouter/nvidia/nemotron-3-ultra-550b-a55b:batch: input $0.3 → $0.6, output $1.8 → $3.6 (per Mtok)</li><li>openrouter/qwen/qwen3-next-80b-a3b-instruct: input $0.1 → $0.09, output $1.1 → $1.1 (per Mtok)</li><li>openrouter/qwen/qwen3.5-122b-a10b: input $0.29 → $0.26, output $2.4 → $2.08 (per Mtok)</li><li>openrouter/qwen/qwen3.6-27b: input $0.289 → $0.3, output $2.4 → $2 (per Mtok)</li><li>openrouter/thinkingmachines/inkling:batch: input $0.5 → $1, output $2.025 → $4.05 (per Mtok)</li><li>openrouter/z-ai/glm-5.2: input $1.19 → $0.966, output $3.74 → $3.036 (per Mtok)</li><li>openrouter/z-ai/glm-5.2:batch: input $0.7 → $1.4, output $2.2 → $4.4 (per Mtok)</li><li>openrouter/~deepseek/deepseek-v4-flash-latest: input $0.078596 → $0.0765, output $0.157192 → $0.153 (per Mtok)</li></ul>]]></description>
+  </item>
   <item>
     <title>Price changes – 2026-08-18 (11 models)</title>
     <link>https://xlrl.github.io/model-prices/</link>
