@@ -4,7 +4,14 @@
   <title>Model price history</title>
   <link>https://xlrl.github.io/model-prices/</link>
   <description>Price changes tracked for LLM API models.</description>
-  <lastBuildDate>Wed, 19 Aug 2026 10:00:08 +0000</lastBuildDate>
+  <lastBuildDate>Thu, 20 Aug 2026 10:00:05 +0000</lastBuildDate>
+  <item>
+    <title>Price changes – 2026-08-20 (8 models)</title>
+    <link>https://xlrl.github.io/model-prices/</link>
+    <guid isPermaLink="false">model-prices-2026-08-20T10:00:05</guid>
+    <pubDate>Thu, 20 Aug 2026 10:00:05 +0000</pubDate>
+    <description><![CDATA[<ul><li>openrouter/deepseek/deepseek-chat-v3-0324: input $0.27 → $0.25, output $1.12 → $1 (per Mtok)</li><li>openrouter/deepseek/deepseek-v4-flash: input $0.0826 → $0.088606, output $0.1652 → $0.177212 (per Mtok)</li><li>openrouter/deepseek/deepseek-v4-pro: input $1.44 → $1.6, output $2.88 → $3.2 (per Mtok)</li><li>openrouter/deepseek/deepseek-v4-pro-0813: input $1.32 → $1.188, output $3.96 → $3.564 (per Mtok)</li><li>openrouter/minimax/minimax-m2.5: input $0.22 → $0.225, output $0.9 → $0.9 (per Mtok)</li><li>openrouter/qwen/qwen3.5-35b-a3b: input $0.225 → $0.25, output $1.8 → $1.25 (per Mtok)</li><li>openrouter/qwen/qwen3.6-27b: input $0.3 → $0.6, output $2 → $3.6 (per Mtok)</li><li>openrouter/~deepseek/deepseek-v4-flash-latest: input $0.0765 → $0.065, output $0.153 → $0.14 (per Mtok)</li></ul>]]></description>
+  </item>
   <item>
     <title>Price changes – 2026-08-19 (13 models)</title>
     <link>https://xlrl.github.io/model-prices/</link>
