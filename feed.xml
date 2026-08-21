@@ -4,7 +4,14 @@
   <title>Model price history</title>
   <link>https://xlrl.github.io/model-prices/</link>
   <description>Price changes tracked for LLM API models.</description>
-  <lastBuildDate>Thu, 20 Aug 2026 10:00:05 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 21 Aug 2026 10:00:08 +0000</lastBuildDate>
+  <item>
+    <title>Price changes – 2026-08-21 (6 models)</title>
+    <link>https://xlrl.github.io/model-prices/</link>
+    <guid isPermaLink="false">model-prices-2026-08-21T10:00:08</guid>
+    <pubDate>Fri, 21 Aug 2026 10:00:08 +0000</pubDate>
+    <description><![CDATA[<ul><li>openrouter/deepseek/deepseek-v4-flash: input $0.088606 → $0.0826, output $0.177212 → $0.1652 (per Mtok)</li><li>openrouter/google/gemma-4-31b-it: input $0.09 → $0.1, output $0.34 → $0.34 (per Mtok)</li><li>openrouter/meta/muse-glimmer-30b: input $0.35 → $0.3, output $1.5 → $1.1 (per Mtok)</li><li>openrouter/minimax/minimax-m2.5: input $0.225 → $0.27, output $0.9 → $0.95 (per Mtok)</li><li>openrouter/moonshotai/kimi-k2.7-code: input $0.71 → $0.67, output $3.5 → $3.4 (per Mtok)</li><li>openrouter/~deepseek/deepseek-v4-flash-latest: input $0.065 → $0.065, output $0.14 → $0.18 (per Mtok)</li></ul>]]></description>
+  </item>
   <item>
     <title>Price changes – 2026-08-20 (8 models)</title>
     <link>https://xlrl.github.io/model-prices/</link>
