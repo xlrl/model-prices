@@ -4,7 +4,14 @@
   <link href="https://xlrl.github.io/model-prices/"/>
   <link href="https://xlrl.github.io/model-prices/atom.xml" rel="self"/>
   <id>https://xlrl.github.io/model-prices/</id>
-  <updated>2026-08-24T10:00:08Z</updated>
+  <updated>2026-08-25T10:00:05Z</updated>
+  <entry>
+    <title>Price changes – 2026-08-25 (12 models)</title>
+    <link href="https://xlrl.github.io/model-prices/"/>
+    <id>tag:model-prices,2026-08-25:2026-08-25T10:00:05</id>
+    <updated>2026-08-25T10:00:05Z</updated>
+    <content type="html">&lt;ul&gt;&lt;li&gt;openrouter/deepseek/deepseek-v4-flash: input $0.0574 → $0.0854, output $0.1148 → $0.1708 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/deepseek/deepseek-v4-flash-vision-exp: input $0.22 → $0.44, output $0.66 → $1.32 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/deepseek/deepseek-v4-pro: input $0.526176 → $0.579072, output $1.05235 → $1.15814 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/minimax/minimax-m2.7: input $0.24 → $0.3, output $0.96 → $1.2 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/mistralai/devstral-2512: input $0.4 → $0.44, output $2 → $2.2 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/moonshotai/kimi-k2.5: input $0.45 → $0.6, output $2.25 → $3 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/qwen/qwen3.8-27b: input $0.4 → $0.425, output $3 → $2.55 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/thinkingmachines/inkling: input $1 → $0.95, output $4.05 → $4.05 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/z-ai/glm-5.1: input $0.966 → $1.26, output $3.036 → $3.96 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/z-ai/glm-5.2: input $0.966 → $1.19, output $3.036 → $3.74 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/~deepseek/deepseek-v4-flash-latest: input $0.04 → $0.035, output $0.08 → $0.1 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/~moonshotai/kimi-latest: input $2.6 → $2.8, output $13 → $14 (per Mtok)&lt;/li&gt;&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>Price changes – 2026-08-24 (7 models)</title>
     <link href="https://xlrl.github.io/model-prices/"/>
