@@ -4,7 +4,14 @@
   <link href="https://xlrl.github.io/model-prices/"/>
   <link href="https://xlrl.github.io/model-prices/atom.xml" rel="self"/>
   <id>https://xlrl.github.io/model-prices/</id>
-  <updated>2026-08-25T10:00:05Z</updated>
+  <updated>2026-08-26T10:00:06Z</updated>
+  <entry>
+    <title>Price changes – 2026-08-26 (11 models)</title>
+    <link href="https://xlrl.github.io/model-prices/"/>
+    <id>tag:model-prices,2026-08-26:2026-08-26T10:00:06</id>
+    <updated>2026-08-26T10:00:06Z</updated>
+    <content type="html">&lt;ul&gt;&lt;li&gt;openrouter/deepseek/deepseek-v4-flash: input $0.0854 → $0.0826, output $0.1708 → $0.1652 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/deepseek/deepseek-v4-flash-0731: input $0.14 → $0.06, output $0.28 → $0.12 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/deepseek/deepseek-v4-pro: input $0.579072 → $0.87, output $1.15814 → $1.74 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/google/gemma-4-31b-it: input $0.1 → $0.09, output $0.34 → $0.34 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/meta-llama/llama-3.3-70b-instruct: input $0.1 → $0.71, output $0.32 → $0.71 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/meta-llama/llama-4-scout: input $0.1 → $0.11, output $0.3 → $0.34 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/qwen/qwen2.5-vl-72b-instruct: input $0.8 → $0.25, output $1 → $0.75 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/qwen/qwen3.5-397b-a17b: input $0.5 → $0.39, output $3.6 → $2.34 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/qwen/qwen3.6-27b: input $0.32 → $0.6, output $3.2 → $3.6 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/~deepseek/deepseek-v4-flash-latest: input $0.035 → $0.03, output $0.1 → $0.075 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/~moonshotai/kimi-latest: input $2.8 → $2.55, output $14 → $12.75 (per Mtok)&lt;/li&gt;&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>Price changes – 2026-08-25 (12 models)</title>
     <link href="https://xlrl.github.io/model-prices/"/>
