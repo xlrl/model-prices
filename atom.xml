@@ -4,7 +4,14 @@
   <link href="https://xlrl.github.io/model-prices/"/>
   <link href="https://xlrl.github.io/model-prices/atom.xml" rel="self"/>
   <id>https://xlrl.github.io/model-prices/</id>
-  <updated>2026-08-27T10:00:07Z</updated>
+  <updated>2026-08-28T10:00:05Z</updated>
+  <entry>
+    <title>Price changes – 2026-08-28 (7 models)</title>
+    <link href="https://xlrl.github.io/model-prices/"/>
+    <id>tag:model-prices,2026-08-28:2026-08-28T10:00:05</id>
+    <updated>2026-08-28T10:00:05Z</updated>
+    <content type="html">&lt;ul&gt;&lt;li&gt;openrouter/deepseek/deepseek-v3.2: input $0.26 → $0.269, output $0.38 → $0.4 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/deepseek/deepseek-v4-flash: input $0.07952 → $0.088606, output $0.15904 → $0.177212 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/deepseek/deepseek-v4-flash-0731: input $0.06 → $0.07, output $0.12 → $0.14 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/deepseek/deepseek-v4-pro-0813: input $1.122 → $1.32, output $3.366 → $3.96 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/nvidia/nemotron-3-ultra-550b-a55b: input $0.6 → $0.5, output $3.6 → $2.2 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/nvidia/nemotron-3.5-lightning: input $0.08 → $0.1, output $0.2 → $0.25 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/qwen/qwen3.6-27b: input $0.32 → $0.6, output $3.2 → $3.6 (per Mtok)&lt;/li&gt;&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>Price changes – 2026-08-27 (7 models)</title>
     <link href="https://xlrl.github.io/model-prices/"/>
