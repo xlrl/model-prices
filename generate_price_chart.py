@@ -69,20 +69,60 @@ def build_series(df: pd.DataFrame) -> dict[str, list[list[float | str]]]:
 
 
 def find_price_changes(df: pd.DataFrame) -> dict[str, list[str]]:
-    """Map each snapshot timestamp to a list of human-readable price change lines."""
+    """Map each snapshot timestamp to human-readable lines for models added,
+    removed, or re-priced versus the previous snapshot of the same provider.
+
+    The CSV is sparse per provider: load_model_prices.py records a provider's
+    full model list only at snapshots where that provider's list changed, and
+    skips identical intervening snapshots. So presence/absence must be
+    compared within each provider's own change-point sequence, not across
+    globally-adjacent timestamps (a label absent from a CSV row may simply
+    belong to a provider that was not re-recorded, not have been removed)."""
+    df = df.copy()
+    df["label"] = df["provider"] + "/" + df["model_id"]
     changes: dict[str, list[str]] = {}
-    for label, sub in df.sort_values("timestamp").groupby("label"):
-        sub = sub.drop_duplicates(subset="timestamp")
-        prev_input = prev_output = None
+
+    for _provider, sub in df.sort_values("timestamp").groupby("provider"):
+        # One row per (label, timestamp); keep the last price if duplicated.
+        sub = sub.drop_duplicates(subset=["label", "timestamp"], keep="last")
+        models_at: dict[str, dict[str, tuple[float, float]]] = {}
         for _, row in sub.iterrows():
-            if prev_input is not None and (row["input_cost"] != prev_input or row["output_cost"] != prev_output):
-                line = (
-                    f"{label}: input ${prev_input:g} → ${row['input_cost']:g}, "
-                    f"output ${prev_output:g} → ${row['output_cost']:g} (per Mtok)"
-                )
-                changes.setdefault(row["timestamp"], []).append(line)
-            prev_input, prev_output = row["input_cost"], row["output_cost"]
-    return changes
+            models_at.setdefault(row["timestamp"], {})[row["label"]] = (
+                float(row["input_cost"]),
+                float(row["output_cost"]),
+            )
+
+        prev_models: dict[str, tuple[float, float]] = {}
+        prev_ts: str | None = None
+        for ts in sorted(models_at):
+            curr_models = models_at[ts]
+            if prev_ts is not None:
+                # New this snapshot.
+                for label in sorted(set(curr_models) - set(prev_models)):
+                    i, o = curr_models[label]
+                    changes.setdefault(ts, []).append(
+                        f"+ {label}: added — input ${i:g}, output ${o:g} (per Mtok)"
+                    )
+                # Gone since the last snapshot of this provider.
+                for label in sorted(set(prev_models) - set(curr_models)):
+                    i, o = prev_models[label]
+                    changes.setdefault(ts, []).append(
+                        f"- {label}: removed — was input ${i:g}, output ${o:g} (per Mtok)"
+                    )
+                # Present in both, with a changed price.
+                for label in sorted(set(curr_models) & set(prev_models)):
+                    pi, po = prev_models[label]
+                    ci, co = curr_models[label]
+                    if ci != pi or co != po:
+                        changes.setdefault(ts, []).append(
+                            f"{label}: input ${pi:g} → ${ci:g}, "
+                            f"output ${po:g} → ${co:g} (per Mtok)"
+                        )
+            prev_ts = ts
+            prev_models = curr_models
+
+    # Stable, alphabetical ordering within each entry for reproducible diffs.
+    return {ts: sorted(lines) for ts, lines in changes.items()}
 
 
 def render_rss(df: pd.DataFrame) -> str:
@@ -94,7 +134,7 @@ def render_rss(df: pd.DataFrame) -> str:
     for ts in sorted(changes, reverse=True):
         lines = changes[ts]
         pub_date = datetime.fromisoformat(ts).replace(tzinfo=UTC).strftime("%a, %d %b %Y %H:%M:%S %z")
-        title = f"Price changes – {ts[:10]} ({len(lines)} model{'s' if len(lines) != 1 else ''})"
+        title = f"Model changes – {ts[:10]} ({len(lines)} model{'s' if len(lines) != 1 else ''})"
         list_items = "".join(f"<li>{escape(line)}</li>" for line in lines)
         items.append(f"""  <item>
     <title>{escape(title)}</title>
@@ -133,7 +173,7 @@ def render_atom(df: pd.DataFrame) -> str:
     for ts in sorted(changes, reverse=True):
         lines = changes[ts]
         updated = datetime.fromisoformat(ts).replace(tzinfo=UTC).strftime("%Y-%m-%dT%H:%M:%SZ")
-        title = f"Price changes – {ts[:10]} ({len(lines)} model{'s' if len(lines) != 1 else ''})"
+        title = f"Model changes – {ts[:10]} ({len(lines)} model{'s' if len(lines) != 1 else ''})"
         list_items = "".join(f"<li>{escape(line)}</li>" for line in lines)
         entries.append(f"""  <entry>
     <title>{escape(title)}</title>
