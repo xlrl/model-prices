@@ -4,7 +4,14 @@
   <link href="https://xlrl.github.io/model-prices/"/>
   <link href="https://xlrl.github.io/model-prices/atom.xml" rel="self"/>
   <id>https://xlrl.github.io/model-prices/</id>
-  <updated>2026-08-30T10:00:05Z</updated>
+  <updated>2026-08-31T10:00:06Z</updated>
+  <entry>
+    <title>Model changes – 2026-08-31 (7 models)</title>
+    <link href="https://xlrl.github.io/model-prices/"/>
+    <id>tag:model-prices,2026-08-31:2026-08-31T10:00:06</id>
+    <updated>2026-08-31T10:00:06Z</updated>
+    <content type="html">&lt;ul&gt;&lt;li&gt;openrouter/deepseek/deepseek-v4-flash-vision-exp: input $0.22 → $0.44, output $0.66 → $1.32 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/deepseek/deepseek-v4-flash: input $0.08036 → $0.088606, output $0.16072 → $0.177212 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/deepseek/deepseek-v4-pro-0813: input $0.66 → $1.32, output $1.98 → $3.96 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/deepseek/deepseek-v4-pro: input $0.447528 → $1.6, output $0.895056 → $3.2 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/meta-llama/llama-4-maverick: input $0.2 → $0.2, output $0.8 → $0.696 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/mistralai/devstral-2512: input $0.44 → $0.4, output $2.2 → $2 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/moonshotai/kimi-k2.5: input $0.6 → $0.45, output $3 → $2.25 (per Mtok)&lt;/li&gt;&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>Model changes – 2026-08-30 (9 models)</title>
     <link href="https://xlrl.github.io/model-prices/"/>
