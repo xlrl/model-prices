@@ -4,7 +4,14 @@
   <link href="https://xlrl.github.io/model-prices/"/>
   <link href="https://xlrl.github.io/model-prices/atom.xml" rel="self"/>
   <id>https://xlrl.github.io/model-prices/</id>
-  <updated>2026-09-01T10:00:06Z</updated>
+  <updated>2026-09-02T10:00:06Z</updated>
+  <entry>
+    <title>Model changes – 2026-09-02 (13 models)</title>
+    <link href="https://xlrl.github.io/model-prices/"/>
+    <id>tag:model-prices,2026-09-02:2026-09-02T10:00:06</id>
+    <updated>2026-09-02T10:00:06Z</updated>
+    <content type="html">&lt;ul&gt;&lt;li&gt;+ openrouter/anthropic/claude-fable-5.1: added — input $10, output $50 (per Mtok)&lt;/li&gt;&lt;li&gt;+ openrouter/anthropic/claude-fable-5.1:batch: added — input $5, output $25 (per Mtok)&lt;/li&gt;&lt;li&gt;+ openrouter/inception/mercury-2.5-preview: added — input $0.04, output $0.15 (per Mtok)&lt;/li&gt;&lt;li&gt;+ openrouter/~z-ai/glm-flash-latest: added — input $0.075, output $0.25 (per Mtok)&lt;/li&gt;&lt;li&gt;- openrouter/anthropic/claude-opus-4.7-fast: removed — was input $30, output $150 (per Mtok)&lt;/li&gt;&lt;li&gt;- openrouter/anthropic/claude-opus-4.8-fast: removed — was input $10, output $50 (per Mtok)&lt;/li&gt;&lt;li&gt;- openrouter/anthropic/claude-opus-5-fast: removed — was input $10, output $50 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/deepseek/deepseek-chat-v3.1: input $0.55 → $0.25, output $1.65 → $0.95 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/deepseek/deepseek-v4-flash: input $0.08092 → $0.088606, output $0.16184 → $0.177212 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/deepseek/deepseek-v4-pro: input $1.6 → $1.04226, output $3.2 → $2.08452 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/nvidia/nemotron-3-ultra-550b-a55b: input $0.5 → $0.625, output $2.2 → $3.125 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/qwen/qwen3.8-2.4t-a95b:batch: input $2.5 → $2, output $6.25 → $6 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/z-ai/glm-5.2: input $1.19 → $0.966, output $3.74 → $3.036 (per Mtok)&lt;/li&gt;&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>Model changes – 2026-09-01 (44 models)</title>
     <link href="https://xlrl.github.io/model-prices/"/>
