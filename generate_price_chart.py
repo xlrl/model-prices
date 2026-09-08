@@ -58,7 +58,16 @@ def default_labels_by_price_change(df: pd.DataFrame, max_default: int) -> list[s
         .query("n_prices > 1")
         .sort_values("n_snapshots", ascending=False)
     )
-    return list(changed.head(max_default).index)
+    defaults = list(changed.head(max_default).index)
+    if defaults:
+        return defaults
+    # Fallback: not enough history to pick by change; show the cheapest models
+    # by output cost so a fresh provider (e.g. only one snapshot) isn't blank.
+    latest_ts = df["timestamp"].max() if not df.empty else None
+    if latest_ts is None:
+        return []
+    latest = df[df["timestamp"] == latest_ts].sort_values("output_cost")
+    return list(latest.head(max_default)["label"])
 
 
 def build_series(df: pd.DataFrame) -> dict[str, list[list[float | str]]]:
@@ -66,6 +75,44 @@ def build_series(df: pd.DataFrame) -> dict[str, list[list[float | str]]]:
     for label, sub in df.sort_values("timestamp").groupby("label"):
         series[label] = sub[["timestamp", "input_cost", "output_cost"]].values.tolist()
     return series
+
+
+def latest_prices(df: pd.DataFrame, provider: str) -> dict[str, tuple[float, float]]:
+    """Return {model_id: (input_cost, output_cost)} for the provider's newest snapshot."""
+    sub = df[df["provider"] == provider]
+    if sub.empty:
+        return {}
+    latest_ts = sub["timestamp"].max()
+    latest = sub[sub["timestamp"] == latest_ts]
+    return {
+        row["model_id"]: (float(row["input_cost"]), float(row["output_cost"]))
+        for _, row in latest.iterrows()
+    }
+
+
+def build_compare_rows(df: pd.DataFrame) -> list[dict[str, object]]:
+    """Compare latest Requesty vs OpenRouter prices for models present on both."""
+    or_prices = latest_prices(df, "openrouter")
+    rq_prices = latest_prices(df, "requesty")
+    shared = sorted(set(or_prices) & set(rq_prices), key=str.lower)
+    rows = []
+    for model_id in shared:
+        or_in, or_out = or_prices[model_id]
+        rq_in, rq_out = rq_prices[model_id]
+        delta_in = (rq_in - or_in) / or_in * 100 if or_in else 0.0
+        delta_out = (rq_out - or_out) / or_out * 100 if or_out else 0.0
+        rows.append({
+            "model": model_id,
+            "or_in": or_in,
+            "or_out": or_out,
+            "rq_in": rq_in,
+            "rq_out": rq_out,
+            "delta_in": delta_in,
+            "delta_out": delta_out,
+        })
+    # Sort by OpenRouter input cost descending (most expensive first).
+    rows.sort(key=lambda r: r["or_in"], reverse=True)
+    return rows
 
 
 def find_price_changes(df: pd.DataFrame) -> dict[str, list[str]]:
@@ -166,19 +213,33 @@ def render_html(df: pd.DataFrame, max_default: int, defaults_file: Path) -> str:
     df = df.copy()
     df["label"] = df["provider"] + "/" + df["model_id"]
 
-    series = build_series(df)
-    all_labels = sorted(series.keys())
-    defaults = read_default_models_file(defaults_file, set(all_labels))
-    if not defaults:
-        defaults = default_labels_by_price_change(df, max_default)
-    plotlyjs = plotly.offline.get_plotlyjs()
+    main_providers = ("openrouter", "eurouter")
+    main_df = df[df["provider"].isin(main_providers)]
+    rq_df = df[df["provider"] == "requesty"]
 
+    main_series = build_series(main_df)
+    rq_series = build_series(rq_df)
+    main_labels = sorted(main_series.keys())
+    rq_labels = sorted(rq_series.keys())
+
+    main_defaults = read_default_models_file(defaults_file, set(main_labels))
+    if not main_defaults:
+        main_defaults = default_labels_by_price_change(main_df, max_default)
+    rq_defaults = default_labels_by_price_change(rq_df, max_default)
+
+    compare_rows = build_compare_rows(df)
+
+    plotlyjs = plotly.offline.get_plotlyjs()
     template = (HERE / "price_chart_template.html").read_text()
     return (
         template.replace("__PLOTLYJS__", plotlyjs)
-        .replace("__DATA__", json.dumps(series, separators=(",", ":")))
-        .replace("__ALL_LABELS__", json.dumps(all_labels))
-        .replace("__DEFAULT_LABELS__", json.dumps(defaults))
+        .replace("__MAIN_DATA__", json.dumps(main_series, separators=(",", ":")))
+        .replace("__MAIN_ALL_LABELS__", json.dumps(main_labels))
+        .replace("__MAIN_DEFAULT_LABELS__", json.dumps(main_defaults))
+        .replace("__RQ_DATA__", json.dumps(rq_series, separators=(",", ":")))
+        .replace("__RQ_ALL_LABELS__", json.dumps(rq_labels))
+        .replace("__RQ_DEFAULT_LABELS__", json.dumps(rq_defaults))
+        .replace("__COMPARE_ROWS__", json.dumps(compare_rows, separators=(",", ":")))
         .replace("__PALETTE__", json.dumps(PALETTE))
     )
 
