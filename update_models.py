@@ -35,6 +35,24 @@ def fetch_openrouter_models() -> list[dict[str, Any]]:
         return []
 
 
+def fetch_requesty_models() -> list[dict[str, Any]]:
+    """Fetch available models from Requesty's public models endpoint."""
+    url = "https://router.requesty.ai/v1/models"
+    headers = {"User-Agent": "model-prices-update-bot/1.0"}
+
+    req = urllib.request.Request(url, headers=headers)
+    try:
+        with urllib.request.urlopen(req) as response:
+            data = json.load(response)
+            return data.get("data", [])
+    except urllib.error.URLError as e:
+        print(f"Error fetching Requesty models: {e}")
+        return []
+    except json.JSONDecodeError as e:
+        print(f"Error decoding Requesty response: {e}")
+        return []
+
+
 def is_reasoning_model(model_data: dict[str, Any]) -> bool:
     """Determine if a model supports reasoning."""
     supported_params = model_data.get("supported_parameters", [])
@@ -141,6 +159,51 @@ def convert_cost(pricing: dict[str, Any]) -> dict[str, float]:
         "cacheRead": 0.0,
         "cacheWrite": 0.0
     }
+
+
+def convert_requesty_model(model_data: dict[str, Any]) -> dict[str, Any]:
+    """Convert Requesty API model to pi model configuration."""
+    model_id = model_data["id"]
+    # Requesty exposes no human-readable name; prefer the canonical name.
+    name = model_data.get("model_canonical_name") or model_id
+
+    reasoning = bool(model_data.get("supports_reasoning"))
+    input_types = ["text"]
+    if model_data.get("supports_vision"):
+        input_types.append("image")
+    context_window = int(model_data.get("context_window") or 128000)
+    max_tokens = int(model_data.get("max_output_tokens") or 32768)
+
+    # Requesty prices are per-token; convert to per million.
+    def to_per_million(value) -> float:
+        if value is None:
+            return 0.0
+        try:
+            return float(value) * 1_000_000
+        except (ValueError, TypeError):
+            return 0.0
+
+    cost = {
+        "input": to_per_million(model_data.get("input_price")),
+        "output": to_per_million(model_data.get("output_price")),
+        "cacheRead": to_per_million(model_data.get("cached_price")),
+        "cacheWrite": 0.0,
+    }
+
+    model_config = {
+        "id": model_id,
+        "name": f"RQ: {name}",
+        "reasoning": reasoning,
+        "input": input_types,
+        "contextWindow": context_window,
+        "maxTokens": max_tokens,
+        "cost": cost,
+    }
+
+    if reasoning:
+        model_config["compat"] = {"supportsReasoningEffort": False}
+
+    return model_config
 
 
 def convert_openrouter_model(model_data: dict[str, Any]) -> dict[str, Any]:
@@ -367,6 +430,18 @@ def main() -> None:
         }
     }
 
+    # Requesty configuration
+    requesty_default = {
+        "baseUrl": "https://router.requesty.ai/v1",
+        "apiKey": "requesty",
+        "api": "openai-completions",
+        "compat": {
+            "supportsDeveloperRole": False,
+            "supportsReasoningEffort": False,
+            "maxTokensField": "max_tokens"
+        }
+    }
+
     # Update OpenRouter
     updated = update_provider(
         models_data,
@@ -376,12 +451,21 @@ def main() -> None:
         openrouter_default
     )
 
+    # Update Requesty
+    updated |= update_provider(
+        models_data,
+        "requesty",
+        fetch_requesty_models,
+        convert_requesty_model,
+        requesty_default
+    )
+
     if not updated:
         print("\nNo updates were made (fetch failed).")
         return
 
     changes = dict_diff(old_models_data.get("providers", {}), models_data.get("providers", {}))
-    summarize_changes(old_models_data, models_data, ["openrouter"])
+    summarize_changes(old_models_data, models_data, ["openrouter", "requesty"])
 
     if not changes:
         print("\nNo semantic change vs. the newest snapshot; not writing a new file.")
@@ -405,7 +489,9 @@ def main() -> None:
 
     # Stats
     openrouter_count = len(models_data.get("providers", {}).get("openrouter", {}).get("models", []))
+    requesty_count = len(models_data.get("providers", {}).get("requesty", {}).get("models", []))
     print(f"OpenRouter models: {openrouter_count}")
+    print(f"Requesty models: {requesty_count}")
 
 
 if __name__ == "__main__":
