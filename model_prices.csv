@@ -1,143 +1,4 @@
 timestamp,provider,model_id,model_name,input_cost,output_cost,cache_read_cost,cache_write_cost
-2026-04-29T09:25:47.485693Z,openrouter,anthropic/claude-sonnet-4,OR: Claude Sonnet 4,3.0,15.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,anthropic/claude-3.7-sonnet,OR: Claude 3.7 Sonnet,3.0,15.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,anthropic/claude-3.5-haiku,OR: Claude 3.5 Haiku,0.8,4.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,anthropic/claude-opus-4,OR: Claude Opus 4,15.0,75.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,google/gemini-2.5-pro,OR: Gemini 2.5 Pro,1.25,10.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,google/gemini-2.5-flash,OR: Gemini 2.5 Flash,0.3,2.5,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,google/gemini-2.0-flash-001,OR: Gemini 2.0 Flash,0.09999999999999999,0.39999999999999997,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,openai/gpt-4.1,OR: GPT-4.1,2.0,8.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,openai/gpt-4.1-mini,OR: GPT-4.1 Mini,0.39999999999999997,1.5999999999999999,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,openai/gpt-4o,OR: GPT-4o,2.5,10.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,openai/gpt-4o-mini,OR: GPT-4o Mini,0.15,0.6,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,openai/o3,OR: o3,2.0,8.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,openai/o4-mini,OR: o4 Mini,1.1,4.4,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,deepseek/deepseek-chat,OR: DeepSeek V3,0.32,0.8899999999999999,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,deepseek/deepseek-r1,OR: DeepSeek R1,0.7,2.5,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,deepseek/deepseek-r1-0528,OR: DeepSeek R1 0528,0.5,2.1500000000000004,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,meta-llama/llama-4-maverick,OR: Llama 4 Maverick,0.15,0.6,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,meta-llama/llama-4-scout,OR: Llama 4 Scout,0.08,0.3,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,meta-llama/llama-3.3-70b-instruct,OR: Llama 3.3 70B,0.09999999999999999,0.32,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,mistralai/mistral-large-2512,OR: Mistral Large 3,0.5,1.5,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,mistralai/devstral-small,OR: Devstral Small,0.09999999999999999,0.3,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,mistralai/codestral-2508,OR: Codestral 2508,0.3,0.8999999999999999,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,x-ai/grok-4,OR: Grok 4,3.0,15.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,x-ai/grok-3,OR: Grok 3,3.0,15.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,x-ai/grok-3-mini,OR: Grok 3 Mini,0.3,0.5,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,qwen/qwen3-235b-a22b,OR: Qwen3 235B,0.45499999999999996,1.8199999999999998,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,qwen/qwen3-32b,OR: Qwen3 32B,0.08,0.24,0.0,0.0
-2026-04-29T09:25:47.485693Z,openrouter,qwen/qwen3-coder,OR: Qwen3 Coder 480B,0.22,1.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,deepseek-v3,EURouter: DeepSeek V3,0.3,1.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,llama-4-maverick,EURouter: Llama 4 Maverick,0.14,0.6799999999999999,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,llama-guard-3-8b,EURouter: Llama Guard 3 8B,0.02,0.06,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,pixtral-12b,EURouter: Pixtral 12B,0.15,0.15,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,bge-m3,EURouter: BGE-M3,0.01,0.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,ministral-3-14b,EURouter: Ministral 3 14B,0.19999999999999998,0.19999999999999998,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,o3,EURouter: o3,2.2,8.8,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,gpt-4.1-mini,EURouter: GPT-4.1 Mini,0.39999999999999997,1.5999999999999999,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,pixtral-large,EURouter: Pixtral Large,2.0,6.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,gpt-5-mini,EURouter: GPT-5 Mini,0.25,2.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,deepseek-r1-distill-llama-70b,EURouter: DeepSeek R1 Distill Llama 70B,0.8999999999999999,0.8999999999999999,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,glm-4.5-air,EURouter: GLM 4.5 Air,0.19999999999999998,1.2,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,hermes-4-405b,EURouter: Hermes 4 405B,1.0,3.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,green-embedding,EURouter: Green Embedding,0.19999999999999998,0.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,hermes-4-70b,EURouter: Hermes 4 70B,0.13,0.39999999999999997,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,devstral-2,EURouter: Devstral 2,0.0,0.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,mistral-small-3.1-24b,EURouter: Mistral Small 3.1 24B,0.09999999999999999,0.3,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,qwen3-235b-a22b-instruct,EURouter: Qwen3 235B A22B Instruct,0.07,0.45999999999999996,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,gemma-3-27b-it,EURouter: Gemma 3 27B IT,0.09999999999999999,0.3,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,magistral-small,EURouter: Magistral Small,0.5,1.5,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,green-r,EURouter: GreenR,0.35,0.95,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,nova-pro,EURouter: Amazon Nova Pro,0.7999999999999999,3.1999999999999997,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,qwen3-32b,EURouter: Qwen3 32B,0.08,0.22999999999999998,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,minimax-m2.5,EURouter: MiniMax M2.5,0.28,1.1,0.03,0.0
-2026-04-29T09:25:47.485693Z,eurouter,qwen3-embedding-8b,EURouter: Qwen3 Embedding 8B,0.0,0.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,deepseek-chat-v3.1,EURouter: DeepSeek Chat V3.1,0.19999999999999998,0.7999999999999999,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,nova-lite,EURouter: Amazon Nova Lite,0.06,0.24,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,kimi-k2.5,EURouter: Kimi K2.5,0.5,2.5,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,qwen-2.5-vl-72b-instruct,EURouter: Qwen 2.5 VL 72B Instruct,0.25,0.75,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,voxtral-small-24b,EURouter: Voxtral Small 24B,0.15,0.35,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,minimax-m2,EURouter: MiniMax M2,0.25,1.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,claude-haiku-4.5,EURouter: Claude Haiku 4.5,1.0,5.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,glm-4.5,EURouter: GLM 4.5,0.6,2.2,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,qwen-2.5-coder-7b,EURouter: Qwen 2.5 Coder 7B,0.03,0.09,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,qwen-2.5-72b-instruct,EURouter: Qwen 2.5 72B Instruct,0.07,0.26,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,llama-3.1-8b-instruct,EURouter: Llama 3.1 8B Instruct,0.02,0.06,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,code-llama-13b-instruct,EURouter: Code Llama 13B Instruct,0.5,0.5,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,green-l-raw,EURouter: GreenL Raw,0.25,0.7999999999999999,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,gpt-4.1,EURouter: GPT-4.1,2.0,8.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,green-l,EURouter: GreenL,0.25,0.7999999999999999,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,deepseek-v3.1,EURouter: DeepSeek V3.1,3.0,4.5,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,gemma-2-2b-it,EURouter: Gemma 2 2B Instruct,0.02,0.06,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,mistral-small-24b,EURouter: Mistral Small 24B Instruct,0.11,0.33,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,qwen3-coder-480b-a35b-instruct,EURouter: Qwen3 Coder 480B A35B Instruct,0.39999999999999997,1.7999999999999998,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,claude-opus-4-6,EURouter: Claude Opus 4.6,5.0,25.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,minimax-m2.1,EURouter: MiniMax M2.1,0.3,1.2,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,nemotron-nano-v2-12b,EURouter: Nemotron Nano V2 12B,0.07,0.19999999999999998,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,mistral-small-3.2-24b,EURouter: Mistral Small 3.2 24B,0.09,0.28,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,mistral-7b-instruct-v0.3,EURouter: Mistral 7B Instruct v0.3,0.09999999999999999,0.09999999999999999,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,ministral-3-3b,EURouter: Ministral 3 3B,0.09999999999999999,0.09999999999999999,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,codestral,EURouter: Codestral,0.3,0.8999999999999999,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,claude-3.7-sonnet,EURouter: Claude 3.7 Sonnet,3.0,15.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,deepseek-r1,EURouter: DeepSeek R1,0.66,2.6,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,voxtral-mini,EURouter: Voxtral Mini,0.04,0.04,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,qwen3-30b-a3b-instruct,EURouter: Qwen3 30B A3B Instruct,0.09999999999999999,0.3,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,nova-micro,EURouter: Amazon Nova Micro,0.035,0.14,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,claude-sonnet-4-6,EURouter: Claude Sonnet 4.6,3.0,15.0,0.3,3.75
-2026-04-29T09:25:47.485693Z,eurouter,green-r-raw,EURouter: GreenR Raw,0.35,0.95,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,cohere-embed-v4,EURouter: Cohere Embed v4,0.09999999999999999,0.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,qwen3-next-80b-a3b-thinking,EURouter: Qwen3 Next 80B A3B Thinking,0.15,1.2,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,codestral-embed,EURouter: Codestral Embed,0.15,0.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,magistral-medium,EURouter: Magistral Medium,2.0,5.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,mistral-large-2,EURouter: Mistral Large 2,2.0,6.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,claude-opus-4-5-20251101,EURouter: Claude Opus 4.5,5.0,25.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,glm-4.6,EURouter: GLM 4.6,0.39999999999999997,1.75,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,mistral-medium-3.1,EURouter: Mistral Medium 3.1,0.39999999999999997,2.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,intellect-3,EURouter: INTELLECT-3,0.19999999999999998,1.1,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,gemma-2-9b-it,EURouter: Gemma 2 9B Instruct,0.03,0.09,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,gpt-4o,EURouter: GPT-4o,2.5,10.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,pixtral-large-2502,EURouter: Pixtral Large 25.02,2.0,6.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,qwen3-vl-235b-a22b-instruct,EURouter: Qwen3 VL 235B A22B Instruct,0.21,1.9,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,mixtral-8x22b-instruct,EURouter: Mixtral 8x22B Instruct,2.0,6.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,e5-mistral-7b-instruct,EURouter: E5-Mistral-7B-Instruct,0.0,0.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,llama-3.1-nemotron-ultra-253b,EURouter: Llama 3.1 Nemotron Ultra 253B,0.6,1.7999999999999998,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,paraphrase-multilingual-mpnet-base-v2,EURouter: Paraphrase Multilingual MPNet v2,0.01,0.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,glm-4.7-fp8,EURouter: GLM 4.7 FP8,0.39999999999999997,2.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,bge-large-en-v1.5,EURouter: BGE Large EN v1.5,0.015,0.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,bge-multilingual-gemma2,EURouter: BGE Multilingual Gemma2,0.0,0.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,o4-mini,EURouter: o4-mini,1.1,4.4,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,claude-3-haiku,EURouter: Claude 3 Haiku,0.25,1.25,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,mistral-large-3,EURouter: Mistral Large 3,0.5,1.5,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,bge-en-icl,EURouter: BGE-EN-ICL,0.0,0.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,titan-embed-text-v2,EURouter: Amazon Titan Embeddings v2,0.0,0.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,devstral-small,EURouter: Devstral Small,0.15,0.35,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,claude-sonnet-4-5,EURouter: Claude Sonnet 4.5,3.0,15.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,teuken-7b-instruct,EURouter: Teuken-7B Instruct,0.16999999999999998,0.16999999999999998,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,deepseek-v3.2,EURouter: DeepSeek V3.2,0.3,0.5,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,mistral-nemo-12b,EURouter: Mistral Nemo 12B,0.13,0.13,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,mistral-embed,EURouter: Mistral Embed,0.09999999999999999,0.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,qwen3-30b-a3b-thinking,EURouter: Qwen3 30B A3B Thinking,0.09999999999999999,0.3,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,glm-5,EURouter: GLM 5,1.0,3.1999999999999997,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,qwen-2.5-coder-32b-instruct,EURouter: Qwen 2.5 Coder 32B Instruct,0.8999999999999999,0.8999999999999999,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,gpt-oss-20b,EURouter: GPT-OSS 20B,0.03,0.14,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,llama-3.3-70b-instruct,EURouter: Llama 3.3 70B Instruct,0.09999999999999999,0.31,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,gpt-4o-mini,EURouter: GPT-4o Mini,0.15,0.6,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,ministral-3-8b,EURouter: Ministral 3 8B,0.15,0.15,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,qwen3-coder-30b-a3b,EURouter: Qwen3 Coder 30B A3B,0.06,0.22,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,gpt-oss-120b,EURouter: GPT-OSS 120B,0.04,0.19999999999999998,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,claude-3.5-sonnet,EURouter: Claude 3.5 Sonnet,3.0,15.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,llama-3.1-405b-instruct,EURouter: Llama 3.1 405B Instruct,1.9300000000000002,1.9300000000000002,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,glm-4.7,EURouter: GLM 4.7,0.6,2.2,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,llama-3.2-1b-instruct,EURouter: Llama 3.2 1B Instruct,0.09999999999999999,0.09999999999999999,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,gpt-4.1-nano,EURouter: GPT-4.1 Nano,0.11,0.39999999999999997,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,claude-3-sonnet,EURouter: Claude 3 Sonnet,3.0,15.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,holo2-30b-a3b,EURouter: Holo2 30B A3B,0.3,0.7,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,titan-multimodal-embed,EURouter: Amazon Titan Multimodal Embeddings,0.0,0.0,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,o3-mini,EURouter: o3-mini,1.21,4.84,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,nemotron-3-nano-30b-a3b,EURouter: Nemotron 3 Nano 30B A3B,0.06,0.24,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,llama-3.2-3b-instruct,EURouter: Llama 3.2 3B Instruct,0.15,0.15,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,qwen3-235b-a22b-thinking,EURouter: Qwen3 235B A22B Thinking,0.19999999999999998,0.7999999999999999,0.0,0.0
-2026-04-29T09:25:47.485693Z,eurouter,kimi-k2-instruct,EURouter: Kimi K2 Instruct,0.5,2.4,0.0,0.0
 2026-04-29T09:29:48Z,openrouter,nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free,OR: NVIDIA: Nemotron 3 Nano Omni (free),0.0,0.0,0.0,0.0
 2026-04-29T09:29:48Z,openrouter,poolside/laguna-xs.2:free,OR: Poolside: Laguna XS.2 (free),0.0,0.0,0.0,0.0
 2026-04-29T09:29:48Z,openrouter,poolside/laguna-m.1:free,OR: Poolside: Laguna M.1 (free),0.0,0.0,0.0,0.0
@@ -12665,6 +12526,145 @@ timestamp,provider,model_id,model_name,input_cost,output_cost,cache_read_cost,ca
 2026-07-31T16:08:50Z,openrouter,~openai/gpt-latest,OR: OpenAI GPT Latest,5.0,30.0,0.0,0.0
 2026-07-31T16:08:50Z,openrouter,~openai/gpt-mini-latest,OR: OpenAI GPT Mini Latest,0.75,4.5,0.0,0.0
 2026-07-31T16:08:50Z,openrouter,~x-ai/grok-latest,OR: xAI: Grok Latest,2.0,6.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,anthropic/claude-sonnet-4,OR: Claude Sonnet 4,3.0,15.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,anthropic/claude-3.7-sonnet,OR: Claude 3.7 Sonnet,3.0,15.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,anthropic/claude-3.5-haiku,OR: Claude 3.5 Haiku,0.8,4.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,anthropic/claude-opus-4,OR: Claude Opus 4,15.0,75.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,google/gemini-2.5-pro,OR: Gemini 2.5 Pro,1.25,10.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,google/gemini-2.5-flash,OR: Gemini 2.5 Flash,0.3,2.5,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,google/gemini-2.0-flash-001,OR: Gemini 2.0 Flash,0.09999999999999999,0.39999999999999997,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,openai/gpt-4.1,OR: GPT-4.1,2.0,8.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,openai/gpt-4.1-mini,OR: GPT-4.1 Mini,0.39999999999999997,1.5999999999999999,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,openai/gpt-4o,OR: GPT-4o,2.5,10.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,openai/gpt-4o-mini,OR: GPT-4o Mini,0.15,0.6,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,openai/o3,OR: o3,2.0,8.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,openai/o4-mini,OR: o4 Mini,1.1,4.4,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,deepseek/deepseek-chat,OR: DeepSeek V3,0.32,0.8899999999999999,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,deepseek/deepseek-r1,OR: DeepSeek R1,0.7,2.5,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,deepseek/deepseek-r1-0528,OR: DeepSeek R1 0528,0.5,2.1500000000000004,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,meta-llama/llama-4-maverick,OR: Llama 4 Maverick,0.15,0.6,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,meta-llama/llama-4-scout,OR: Llama 4 Scout,0.08,0.3,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,meta-llama/llama-3.3-70b-instruct,OR: Llama 3.3 70B,0.09999999999999999,0.32,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,mistralai/mistral-large-2512,OR: Mistral Large 3,0.5,1.5,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,mistralai/devstral-small,OR: Devstral Small,0.09999999999999999,0.3,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,mistralai/codestral-2508,OR: Codestral 2508,0.3,0.8999999999999999,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,x-ai/grok-4,OR: Grok 4,3.0,15.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,x-ai/grok-3,OR: Grok 3,3.0,15.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,x-ai/grok-3-mini,OR: Grok 3 Mini,0.3,0.5,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,qwen/qwen3-235b-a22b,OR: Qwen3 235B,0.45499999999999996,1.8199999999999998,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,qwen/qwen3-32b,OR: Qwen3 32B,0.08,0.24,0.0,0.0
+2026-08-01T12:32:04.391308Z,openrouter,qwen/qwen3-coder,OR: Qwen3 Coder 480B,0.22,1.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,deepseek-v3,EURouter: DeepSeek V3,0.3,1.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,llama-4-maverick,EURouter: Llama 4 Maverick,0.14,0.6799999999999999,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,llama-guard-3-8b,EURouter: Llama Guard 3 8B,0.02,0.06,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,pixtral-12b,EURouter: Pixtral 12B,0.15,0.15,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,bge-m3,EURouter: BGE-M3,0.01,0.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,ministral-3-14b,EURouter: Ministral 3 14B,0.19999999999999998,0.19999999999999998,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,o3,EURouter: o3,2.2,8.8,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,gpt-4.1-mini,EURouter: GPT-4.1 Mini,0.39999999999999997,1.5999999999999999,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,pixtral-large,EURouter: Pixtral Large,2.0,6.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,gpt-5-mini,EURouter: GPT-5 Mini,0.25,2.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,deepseek-r1-distill-llama-70b,EURouter: DeepSeek R1 Distill Llama 70B,0.8999999999999999,0.8999999999999999,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,glm-4.5-air,EURouter: GLM 4.5 Air,0.19999999999999998,1.2,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,hermes-4-405b,EURouter: Hermes 4 405B,1.0,3.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,green-embedding,EURouter: Green Embedding,0.19999999999999998,0.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,hermes-4-70b,EURouter: Hermes 4 70B,0.13,0.39999999999999997,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,devstral-2,EURouter: Devstral 2,0.0,0.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,mistral-small-3.1-24b,EURouter: Mistral Small 3.1 24B,0.09999999999999999,0.3,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,qwen3-235b-a22b-instruct,EURouter: Qwen3 235B A22B Instruct,0.07,0.45999999999999996,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,gemma-3-27b-it,EURouter: Gemma 3 27B IT,0.09999999999999999,0.3,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,magistral-small,EURouter: Magistral Small,0.5,1.5,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,green-r,EURouter: GreenR,0.35,0.95,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,nova-pro,EURouter: Amazon Nova Pro,0.7999999999999999,3.1999999999999997,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,qwen3-32b,EURouter: Qwen3 32B,0.08,0.22999999999999998,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,minimax-m2.5,EURouter: MiniMax M2.5,0.28,1.1,0.03,0.0
+2026-08-01T12:32:04.391308Z,eurouter,qwen3-embedding-8b,EURouter: Qwen3 Embedding 8B,0.0,0.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,deepseek-chat-v3.1,EURouter: DeepSeek Chat V3.1,0.19999999999999998,0.7999999999999999,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,nova-lite,EURouter: Amazon Nova Lite,0.06,0.24,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,kimi-k2.5,EURouter: Kimi K2.5,0.5,2.5,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,qwen-2.5-vl-72b-instruct,EURouter: Qwen 2.5 VL 72B Instruct,0.25,0.75,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,voxtral-small-24b,EURouter: Voxtral Small 24B,0.15,0.35,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,minimax-m2,EURouter: MiniMax M2,0.25,1.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,claude-haiku-4.5,EURouter: Claude Haiku 4.5,1.0,5.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,glm-4.5,EURouter: GLM 4.5,0.6,2.2,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,qwen-2.5-coder-7b,EURouter: Qwen 2.5 Coder 7B,0.03,0.09,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,qwen-2.5-72b-instruct,EURouter: Qwen 2.5 72B Instruct,0.07,0.26,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,llama-3.1-8b-instruct,EURouter: Llama 3.1 8B Instruct,0.02,0.06,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,code-llama-13b-instruct,EURouter: Code Llama 13B Instruct,0.5,0.5,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,green-l-raw,EURouter: GreenL Raw,0.25,0.7999999999999999,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,gpt-4.1,EURouter: GPT-4.1,2.0,8.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,green-l,EURouter: GreenL,0.25,0.7999999999999999,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,deepseek-v3.1,EURouter: DeepSeek V3.1,3.0,4.5,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,gemma-2-2b-it,EURouter: Gemma 2 2B Instruct,0.02,0.06,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,mistral-small-24b,EURouter: Mistral Small 24B Instruct,0.11,0.33,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,qwen3-coder-480b-a35b-instruct,EURouter: Qwen3 Coder 480B A35B Instruct,0.39999999999999997,1.7999999999999998,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,claude-opus-4-6,EURouter: Claude Opus 4.6,5.0,25.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,minimax-m2.1,EURouter: MiniMax M2.1,0.3,1.2,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,nemotron-nano-v2-12b,EURouter: Nemotron Nano V2 12B,0.07,0.19999999999999998,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,mistral-small-3.2-24b,EURouter: Mistral Small 3.2 24B,0.09,0.28,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,mistral-7b-instruct-v0.3,EURouter: Mistral 7B Instruct v0.3,0.09999999999999999,0.09999999999999999,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,ministral-3-3b,EURouter: Ministral 3 3B,0.09999999999999999,0.09999999999999999,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,codestral,EURouter: Codestral,0.3,0.8999999999999999,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,claude-3.7-sonnet,EURouter: Claude 3.7 Sonnet,3.0,15.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,deepseek-r1,EURouter: DeepSeek R1,0.66,2.6,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,voxtral-mini,EURouter: Voxtral Mini,0.04,0.04,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,qwen3-30b-a3b-instruct,EURouter: Qwen3 30B A3B Instruct,0.09999999999999999,0.3,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,nova-micro,EURouter: Amazon Nova Micro,0.035,0.14,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,claude-sonnet-4-6,EURouter: Claude Sonnet 4.6,3.0,15.0,0.3,3.75
+2026-08-01T12:32:04.391308Z,eurouter,green-r-raw,EURouter: GreenR Raw,0.35,0.95,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,cohere-embed-v4,EURouter: Cohere Embed v4,0.09999999999999999,0.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,qwen3-next-80b-a3b-thinking,EURouter: Qwen3 Next 80B A3B Thinking,0.15,1.2,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,codestral-embed,EURouter: Codestral Embed,0.15,0.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,magistral-medium,EURouter: Magistral Medium,2.0,5.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,mistral-large-2,EURouter: Mistral Large 2,2.0,6.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,claude-opus-4-5-20251101,EURouter: Claude Opus 4.5,5.0,25.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,glm-4.6,EURouter: GLM 4.6,0.39999999999999997,1.75,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,mistral-medium-3.1,EURouter: Mistral Medium 3.1,0.39999999999999997,2.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,intellect-3,EURouter: INTELLECT-3,0.19999999999999998,1.1,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,gemma-2-9b-it,EURouter: Gemma 2 9B Instruct,0.03,0.09,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,gpt-4o,EURouter: GPT-4o,2.5,10.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,pixtral-large-2502,EURouter: Pixtral Large 25.02,2.0,6.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,qwen3-vl-235b-a22b-instruct,EURouter: Qwen3 VL 235B A22B Instruct,0.21,1.9,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,mixtral-8x22b-instruct,EURouter: Mixtral 8x22B Instruct,2.0,6.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,e5-mistral-7b-instruct,EURouter: E5-Mistral-7B-Instruct,0.0,0.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,llama-3.1-nemotron-ultra-253b,EURouter: Llama 3.1 Nemotron Ultra 253B,0.6,1.7999999999999998,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,paraphrase-multilingual-mpnet-base-v2,EURouter: Paraphrase Multilingual MPNet v2,0.01,0.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,glm-4.7-fp8,EURouter: GLM 4.7 FP8,0.39999999999999997,2.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,bge-large-en-v1.5,EURouter: BGE Large EN v1.5,0.015,0.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,bge-multilingual-gemma2,EURouter: BGE Multilingual Gemma2,0.0,0.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,o4-mini,EURouter: o4-mini,1.1,4.4,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,claude-3-haiku,EURouter: Claude 3 Haiku,0.25,1.25,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,mistral-large-3,EURouter: Mistral Large 3,0.5,1.5,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,bge-en-icl,EURouter: BGE-EN-ICL,0.0,0.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,titan-embed-text-v2,EURouter: Amazon Titan Embeddings v2,0.0,0.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,devstral-small,EURouter: Devstral Small,0.15,0.35,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,claude-sonnet-4-5,EURouter: Claude Sonnet 4.5,3.0,15.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,teuken-7b-instruct,EURouter: Teuken-7B Instruct,0.16999999999999998,0.16999999999999998,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,deepseek-v3.2,EURouter: DeepSeek V3.2,0.3,0.5,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,mistral-nemo-12b,EURouter: Mistral Nemo 12B,0.13,0.13,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,mistral-embed,EURouter: Mistral Embed,0.09999999999999999,0.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,qwen3-30b-a3b-thinking,EURouter: Qwen3 30B A3B Thinking,0.09999999999999999,0.3,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,glm-5,EURouter: GLM 5,1.0,3.1999999999999997,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,qwen-2.5-coder-32b-instruct,EURouter: Qwen 2.5 Coder 32B Instruct,0.8999999999999999,0.8999999999999999,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,gpt-oss-20b,EURouter: GPT-OSS 20B,0.03,0.14,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,llama-3.3-70b-instruct,EURouter: Llama 3.3 70B Instruct,0.09999999999999999,0.31,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,gpt-4o-mini,EURouter: GPT-4o Mini,0.15,0.6,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,ministral-3-8b,EURouter: Ministral 3 8B,0.15,0.15,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,qwen3-coder-30b-a3b,EURouter: Qwen3 Coder 30B A3B,0.06,0.22,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,gpt-oss-120b,EURouter: GPT-OSS 120B,0.04,0.19999999999999998,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,claude-3.5-sonnet,EURouter: Claude 3.5 Sonnet,3.0,15.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,llama-3.1-405b-instruct,EURouter: Llama 3.1 405B Instruct,1.9300000000000002,1.9300000000000002,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,glm-4.7,EURouter: GLM 4.7,0.6,2.2,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,llama-3.2-1b-instruct,EURouter: Llama 3.2 1B Instruct,0.09999999999999999,0.09999999999999999,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,gpt-4.1-nano,EURouter: GPT-4.1 Nano,0.11,0.39999999999999997,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,claude-3-sonnet,EURouter: Claude 3 Sonnet,3.0,15.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,holo2-30b-a3b,EURouter: Holo2 30B A3B,0.3,0.7,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,titan-multimodal-embed,EURouter: Amazon Titan Multimodal Embeddings,0.0,0.0,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,o3-mini,EURouter: o3-mini,1.21,4.84,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,nemotron-3-nano-30b-a3b,EURouter: Nemotron 3 Nano 30B A3B,0.06,0.24,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,llama-3.2-3b-instruct,EURouter: Llama 3.2 3B Instruct,0.15,0.15,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,qwen3-235b-a22b-thinking,EURouter: Qwen3 235B A22B Thinking,0.19999999999999998,0.7999999999999999,0.0,0.0
+2026-08-01T12:32:04.391308Z,eurouter,kimi-k2-instruct,EURouter: Kimi K2 Instruct,0.5,2.4,0.0,0.0
 2026-08-02T08:22:22Z,openrouter,ai21/jamba-large-1.7,OR: AI21: Jamba Large 1.7,2.0,8.0,0.0,0.0
 2026-08-02T08:22:22Z,openrouter,aion-labs/aion-2.0,OR: AionLabs: Aion-2.0,0.7999999999999999,1.5999999999999999,0.0,0.0
 2026-08-02T08:22:22Z,openrouter,aion-labs/aion-3.0,OR: AionLabs: Aion-3.0,3.0,6.0,0.0,0.0
@@ -37750,3 +37750,711 @@ timestamp,provider,model_id,model_name,input_cost,output_cost,cache_read_cost,ca
 2026-09-08T08:40:37Z,requesty,zai/glm-5.2,RQ: glm-5.2,1.4,4.4,0.26,0.0
 2026-09-08T08:40:37Z,requesty,zai/glm-5.3,RQ: glm-5.3,1.4,4.4,0.26,0.0
 2026-09-08T08:40:37Z,requesty,zai/glm-5.3-flash,RQ: glm-5.3-flash,0.15,0.5,0.03,0.0
+2026-09-08T10:00:06Z,requesty,alibaba/qwen-max,RQ: qwen-max,1.5999999999999999,6.3999999999999995,1.5999999999999999,0.0
+2026-09-08T10:00:06Z,requesty,alibaba/qwen-plus,RQ: qwen-plus,0.39999999999999997,1.2,0.39999999999999997,0.0
+2026-09-08T10:00:06Z,requesty,alibaba/qwen-turbo,RQ: qwen-turbo,0.049999999999999996,0.19999999999999998,0.049999999999999996,0.0
+2026-09-08T10:00:06Z,requesty,alibaba/qwen3-30b-a3b-instruct-2507,RQ: qwen3-30b-a3b-instruct-2507,0.19999999999999998,0.7999999999999999,0.19999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,alibaba/qwen3-coder-flash,RQ: qwen3-coder-flash,0.3,1.5,0.08,0.0
+2026-09-08T10:00:06Z,requesty,alibaba/qwen3-coder-plus,RQ: qwen3-coder-plus,1.0,5.0,0.0,0.0
+2026-09-08T10:00:06Z,requesty,alibaba/qwen3-max,RQ: qwen3-max,0.861,3.4410000000000003,0.0,0.0
+2026-09-08T10:00:06Z,requesty,alibaba/qwen3.6-plus,RQ: qwen3.6-plus,0.5,3.0,0.049999999999999996,0.0
+2026-09-08T10:00:06Z,requesty,alibaba/qwen3.7-max,RQ: qwen3.7-max,2.5,7.5,0.25,0.0
+2026-09-08T10:00:06Z,requesty,alibaba/qwen3.7-plus,RQ: qwen3.7-plus,0.32,1.28,0.032,0.0
+2026-09-08T10:00:06Z,requesty,alibaba/qwen3.8-flash,RQ: qwen3.8-flash,0.16,0.47,0.016,0.0
+2026-09-08T10:00:06Z,requesty,alibaba/qwen3.8-max,RQ: qwen3.8-max,2.0,6.0,0.25,0.0
+2026-09-08T10:00:06Z,requesty,anthropic/claude-fable-5,RQ: claude-fable-5,10.0,50.0,1.0,0.0
+2026-09-08T10:00:06Z,requesty,anthropic/claude-fable-5.1,RQ: claude-fable-5.1,10.0,50.0,0.25,0.0
+2026-09-08T10:00:06Z,requesty,anthropic/claude-haiku-4-5,RQ: claude-haiku-4-5,1.0,5.0,0.09999999999999999,0.0
+2026-09-08T10:00:06Z,requesty,anthropic/claude-opus-4-5,RQ: claude-opus-4-5,5.0,25.0,0.5,0.0
+2026-09-08T10:00:06Z,requesty,anthropic/claude-opus-4-6,RQ: claude-opus-4-6,5.0,25.0,0.5,0.0
+2026-09-08T10:00:06Z,requesty,anthropic/claude-opus-4-7,RQ: claude-opus-4-7,5.0,25.0,0.5,0.0
+2026-09-08T10:00:06Z,requesty,anthropic/claude-opus-4-8,RQ: claude-opus-4-8,5.0,25.0,0.5,0.0
+2026-09-08T10:00:06Z,requesty,anthropic/claude-opus-5,RQ: claude-opus-5,5.0,25.0,0.5,0.0
+2026-09-08T10:00:06Z,requesty,anthropic/claude-sonnet-4-5,RQ: claude-sonnet-4-5,3.0,15.0,0.3,0.0
+2026-09-08T10:00:06Z,requesty,anthropic/claude-sonnet-4-6,RQ: claude-sonnet-4-6,3.0,15.0,0.3,0.0
+2026-09-08T10:00:06Z,requesty,anthropic/claude-sonnet-5,RQ: claude-sonnet-5,2.0,10.0,0.19999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,azure-responses/openai-responses/gpt-6-astra@eastus2,RQ: gpt-6-astra,10.0,50.0,1.0,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-4.1,RQ: gpt-4.1,2.0,8.0,0.5,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-4.1-mini@eastus2,RQ: gpt-4.1-mini,0.39999999999999997,1.5999999999999999,0.09999999999999999,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-4.1-mini@francecentral,RQ: gpt-4.1-mini,0.44,1.76,0.11,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-4.1-mini@uksouth,RQ: gpt-4.1-mini,0.44,1.76,0.11,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-4.1-mini@westus3,RQ: gpt-4.1-mini,0.39999999999999997,1.5999999999999999,0.09999999999999999,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-4.1-nano,RQ: gpt-4.1-nano,0.09999999999999999,0.39999999999999997,0.024999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-4.1-nano@eastus2,RQ: gpt-4.1-nano,0.09999999999999999,0.39999999999999997,0.024999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-4.1-nano@francecentral,RQ: gpt-4.1-nano,0.11,0.44,0.0275,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-4.1-nano@swedencentral,RQ: gpt-4.1-nano,0.11,0.44,0.0275,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-4.1-nano@uksouth,RQ: gpt-4.1-nano,0.11,0.44,0.0275,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-4.1-nano@westus3,RQ: gpt-4.1-nano,0.09999999999999999,0.39999999999999997,0.024999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-4.1@eastus2,RQ: gpt-4.1,2.0,8.0,0.5,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-4.1@francecentral,RQ: gpt-4.1,2.2,8.8,0.55,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-4.1@swedencentral,RQ: gpt-4.1,2.2,8.8,0.55,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-4.1@uksouth,RQ: gpt-4.1,2.2,8.8,0.55,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-4.1@westus3,RQ: gpt-4.1,2.0,8.0,0.5,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-4o-mini@eastus2,RQ: gpt-4o-mini,0.15,0.6,0.075,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-4o-mini@swedencentral,RQ: gpt-4o-mini,0.165,0.66,0.0825,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-5,RQ: gpt-5,1.25,10.0,0.125,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-5-mini,RQ: gpt-5-mini,0.25,2.0,0.024999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-5-mini@eastus2,RQ: gpt-5-mini,0.25,2.0,0.024999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-5-mini@francecentral,RQ: gpt-5-mini,0.275,2.2,0.0275,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-5-mini@swedencentral,RQ: gpt-5-mini,0.275,2.2,0.0275,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-5-mini@uksouth,RQ: gpt-5-mini,0.275,2.2,0.0275,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-5-nano,RQ: gpt-5-nano,0.049999999999999996,0.39999999999999997,0.005,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-5-nano@eastus2,RQ: gpt-5-nano,0.049999999999999996,0.39999999999999997,0.005,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-5-nano@francecentral,RQ: gpt-5-nano,0.055,0.44,0.0055,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-5-nano@swedencentral,RQ: gpt-5-nano,0.055,0.44,0.0055,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-5.1,RQ: gpt-5.1,1.25,10.0,0.125,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-5.1@eastus2,RQ: gpt-5.1,1.25,10.0,0.125,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-5.1@francecentral,RQ: gpt-5.1,1.375,11.0,0.1375,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-5.1@swedencentral,RQ: gpt-5.1,1.375,11.0,0.1375,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-5.2-codex@eastus2,RQ: gpt-5.2-codex,1.75,14.0,0.175,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-5.2@eastus2,RQ: gpt-5.2,1.75,14.0,0.175,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-5.3-codex@eastus2,RQ: gpt-5.3-codex,1.75,14.0,0.175,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-5.4,RQ: gpt-5.4,2.5,15.0,0.25,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-5.4-mini,RQ: gpt-5.4-mini,0.75,4.5,0.075,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-5.4-mini@eastus2,RQ: gpt-5.4-mini,0.75,4.5,0.075,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-5.4@eastus2,RQ: gpt-5.4,2.5,15.0,0.25,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-5.4@francecentral,RQ: gpt-5.4,2.5,15.0,0.25,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-5.4@swedencentral,RQ: gpt-5.4,2.5,15.0,0.25,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-5.5@eastus2,RQ: gpt-5.5,5.0,30.0,0.5,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-5.5@swedencentral,RQ: gpt-5.5,5.0,30.0,0.5,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-5.6-luna@eastus2,RQ: gpt-5.6-luna,0.19999999999999998,1.2,0.02,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-5.6-luna@swedencentral,RQ: gpt-5.6-luna,0.22,1.32,0.022,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-5.6-sol@eastus2,RQ: gpt-5.6-sol,5.0,30.0,0.5,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-5.6-sol@swedencentral,RQ: gpt-5.6-sol,5.5,33.0,0.55,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-5.6-terra@eastus2,RQ: gpt-5.6-terra,2.0,12.0,0.19999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-5.6-terra@swedencentral,RQ: gpt-5.6-terra,2.2,13.200000000000001,0.22,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-5@eastus2,RQ: gpt-5,1.25,10.0,0.125,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-5@francecentral,RQ: gpt-5,1.375,11.0,0.1375,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-5@swedencentral,RQ: gpt-5,1.375,11.0,0.1375,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-5@uksouth,RQ: gpt-5,1.375,11.0,0.1375,0.0
+2026-09-08T10:00:06Z,requesty,azure/gpt-6-astra@eastus2,RQ: gpt-6-astra,10.0,50.0,1.0,0.0
+2026-09-08T10:00:06Z,requesty,azure/o4-mini@eastus2,RQ: o4-mini,1.1,4.4,0.275,0.0
+2026-09-08T10:00:06Z,requesty,azure/o4-mini@francecentral,RQ: o4-mini,1.21,4.84,0.3025,0.0
+2026-09-08T10:00:06Z,requesty,azure/o4-mini@swedencentral,RQ: o4-mini,1.21,4.84,0.3025,0.0
+2026-09-08T10:00:06Z,requesty,azure/o4-mini@westus3,RQ: o4-mini,1.1,4.4,0.275,0.0
+2026-09-08T10:00:06Z,requesty,azure/openai-responses/gpt-4.1,RQ: gpt-4.1,2.0,8.0,0.5,0.0
+2026-09-08T10:00:06Z,requesty,azure/openai-responses/gpt-4.1-mini@eastus2,RQ: gpt-4.1-mini,0.39999999999999997,1.5999999999999999,0.09999999999999999,0.0
+2026-09-08T10:00:06Z,requesty,azure/openai-responses/gpt-4.1-mini@francecentral,RQ: gpt-4.1-mini,0.44,1.76,0.11,0.0
+2026-09-08T10:00:06Z,requesty,azure/openai-responses/gpt-4.1-mini@westus3,RQ: gpt-4.1-mini,0.39999999999999997,1.5999999999999999,0.09999999999999999,0.0
+2026-09-08T10:00:06Z,requesty,azure/openai-responses/gpt-4.1-nano,RQ: gpt-4.1-nano,0.09999999999999999,0.39999999999999997,0.024999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,azure/openai-responses/gpt-4.1-nano@eastus2,RQ: gpt-4.1-nano,0.09999999999999999,0.39999999999999997,0.024999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,azure/openai-responses/gpt-4.1-nano@francecentral,RQ: gpt-4.1-nano,0.11,0.44,0.0275,0.0
+2026-09-08T10:00:06Z,requesty,azure/openai-responses/gpt-4.1-nano@swedencentral,RQ: gpt-4.1-nano,0.11,0.44,0.0275,0.0
+2026-09-08T10:00:06Z,requesty,azure/openai-responses/gpt-4.1-nano@westus3,RQ: gpt-4.1-nano,0.09999999999999999,0.39999999999999997,0.024999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,azure/openai-responses/gpt-4.1@eastus2,RQ: gpt-4.1,2.0,8.0,0.5,0.0
+2026-09-08T10:00:06Z,requesty,azure/openai-responses/gpt-4.1@francecentral,RQ: gpt-4.1,2.2,8.8,0.55,0.0
+2026-09-08T10:00:06Z,requesty,azure/openai-responses/gpt-4.1@swedencentral,RQ: gpt-4.1,2.2,8.8,0.55,0.0
+2026-09-08T10:00:06Z,requesty,azure/openai-responses/gpt-4.1@westus3,RQ: gpt-4.1,2.0,8.0,0.5,0.0
+2026-09-08T10:00:06Z,requesty,azure/openai-responses/gpt-5.4-pro@eastus2,RQ: gpt-5.4-pro,30.0,180.0,30.0,0.0
+2026-09-08T10:00:06Z,requesty,azure/openai-responses/gpt-5.4@eastus2,RQ: gpt-5.4,2.5,15.0,0.25,0.0
+2026-09-08T10:00:06Z,requesty,azure/openai-responses/gpt-5.4@francecentral,RQ: gpt-5.4,2.75,16.5,0.275,0.0
+2026-09-08T10:00:06Z,requesty,azure/openai-responses/gpt-5.4@swedencentral,RQ: gpt-5.4,2.75,16.5,0.275,0.0
+2026-09-08T10:00:06Z,requesty,azure/openai-responses/gpt-5.5@eastus2,RQ: gpt-5.5,5.0,30.0,0.5,0.0
+2026-09-08T10:00:06Z,requesty,azure/openai-responses/gpt-5.5@swedencentral,RQ: gpt-5.5,5.0,30.0,0.5,0.0
+2026-09-08T10:00:06Z,requesty,azure/openai-responses/gpt-5.6-luna@eastus2,RQ: gpt-5.6-luna,0.19999999999999998,1.2,0.02,0.0
+2026-09-08T10:00:06Z,requesty,azure/openai-responses/gpt-5.6-luna@swedencentral,RQ: gpt-5.6-luna,0.22,1.32,0.022,0.0
+2026-09-08T10:00:06Z,requesty,azure/openai-responses/gpt-5.6-sol@eastus2,RQ: gpt-5.6-sol,5.0,30.0,0.5,0.0
+2026-09-08T10:00:06Z,requesty,azure/openai-responses/gpt-5.6-sol@swedencentral,RQ: gpt-5.6-sol,5.5,33.0,0.55,0.0
+2026-09-08T10:00:06Z,requesty,azure/openai-responses/gpt-5.6-terra@eastus2,RQ: gpt-5.6-terra,2.0,12.0,0.19999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,azure/openai-responses/gpt-5.6-terra@swedencentral,RQ: gpt-5.6-terra,2.2,13.200000000000001,0.22,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-fable-5@us-east-1,RQ: claude-fable-5,11.0,55.0,1.1,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-haiku-4-5,RQ: claude-haiku-4-5,1.0,5.0,0.09999999999999999,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-haiku-4-5@ap-northeast-1,RQ: claude-haiku-4-5,1.1,5.5,0.11,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-haiku-4-5@eu-central-1,RQ: claude-haiku-4-5,1.1,5.5,0.11,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-haiku-4-5@eu-north-1,RQ: claude-haiku-4-5,1.1,5.5,0.11,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-haiku-4-5@eu-west-1,RQ: claude-haiku-4-5,1.1,5.5,0.11,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-haiku-4-5@eu-west-3,RQ: claude-haiku-4-5,1.1,5.5,0.11,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-haiku-4-5@us-east-1,RQ: claude-haiku-4-5,1.1,5.5,0.11,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-haiku-4-5@us-east-2,RQ: claude-haiku-4-5,1.1,5.5,0.11,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-haiku-4-5@us-west-2,RQ: claude-haiku-4-5,1.1,5.5,0.11,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-opus-4-5,RQ: claude-opus-4-5,5.0,25.0,0.5,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-opus-4-5@eu-central-1,RQ: claude-opus-4-5,5.5,27.5,0.55,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-opus-4-5@eu-north-1,RQ: claude-opus-4-5,5.5,27.5,0.55,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-opus-4-5@eu-west-1,RQ: claude-opus-4-5,5.5,27.5,0.55,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-opus-4-5@eu-west-3,RQ: claude-opus-4-5,5.5,27.5,0.55,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-opus-4-5@us-east-1,RQ: claude-opus-4-5,5.5,27.5,0.55,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-opus-4-5@us-east-2,RQ: claude-opus-4-5,5.5,27.5,0.55,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-opus-4-5@us-west-2,RQ: claude-opus-4-5,5.5,27.5,0.55,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-opus-4-6,RQ: claude-opus-4-6,5.0,25.0,0.5,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-opus-4-7,RQ: claude-opus-4-7,5.0,25.0,0.5,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-opus-4-7@eu-central-1,RQ: claude-opus-4-7,5.5,27.5,0.55,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-opus-4-7@eu-north-1,RQ: claude-opus-4-7,5.5,27.5,0.55,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-opus-4-7@eu-west-1,RQ: claude-opus-4-7,5.5,27.5,0.55,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-opus-4-7@eu-west-3,RQ: claude-opus-4-7,5.5,27.5,0.55,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-opus-4-8,RQ: claude-opus-4-8,5.0,25.0,0.5,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-opus-4-8@ap-northeast-1,RQ: claude-opus-4-8,5.5,27.5,0.55,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-opus-4-8@eu-central-1,RQ: claude-opus-4-8,5.5,27.5,0.55,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-opus-4-8@eu-north-1,RQ: claude-opus-4-8,5.5,27.5,0.55,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-opus-4-8@eu-west-1,RQ: claude-opus-4-8,5.5,27.5,0.55,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-opus-4-8@eu-west-3,RQ: claude-opus-4-8,5.5,27.5,0.55,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-opus-5,RQ: claude-opus-5,5.0,25.0,0.5,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-opus-5@eu-central-1,RQ: claude-opus-5,5.5,27.5,0.55,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-opus-5@eu-north-1,RQ: claude-opus-5,5.5,27.5,0.55,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-opus-5@eu-west-1,RQ: claude-opus-5,5.5,27.5,0.55,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-opus-5@eu-west-3,RQ: claude-opus-5,5.5,27.5,0.55,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-sonnet-4,RQ: claude-sonnet-4,3.0,15.0,0.3,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-sonnet-4-5,RQ: claude-sonnet-4-5,3.0,15.0,0.3,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-sonnet-4-5@eu-central-1,RQ: claude-sonnet-4-5,3.3000000000000003,16.5,0.3,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-sonnet-4-5@eu-north-1,RQ: claude-sonnet-4-5,3.3000000000000003,16.5,0.3,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-sonnet-4-5@eu-west-1,RQ: claude-sonnet-4-5,3.3000000000000003,16.5,0.3,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-sonnet-4-5@eu-west-3,RQ: claude-sonnet-4-5,3.3000000000000003,16.5,0.3,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-sonnet-4-5@us-east-1,RQ: claude-sonnet-4-5,3.3000000000000003,16.5,0.3,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-sonnet-4-5@us-east-2,RQ: claude-sonnet-4-5,3.3000000000000003,16.5,0.3,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-sonnet-4-5@us-west-2,RQ: claude-sonnet-4-5,3.3000000000000003,16.5,0.3,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-sonnet-4-6,RQ: claude-sonnet-4-6,3.0,15.0,0.3,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-sonnet-4-6@ap-northeast-1,RQ: claude-sonnet-4-6,3.3000000000000003,16.5,0.3,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-sonnet-4-6@eu-central-1,RQ: claude-sonnet-4-6,3.3000000000000003,16.5,0.3,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-sonnet-4-6@eu-north-1,RQ: claude-sonnet-4-6,3.3000000000000003,16.5,0.3,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-sonnet-4-6@eu-west-1,RQ: claude-sonnet-4-6,3.3000000000000003,16.5,0.3,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-sonnet-4-6@eu-west-3,RQ: claude-sonnet-4-6,3.3000000000000003,16.5,0.3,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-sonnet-4-6@us-east-1,RQ: claude-sonnet-4-6,3.3000000000000003,16.5,0.3,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-sonnet-4-6@us-east-2,RQ: claude-sonnet-4-6,3.3000000000000003,16.5,0.3,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-sonnet-4-6@us-west-2,RQ: claude-sonnet-4-6,3.3000000000000003,16.5,0.3,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-sonnet-4@eu-central-1,RQ: claude-sonnet-4,3.0,15.0,0.3,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-sonnet-4@eu-north-1,RQ: claude-sonnet-4,3.0,15.0,0.3,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-sonnet-4@eu-west-1,RQ: claude-sonnet-4,3.0,15.0,0.3,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-sonnet-4@eu-west-3,RQ: claude-sonnet-4,3.0,15.0,0.3,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-sonnet-4@us-east-1,RQ: claude-sonnet-4,3.0,15.0,0.3,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-sonnet-4@us-east-2,RQ: claude-sonnet-4,3.0,15.0,0.3,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-sonnet-4@us-west-2,RQ: claude-sonnet-4,3.0,15.0,0.3,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-sonnet-5,RQ: claude-sonnet-5,2.0,10.0,0.19999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-sonnet-5@ap-southeast-2,RQ: claude-sonnet-5,2.2,11.0,0.22,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-sonnet-5@eu-central-1,RQ: claude-sonnet-5,2.2,11.0,0.22,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-sonnet-5@eu-north-1,RQ: claude-sonnet-5,2.2,11.0,0.22,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-sonnet-5@eu-west-1,RQ: claude-sonnet-5,2.2,11.0,0.22,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-sonnet-5@eu-west-2,RQ: claude-sonnet-5,2.2,11.0,0.22,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-sonnet-5@us-east-1,RQ: claude-sonnet-5,2.2,11.0,0.22,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-sonnet-5@us-east-2,RQ: claude-sonnet-5,2.2,11.0,0.22,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/claude-sonnet-5@us-west-2,RQ: claude-sonnet-5,2.2,11.0,0.22,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/gpt-5.4@us-east-1,RQ: gpt-5.4,2.75,16.5,0.275,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/gpt-5.4@us-east-2,RQ: gpt-5.4,2.75,16.5,0.275,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/gpt-5.4@us-west-2,RQ: gpt-5.4,2.75,16.5,0.275,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/gpt-5.5@us-east-1,RQ: gpt-5.5,5.5,33.0,0.55,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/gpt-5.5@us-east-2,RQ: gpt-5.5,5.5,33.0,0.55,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/gpt-5.6-luna@us-east-1,RQ: gpt-5.6-luna,0.22,1.32,0.022,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/gpt-5.6-luna@us-east-2,RQ: gpt-5.6-luna,0.22,1.32,0.022,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/gpt-5.6-luna@us-west-2,RQ: gpt-5.6-luna,0.22,1.32,0.022,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/gpt-5.6-sol@us-east-1,RQ: gpt-5.6-sol,4.4,22.0,0.44,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/gpt-5.6-sol@us-east-2,RQ: gpt-5.6-sol,4.4,22.0,0.44,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/gpt-5.6-terra@us-east-1,RQ: gpt-5.6-terra,2.2,13.200000000000001,0.22,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/gpt-5.6-terra@us-east-2,RQ: gpt-5.6-terra,2.2,13.200000000000001,0.22,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/gpt-5.6-terra@us-west-2,RQ: gpt-5.6-terra,2.2,13.200000000000001,0.22,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/kimi-k2.5@eu-north-1,RQ: kimi-k2.5,0.72,3.5999999999999996,0.72,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/kimi-k2.5@eu-west-2,RQ: kimi-k2.5,0.72,3.5999999999999996,0.72,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/kimi-k2.5@us-east-1,RQ: kimi-k2.5,0.6,3.0,0.0,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/kimi-k2.5@us-east-2,RQ: kimi-k2.5,0.6,3.0,0.0,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/kimi-k2.5@us-west-2,RQ: kimi-k2.5,0.6,3.0,0.0,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/minimax-m2.5@eu-central-1,RQ: minimax-m2.5,0.36,1.44,0.0,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/minimax-m2.5@eu-north-1,RQ: minimax-m2.5,0.36,1.44,0.0,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/minimax-m2.5@eu-south-1,RQ: minimax-m2.5,0.36,1.44,0.0,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/minimax-m2.5@eu-west-1,RQ: minimax-m2.5,0.36,1.44,0.0,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/minimax-m2.5@us-east-1,RQ: minimax-m2.5,0.3,1.2,0.0,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/minimax-m2.5@us-east-2,RQ: minimax-m2.5,0.3,1.2,0.0,0.0
+2026-09-08T10:00:06Z,requesty,bedrock/minimax-m2.5@us-west-2,RQ: minimax-m2.5,0.3,1.2,0.0,0.0
+2026-09-08T10:00:06Z,requesty,coding/gemini-2.5-flash,RQ: gemini-2.5-flash,0.3,2.5,0.075,0.0
+2026-09-08T10:00:06Z,requesty,coding/gemini-2.5-flash@europe-central2,RQ: gemini-2.5-flash,0.3,2.5,0.075,0.0
+2026-09-08T10:00:06Z,requesty,coding/gemini-2.5-flash@europe-north1,RQ: gemini-2.5-flash,0.3,2.5,0.075,0.0
+2026-09-08T10:00:06Z,requesty,coding/gemini-2.5-flash@europe-west1,RQ: gemini-2.5-flash,0.3,2.5,0.075,0.0
+2026-09-08T10:00:06Z,requesty,coding/gemini-2.5-flash@europe-west4,RQ: gemini-2.5-flash,0.3,2.5,0.075,0.0
+2026-09-08T10:00:06Z,requesty,coding/gemini-2.5-flash@europe-west8,RQ: gemini-2.5-flash,0.3,2.5,0.075,0.0
+2026-09-08T10:00:06Z,requesty,coding/gemini-2.5-flash@us-central1,RQ: gemini-2.5-flash,0.3,2.5,0.075,0.0
+2026-09-08T10:00:06Z,requesty,coding/gemini-2.5-flash@us-east1,RQ: gemini-2.5-flash,0.3,2.5,0.075,0.0
+2026-09-08T10:00:06Z,requesty,coding/gemini-2.5-flash@us-east5,RQ: gemini-2.5-flash,0.3,2.5,0.075,0.0
+2026-09-08T10:00:06Z,requesty,coding/gemini-2.5-flash@us-south1,RQ: gemini-2.5-flash,0.3,2.5,0.075,0.0
+2026-09-08T10:00:06Z,requesty,coding/gemini-2.5-flash@us-west1,RQ: gemini-2.5-flash,0.3,2.5,0.075,0.0
+2026-09-08T10:00:06Z,requesty,coding/gemini-2.5-pro,RQ: gemini-2.5-pro,1.25,10.0,0.31,0.0
+2026-09-08T10:00:06Z,requesty,coding/gemini-2.5-pro@europe-central2,RQ: gemini-2.5-pro,1.25,10.0,0.31,0.0
+2026-09-08T10:00:06Z,requesty,coding/gemini-2.5-pro@europe-north1,RQ: gemini-2.5-pro,1.25,10.0,0.31,0.0
+2026-09-08T10:00:06Z,requesty,coding/gemini-2.5-pro@europe-west1,RQ: gemini-2.5-pro,1.25,10.0,0.31,0.0
+2026-09-08T10:00:06Z,requesty,coding/gemini-2.5-pro@europe-west4,RQ: gemini-2.5-pro,1.25,10.0,0.31,0.0
+2026-09-08T10:00:06Z,requesty,coding/gemini-2.5-pro@europe-west8,RQ: gemini-2.5-pro,1.25,10.0,0.31,0.0
+2026-09-08T10:00:06Z,requesty,coding/gemini-2.5-pro@us-central1,RQ: gemini-2.5-pro,1.25,10.0,0.31,0.0
+2026-09-08T10:00:06Z,requesty,coding/gemini-2.5-pro@us-east1,RQ: gemini-2.5-pro,1.25,10.0,0.31,0.0
+2026-09-08T10:00:06Z,requesty,coding/gemini-2.5-pro@us-east5,RQ: gemini-2.5-pro,1.25,10.0,0.31,0.0
+2026-09-08T10:00:06Z,requesty,coding/gemini-2.5-pro@us-south1,RQ: gemini-2.5-pro,1.25,10.0,0.31,0.0
+2026-09-08T10:00:06Z,requesty,coding/gemini-2.5-pro@us-west1,RQ: gemini-2.5-pro,1.25,10.0,0.31,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/ByteDance/Seed-1.8,RQ: seed-1.8,0.25,2.0,0.049999999999999996,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/ByteDance/Seed-2.0-code,RQ: seed-2.0-code,0.5,3.0,0.09999999999999999,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/ByteDance/Seed-2.0-mini,RQ: seed-2.0-mini,0.09999999999999999,0.39999999999999997,0.02,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/ByteDance/Seed-2.0-pro,RQ: seed-2.0-pro,0.5,3.0,0.09999999999999999,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/deepseek-ai/DeepSeek-R1,RQ: deepseek-r1,0.85,2.5,0.85,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/deepseek-ai/DeepSeek-R1-Distill-Llama-70B,RQ: deepseek-r1-distill-llama-70b,0.22999999999999998,0.69,0.22999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/deepseek-ai/DeepSeek-V3,RQ: deepseek-v3,0.85,0.8999999999999999,0.85,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/deepseek-ai/DeepSeek-V3.1,RQ: deepseek-v3.1,0.3,1.0,0.3,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/deepseek-ai/DeepSeek-V3.1:flex,RQ: deepseek-v3.1,0.19999999999999998,0.76,0.10400000000000001,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/deepseek-ai/DeepSeek-V3:flex,RQ: deepseek-v3,0.256,0.7120000000000001,0.0,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/deepseek-v4-flash-0424,RQ: deepseek-v4-flash-0424,0.09999999999999999,0.19999999999999998,0.02,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/deepseek-v4-flash-0424:flex,RQ: deepseek-v4-flash-0424,0.072,0.144,0.0144,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/deepseek-v4-flash-0731,RQ: deepseek-v4-flash-0731,0.09,0.18,0.018,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/deepseek-v4-flash-0731:flex,RQ: deepseek-v4-flash-0731,0.072,0.144,0.0144,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/deepseek-v4-pro-0424,RQ: deepseek-v4-pro-0424,1.3,2.6,0.09999999999999999,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/deepseek-v4-pro-0424:flex,RQ: deepseek-v4-pro-0424,1.04,2.08,0.08,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/deepseek-v4-pro-0813,RQ: deepseek-v4-pro-0813,1.3,2.6,0.09999999999999999,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/glm-5.2,RQ: glm-5.2,0.75,2.4,0.14,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/glm-5.2:flex,RQ: glm-5.2,0.6,1.92,0.112,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/glm-5.3,RQ: glm-5.3,1.2,4.0,0.12,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/glm-5.3-flash,RQ: glm-5.3-flash,0.15,0.5,0.03,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/google/gemma-4-26B-A4B-it,RQ: gemma-4-26b-a4b-it,0.07,0.33999999999999997,0.07,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/google/gemma-4-26B-A4B-it:flex,RQ: gemma-4-26b-a4b-it,0.056,0.272,0.0,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/google/gemma-4-31B-it,RQ: gemma-4-31b-it,0.13,0.38,0.0,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/google/gemma-4-31B-it:flex,RQ: gemma-4-31b-it,0.10400000000000001,0.30400000000000005,0.0,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/meta-llama/Llama-3.2-90B-Vision-Instruct,RQ: llama-3.2-90b-vision-instruct,0.35,0.39999999999999997,0.35,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/meta-llama/Llama-3.3-70B-Instruct,RQ: llama-3.3-70b-instruct,0.22999999999999998,0.39999999999999997,0.22999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/meta-llama/Llama-3.3-70B-Instruct-Turbo,RQ: llama-3.3-70b-instruct-turbo,0.12,0.3,0.12,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/meta-llama/Llama-3.3-70B-Instruct-Turbo:flex,RQ: llama-3.3-70b-instruct-turbo,0.08,0.256,0.0,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/meta-llama/Meta-Llama-3.1-405B-Instruct,RQ: meta-llama-3.1-405b-instruct,0.7999999999999999,0.7999999999999999,0.7999999999999999,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/meta-llama/Meta-Llama-3.1-70B-Instruct,RQ: meta-llama-3.1-70b-instruct,0.22999999999999998,0.39999999999999997,0.22999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo,RQ: meta-llama-3.1-8b-instruct-turbo,0.02,0.049999999999999996,0.02,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/microsoft/phi-4,RQ: phi-4,0.07,0.14,0.07,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/microsoft/phi-4:flex,RQ: phi-4,0.056,0.112,0.0,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/moonshotai/Kimi-K2.5,RQ: kimi k2.5,0.44999999999999996,2.25,0.07,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/moonshotai/Kimi-K2.6,RQ: kimi-k2.6,0.75,3.5,0.15,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/moonshotai/Kimi-K2.6:flex,RQ: kimi-k2.6,0.6,2.8,0.12,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/nvidia/Nemotron-3-Nano-30B-A3B,RQ: nemotron-3-nano-30b-a3b,0.049999999999999996,0.19999999999999998,0.0,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/nvidia/Nemotron-3-Nano-30B-A3B:flex,RQ: nemotron-3-nano-30b-a3b,0.04,0.16,0.02,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B,RQ: nvidia-nemotron-3-super-120b-a12b,0.09999999999999999,0.5,0.0,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/nvidia/NVIDIA-Nemotron-3-Super-120B-A12B:flex,RQ: nvidia-nemotron-3-super-120b-a12b,0.068,0.32,0.0,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/Qwen/Qwen2.5-72B-Instruct,RQ: qwen2.5-72b-instruct,0.22999999999999998,0.39999999999999997,0.22999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/Qwen/Qwen2.5-Coder-32B-Instruct,RQ: qwen2.5-coder-32b-instruct,0.07,0.16,0.07,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/Qwen/Qwen3-235B-A22B,RQ: qwen3-235b-a22b,0.19999999999999998,0.6,0.19999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/Qwen/Qwen3-235B-A22B-Instruct-2507,RQ: qwen3-235b-a22b-instruct-2507,0.071,0.09999999999999999,0.0,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/Qwen/Qwen3-235B-A22B-Thinking-2507,RQ: qwen3-235b-a22b-thinking-2507,0.22999999999999998,2.3,0.19999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/Qwen/Qwen3-235B-A22B-Thinking-2507:flex,RQ: qwen3-235b-a22b-thinking-2507,0.184,1.8399999999999999,0.16,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/Qwen/Qwen3-32B,RQ: qwen3-32b,0.09999999999999999,0.3,0.09999999999999999,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/Qwen/Qwen3-32B:flex,RQ: qwen3-32b,0.064,0.224,0.0,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/Qwen/Qwen3-Coder-480B-A35B-Instruct,RQ: qwen3-coder-480b-a35b-instruct,0.39999999999999997,1.5999999999999999,0.39999999999999997,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/Qwen/Qwen3-Coder-480B-A35B-Instruct-Turbo,RQ: qwen3-coder-480b-a35b-instruct-turbo,0.3,1.0,0.09999999999999999,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/Qwen/Qwen3-Coder-480B-A35B-Instruct-Turbo:flex,RQ: qwen3-coder-480b-a35b-instruct-turbo,0.24,0.7999999999999999,0.08,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/Qwen/Qwen3-Max,RQ: qwen3-max,1.2,6.0,0.24,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/Qwen/Qwen3.5-27B,RQ: qwen3.5-27b,0.26,2.6,0.0,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/Qwen/Qwen3.5-27B:flex,RQ: qwen3.5-27b,0.20800000000000002,2.08,0.0,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/Qwen/Qwen3.5-2B,RQ: qwen3.5-2b,0.02,0.09999999999999999,0.0,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/Qwen/Qwen3.5-35B-A3B,RQ: qwen3.5-35b-a3b,0.14,1.0,0.049999999999999996,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/Qwen/Qwen3.5-35B-A3B:flex,RQ: qwen3.5-35b-a3b,0.112,0.7999999999999999,0.04,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/Qwen/Qwen3.5-397B-A17B,RQ: qwen3.5-397b-a17b,0.49,3.5999999999999996,0.3,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/Qwen/Qwen3.5-397B-A17B:flex,RQ: qwen3.5-397b-a17b,0.36,2.4,0.176,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/qwen3.8,RQ: qwen3.8-2.4T-A95B,2.0,6.0,0.19999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/XiaomiMiMo/MiMo-V2.5,RQ: mimo-v2.5,0.39999999999999997,2.0,0.08,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/XiaomiMiMo/MiMo-V2.5-Pro,RQ: mimo-v2.5-pro,1.0,3.0,0.19999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/XiaomiMiMo/MiMo-V2.5-Pro:flex,RQ: mimo-v2.5-pro,0.7999999999999999,2.4,0.16,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/XiaomiMiMo/MiMo-V2.5:flex,RQ: mimo-v2.5,0.32,1.5999999999999999,0.064,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/zai-org/GLM-4.5,RQ: glm-4.5,0.6,2.2,0.6,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/zai-org/GLM-4.5-Air,RQ: glm-4.5-air,0.19999999999999998,1.1,0.19999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/zai-org/GLM-5.1,RQ: glm-5.1,1.0499999999999998,3.5,0.205,0.0
+2026-09-08T10:00:06Z,requesty,deepinfra/zai-org/GLM-5.1:flex,RQ: glm-5.1,0.84,2.8,0.164,0.0
+2026-09-08T10:00:06Z,requesty,deepseek/deepseek-chat,RQ: deepseek-chat,0.14,0.28,0.028,0.0
+2026-09-08T10:00:06Z,requesty,deepseek/deepseek-reasoner,RQ: deepseek-reasoner,0.14,0.28,0.028,0.0
+2026-09-08T10:00:06Z,requesty,deepseek/deepseek-v4-flash-0731,RQ: deepseek-v4-flash-0731,0.44,1.32,0.014,0.0
+2026-09-08T10:00:06Z,requesty,deepseek/deepseek-v4-pro-0813,RQ: deepseek-v4-pro-0813,1.32,3.9600000000000004,0.044,0.0
+2026-09-08T10:00:06Z,requesty,doubleword/deepseek-v4-flash-0424,RQ: deepseek-v4-flash-0424,0.14,0.28,0.0,0.0
+2026-09-08T10:00:06Z,requesty,doubleword/deepseek-v4-flash-0424:flex,RQ: deepseek-v4-flash-0424,0.09999999999999999,0.19999999999999998,0.0,0.0
+2026-09-08T10:00:06Z,requesty,doubleword/deepseek-v4-pro-0424,RQ: deepseek-v4-pro-0424,1.74,3.48,0.0,0.0
+2026-09-08T10:00:06Z,requesty,doubleword/deepseek-v4-pro-0424:flex,RQ: deepseek-v4-pro-0424,1.31,2.75,0.0,0.0
+2026-09-08T10:00:06Z,requesty,doubleword/glm-5.2,RQ: glm-5.2,1.4,4.4,0.0,0.0
+2026-09-08T10:00:06Z,requesty,doubleword/glm-5.2:flex,RQ: glm-5.2,1.0499999999999998,3.3000000000000003,0.0,0.0
+2026-09-08T10:00:06Z,requesty,doubleword/nvidia-nemotron-3-ultra,RQ: nvidia-nemotron-3-ultra,0.5,2.5,0.0,0.0
+2026-09-08T10:00:06Z,requesty,doubleword/nvidia-nemotron-3-ultra:flex,RQ: nvidia-nemotron-3-ultra,0.37,1.87,0.0,0.0
+2026-09-08T10:00:06Z,requesty,fireworks/deepseek-v4-flash-0731,RQ: deepseek-v4-flash-0731,0.22,0.66,0.007,0.0
+2026-09-08T10:00:06Z,requesty,fireworks/deepseek-v4-flash-vision-exp,RQ: deepseek-v4-flash-vision-exp,0.22,0.66,0.007,0.0
+2026-09-08T10:00:06Z,requesty,fireworks/deepseek-v4-pro-0813,RQ: deepseek-v4-pro-0813,1.32,3.9600000000000004,0.044,0.0
+2026-09-08T10:00:06Z,requesty,fireworks/glm-5.1,RQ: glm-5.1,1.4,4.4,0.26,0.0
+2026-09-08T10:00:06Z,requesty,fireworks/glm-5.2,RQ: glm-5.2,1.4,4.4,0.14,0.0
+2026-09-08T10:00:06Z,requesty,fireworks/glm-5.2-fast,RQ: glm-5.2-fast,2.0999999999999996,6.6000000000000005,0.21,0.0
+2026-09-08T10:00:06Z,requesty,fireworks/glm-5.3,RQ: glm-5.3,1.4,4.4,0.26,0.0
+2026-09-08T10:00:06Z,requesty,fireworks/glm-5.3-flash,RQ: glm-5.3-flash,0.15,0.5,0.03,0.0
+2026-09-08T10:00:06Z,requesty,fireworks/gpt-oss-120b,RQ: gpt-oss-120b,0.15,0.6,0.015,0.0
+2026-09-08T10:00:06Z,requesty,fireworks/gpt-oss-20b,RQ: gpt-oss-20b,0.07,0.3,0.035,0.0
+2026-09-08T10:00:06Z,requesty,fireworks/kimi-k2.6,RQ: kimi-k2.6,0.95,4.0,0.16,0.0
+2026-09-08T10:00:06Z,requesty,fireworks/kimi-k2.7-code,RQ: kimi-k2.7-code,0.95,4.0,0.19,0.0
+2026-09-08T10:00:06Z,requesty,fireworks/kimi-k3,RQ: kimi-k3,3.0,15.0,0.3,0.0
+2026-09-08T10:00:06Z,requesty,fireworks/minimax-m3,RQ: minimax-m3,0.3,1.2,0.06,0.0
+2026-09-08T10:00:06Z,requesty,fireworks/muse-glimmer-30b,RQ: muse-glimmer-30b,0.35,1.5,0.04,0.0
+2026-09-08T10:00:06Z,requesty,fireworks/nemotron-3-ultra-nvfp4,RQ: nemotron-3-ultra-nvfp4,0.6,2.4,0.12,0.0
+2026-09-08T10:00:06Z,requesty,fireworks/nemotron-lightning-3.5-30b-a3b,RQ: nemotron-lightning-3.5-30b-a3b,0.049999999999999996,0.19999999999999998,0.01,0.0
+2026-09-08T10:00:06Z,requesty,fireworks/qwen3.7-plus,RQ: qwen3.7-plus,0.39999999999999997,1.5999999999999999,0.08,0.0
+2026-09-08T10:00:06Z,requesty,fireworks/qwen3.8-max,RQ: qwen3.8-max,2.0,6.0,0.25,0.0
+2026-09-08T10:00:06Z,requesty,google/gemini-2.5-flash,RQ: gemini-2.5-flash,0.3,2.5,0.075,0.0
+2026-09-08T10:00:06Z,requesty,google/gemini-2.5-flash-image,RQ: gemini-2.5-flash-image,0.3,2.5,0.3,0.0
+2026-09-08T10:00:06Z,requesty,google/gemini-2.5-flash-lite,RQ: gemini-2.5-flash-lite,0.09999999999999999,0.39999999999999997,0.01,0.0
+2026-09-08T10:00:06Z,requesty,google/gemini-2.5-flash-lite:flex,RQ: gemini-2.5-flash-lite,0.049999999999999996,0.19999999999999998,0.01,0.0
+2026-09-08T10:00:06Z,requesty,google/gemini-2.5-flash:flex,RQ: gemini-2.5-flash,0.15,1.25,0.03,0.0
+2026-09-08T10:00:06Z,requesty,google/gemini-2.5-pro,RQ: gemini-2.5-pro,1.25,10.0,0.31,0.0
+2026-09-08T10:00:06Z,requesty,google/gemini-2.5-pro:flex,RQ: gemini-2.5-pro,0.625,5.0,0.125,0.0
+2026-09-08T10:00:06Z,requesty,google/gemini-3-flash-preview,RQ: gemini-3-flash-preview,0.5,3.0,0.049999999999999996,0.0
+2026-09-08T10:00:06Z,requesty,google/gemini-3-flash-preview:flex,RQ: gemini-3-flash-preview,0.25,1.5,0.049999999999999996,0.0
+2026-09-08T10:00:06Z,requesty,google/gemini-3-pro-image,RQ: gemini-3-pro-image,2.0,12.0,0.19999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,google/gemini-3-pro-preview,RQ: gemini-3.1-pro-preview,2.0,12.0,0.19999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,google/gemini-3-pro-preview:flex,RQ: gemini-3.1-pro-preview,1.0,6.0,0.19999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,google/gemini-3.1-flash-image,RQ: gemini-3.1-flash-image,0.5,2.0,0.0,0.0
+2026-09-08T10:00:06Z,requesty,google/gemini-3.1-flash-lite,RQ: gemini-3.1-flash-lite,0.25,1.5,0.024999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,google/gemini-3.1-flash-lite:flex,RQ: gemini-3.1-flash-lite,0.125,0.75,0.012499999999999999,0.0
+2026-09-08T10:00:06Z,requesty,google/gemini-3.1-pro-preview,RQ: gemini-3.1-pro-preview,2.0,12.0,0.19999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,google/gemini-3.1-pro-preview:flex,RQ: gemini-3.1-pro-preview,1.0,6.0,0.19999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,google/gemini-3.5-flash,RQ: gemini-3.5-flash,1.5,9.0,0.15,0.0
+2026-09-08T10:00:06Z,requesty,google/gemini-3.5-flash-lite,RQ: gemini-3.5-flash-lite,0.3,2.5,0.03,0.0
+2026-09-08T10:00:06Z,requesty,google/gemini-3.5-flash-lite:flex,RQ: gemini-3.5-flash-lite,0.15,1.25,0.02,0.0
+2026-09-08T10:00:06Z,requesty,google/gemini-3.5-flash:flex,RQ: gemini-3.5-flash,0.75,4.5,0.08,0.0
+2026-09-08T10:00:06Z,requesty,google/gemini-3.6-flash,RQ: gemini-3.6-flash,1.5,7.0,0.15,0.0
+2026-09-08T10:00:06Z,requesty,google/gemini-3.6-flash:flex,RQ: gemini-3.6-flash,0.375,1.875,0.0375,0.0
+2026-09-08T10:00:06Z,requesty,google/gemma-4-31b-it,RQ: gemma-4-31b-it,0.0,0.0,0.0,0.0
+2026-09-08T10:00:06Z,requesty,groq/openai/gpt-oss-120b,RQ: gpt-oss-120b,0.15,0.75,0.15,0.0
+2026-09-08T10:00:06Z,requesty,groq/openai/gpt-oss-20b,RQ: gpt-oss-20b,0.09999999999999999,0.5,0.09999999999999999,0.0
+2026-09-08T10:00:06Z,requesty,inceptron/glm-5.2,RQ: glm-5.2,1.2,4.199999999999999,0.26,0.0
+2026-09-08T10:00:06Z,requesty,inceptron/kimi-k2.6,RQ: kimi-k2.6,0.7999999999999999,3.5,0.19999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,inceptron/kimi-k2.7-Code,RQ: kimi-k2.7-code,0.75,3.5,0.19999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,inceptron/minimax-m2.5,RQ: minimax-m2.5,0.28,1.1,0.03,0.0
+2026-09-08T10:00:06Z,requesty,minimaxi/minimax-m2,RQ: minimax-m2,0.3,1.2,0.3,0.0
+2026-09-08T10:00:06Z,requesty,minimaxi/minimax-m2.5,RQ: minimax-m2.5,0.3,1.2,0.06,0.0
+2026-09-08T10:00:06Z,requesty,minimaxi/minimax-m2.5-highspeed,RQ: minimax-m2.5-highspeed,0.6,2.4,0.06,0.0
+2026-09-08T10:00:06Z,requesty,minimaxi/minimax-m2.7,RQ: minimax-m2.7,0.3,1.2,0.06,0.0
+2026-09-08T10:00:06Z,requesty,minimaxi/minimax-m2.7-highspeed,RQ: minimax-m2.7-highspeed,0.6,2.4,0.06,0.0
+2026-09-08T10:00:06Z,requesty,minimaxi/minimax-m3,RQ: minimax-m3,0.3,1.2,0.06,0.0
+2026-09-08T10:00:06Z,requesty,mistral/codestral-latest,RQ: codestral-latest,0.33,0.9900000000000001,0.33,0.0
+2026-09-08T10:00:06Z,requesty,mistral/devstral-latest,RQ: devstral-latest,0.44,2.2,0.44,0.0
+2026-09-08T10:00:06Z,requesty,mistral/devstral-small-latest,RQ: devstral-small-latest,0.11,0.33,0.11,0.0
+2026-09-08T10:00:06Z,requesty,mistral/glm-5-2,RQ: glm-5.2,1.54,4.84,0.154,0.0
+2026-09-08T10:00:06Z,requesty,mistral/leanstral-1-5,RQ: leanstral-1-5,0.0,0.0,0.0,0.0
+2026-09-08T10:00:06Z,requesty,mistral/mistral-large-latest,RQ: mistral-large-latest,0.55,1.6500000000000001,0.55,0.0
+2026-09-08T10:00:06Z,requesty,mistral/mistral-medium-3-5,RQ: mistral-medium-3-5,1.6500000000000001,8.25,1.6500000000000001,0.0
+2026-09-08T10:00:06Z,requesty,mistral/mistral-medium-latest,RQ: mistral-medium-latest,0.44,2.2,0.44,0.0
+2026-09-08T10:00:06Z,requesty,mistral/mistral-small-2503,RQ: mistral-small-2503,0.11,0.33,0.11,0.0
+2026-09-08T10:00:06Z,requesty,mistral/mistral-small-2603,RQ: mistral-small-2603,0.165,0.66,0.165,0.0
+2026-09-08T10:00:06Z,requesty,mistral/mistral-small-latest,RQ: mistral-small-2603,0.165,0.66,0.165,0.0
+2026-09-08T10:00:06Z,requesty,mistral/open-mistral-7b,RQ: open-mistral-7b,0.275,0.275,0.275,0.0
+2026-09-08T10:00:06Z,requesty,moonshot/kimi-k2.5,RQ: kimi-k2.5,0.6,3.0,0.09999999999999999,0.0
+2026-09-08T10:00:06Z,requesty,moonshot/kimi-k2.6,RQ: kimi-k2.6,0.95,4.0,0.16,0.0
+2026-09-08T10:00:06Z,requesty,moonshot/kimi-k2.7-code,RQ: kimi-k2.7-code,0.95,4.0,0.19,0.0
+2026-09-08T10:00:06Z,requesty,moonshot/kimi-k3,RQ: kimi-k3,3.0,15.0,0.3,0.0
+2026-09-08T10:00:06Z,requesty,nebius/deepseek-v4-pro-0424,RQ: deepseek-v4-pro-0424,1.75,3.5,1.75,0.0
+2026-09-08T10:00:06Z,requesty,nebius/glm-5.2,RQ: glm-5.2,1.4,4.4,0.0,0.0
+2026-09-08T10:00:06Z,requesty,nebius/google/gemma-3-27b-it,RQ: gemma-3-27b-it,0.09999999999999999,0.3,0.09999999999999999,0.0
+2026-09-08T10:00:06Z,requesty,nebius/kimi-k3,RQ: kimi-k3,3.0,15.0,0.0,0.0
+2026-09-08T10:00:06Z,requesty,nebius/meta-llama/Llama-3.3-70B-Instruct,RQ: llama-3.3-70b-instruct,0.13,0.39999999999999997,0.13,0.0
+2026-09-08T10:00:06Z,requesty,nebius/minimaxi/minimax-m2.5,RQ: minimax-m2.5,0.3,1.2,0.3,0.0
+2026-09-08T10:00:06Z,requesty,nebius/moonshotai/kimi-k2.6,RQ: kimi-k2.6,0.95,4.0,0.95,0.0
+2026-09-08T10:00:06Z,requesty,nebius/nousresearch/hermes-4-405b,RQ: hermes-4-405b,1.0,3.0,1.0,0.0
+2026-09-08T10:00:06Z,requesty,nebius/nousresearch/hermes-4-70b,RQ: hermes-4-70b,0.13,0.39999999999999997,0.13,0.0
+2026-09-08T10:00:06Z,requesty,nebius/nvidia/nemotron-3-nano-omni,RQ: nemotron-3-nano-omni,0.06,0.24,0.06,0.0
+2026-09-08T10:00:06Z,requesty,nebius/nvidia/nemotron-3-ultra-550b-a55b,RQ: nemotron-3-ultra-550b-a55b,1.0,3.0,1.0,0.0
+2026-09-08T10:00:06Z,requesty,nebius/openai/gpt-oss-120b,RQ: gpt-oss-120b,0.15,0.6,0.15,0.0
+2026-09-08T10:00:06Z,requesty,nebius/qwen/qwen3-235b-a22b-instruct-2507,RQ: qwen3-235b-a22b-instruct-2507,0.19999999999999998,0.6,0.19999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,nebius/qwen/qwen3-30b-a3b-instruct-2507,RQ: qwen3-30b-a3b-instruct-2507,0.09999999999999999,0.3,0.09999999999999999,0.0
+2026-09-08T10:00:06Z,requesty,nebius/qwen/qwen3-32b,RQ: qwen3-32b,0.09999999999999999,0.3,0.09999999999999999,0.0
+2026-09-08T10:00:06Z,requesty,nebius/qwen/qwen3-next-80b-a3b-thinking,RQ: qwen3-next-80b-a3b-thinking,0.15,1.2,0.15,0.0
+2026-09-08T10:00:06Z,requesty,nebius/qwen/qwen3.5-397b-a17b,RQ: qwen3.5-397b-a17b,0.6,3.5999999999999996,0.6,0.0
+2026-09-08T10:00:06Z,requesty,nebius/zai-org/glm-5.1,RQ: glm-5.1,1.4,4.4,1.4,0.0
+2026-09-08T10:00:06Z,requesty,novita/baichuan/baichuan-m2-32b,RQ: baichuan-m2-32b,0.07,0.07,0.0,0.0
+2026-09-08T10:00:06Z,requesty,novita/deepseek/deepseek-r1,RQ: deepseek-r1,4.0,4.0,4.0,0.0
+2026-09-08T10:00:06Z,requesty,novita/deepseek/deepseek-r1-distill-llama-70b,RQ: deepseek-r1-distill-llama-70b,0.7999999999999999,0.7999999999999999,0.7999999999999999,0.0
+2026-09-08T10:00:06Z,requesty,novita/deepseek/deepseek-r1-turbo,RQ: deepseek-r1-turbo,0.7,2.5,0.7,0.0
+2026-09-08T10:00:06Z,requesty,novita/deepseek/deepseek-v3-0324,RQ: deepseek-v3-0324,0.39999999999999997,1.3,0.39999999999999997,0.0
+2026-09-08T10:00:06Z,requesty,novita/deepseek/deepseek-v3-turbo,RQ: deepseek-v3-turbo,0.39999999999999997,1.3,0.39999999999999997,0.0
+2026-09-08T10:00:06Z,requesty,novita/deepseek/deepseek-v3.2,RQ: deepseek-v3.2,0.26899999999999996,0.39999999999999997,0.13449999999999998,0.0
+2026-09-08T10:00:06Z,requesty,novita/deepseek/deepseek-v4-flash-0424,RQ: deepseek-v4-flash-0424,0.14,0.28,0.0,0.0
+2026-09-08T10:00:06Z,requesty,novita/deepseek/deepseek-v4-flash-0731,RQ: deepseek-v4-flash-0731,0.14,0.28,0.028,0.0
+2026-09-08T10:00:06Z,requesty,novita/deepseek/deepseek_v3,RQ: deepseek_v3,0.8899999999999999,0.8899999999999999,0.8899999999999999,0.0
+2026-09-08T10:00:06Z,requesty,novita/GLM-5,RQ: glm-5,1.0,3.1999999999999997,0.19999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,novita/glm-5.3-flash,RQ: glm-5.3-flash,0.15,0.5,0.03,0.0
+2026-09-08T10:00:06Z,requesty,novita/google/gemma-4-26b-a4b-it,RQ: gemma-4-26b-a4b-it,0.13,0.39999999999999997,0.13,0.0
+2026-09-08T10:00:06Z,requesty,novita/gryphe/mythomax-l2-13b,RQ: mythomax-l2-13b,0.09,0.09,0.09,0.0
+2026-09-08T10:00:06Z,requesty,novita/inclusionai/ling-2.6-1t,RQ: ling-2.6-1t,0.3,2.5,0.0,0.0
+2026-09-08T10:00:06Z,requesty,novita/inclusionai/ling-2.6-flash,RQ: ling-2.6-flash,0.09999999999999999,0.3,0.0,0.0
+2026-09-08T10:00:06Z,requesty,novita/inclusionai/ling-3.0-tiny,RQ: ling-3.0-tiny,0.0,0.0,0.0,0.0
+2026-09-08T10:00:06Z,requesty,novita/inclusionai/ring-2.6-1t,RQ: ring-2.6-1t,0.3,2.5,0.0,0.0
+2026-09-08T10:00:06Z,requesty,novita/kwaipilot/kat-coder-pro,RQ: kat-coder-pro,0.3,1.2,0.0,0.0
+2026-09-08T10:00:06Z,requesty,novita/meta-llama/llama-3.1-8b-instruct,RQ: llama-3.1-8b-instruct,0.049999999999999996,0.049999999999999996,0.049999999999999996,0.0
+2026-09-08T10:00:06Z,requesty,novita/meta-llama/llama-3.3-70b-instruct,RQ: llama-3.3-70b-instruct,0.39,0.39,0.39,0.0
+2026-09-08T10:00:06Z,requesty,novita/meta-llama/llama-4-maverick-17b-128e-instruct-fp8,RQ: llama-4-maverick-17b-128e-instruct,0.19999999999999998,0.85,0.19999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,novita/microsoft/wizardlm-2-8x22b,RQ: wizardlm-2-8x22b,0.62,0.62,0.62,0.0
+2026-09-08T10:00:06Z,requesty,novita/minimax/minimax-m2.7,RQ: minimax-m2.7,0.3,1.2,0.06,0.0
+2026-09-08T10:00:06Z,requesty,novita/minimax/minimax-m2.7-highspeed,RQ: minimax-m2.7-highspeed,0.6,2.4,0.0,0.0
+2026-09-08T10:00:06Z,requesty,novita/mistralai/mistral-nemo,RQ: mistral-nemo,0.16999999999999998,0.16999999999999998,0.16999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,novita/moonshotai/kimi-k2-instruct,RQ: kimi-k2-instruct,0.5700000000000001,2.3,0.5700000000000001,0.0
+2026-09-08T10:00:06Z,requesty,novita/qwen/qwen-2.5-72b-instruct,RQ: qwen-2.5-72b-instruct,0.38,0.39999999999999997,0.38,0.0
+2026-09-08T10:00:06Z,requesty,novita/qwen/qwen3-235b-a22b-fp8,RQ: qwen3-235b-a22b,0.19999999999999998,0.7999999999999999,0.19999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,novita/qwen/qwen3.5-397b-a17b,RQ: qwen3.5-397b-a17b,0.6,3.5999999999999996,0.6,0.0
+2026-09-08T10:00:06Z,requesty,novita/qwen/qwen3.8-max,RQ: qwen3.8-max,2.0,6.0,0.25,0.0
+2026-09-08T10:00:06Z,requesty,novita/sao10k/l3-8b-lunaris,RQ: l3-8b-lunaris,0.049999999999999996,0.049999999999999996,0.049999999999999996,0.0
+2026-09-08T10:00:06Z,requesty,novita/sao10k/l3-8b-stheno-v3.2,RQ: l3-8b-stheno-v3.2,0.049999999999999996,0.049999999999999996,0.049999999999999996,0.0
+2026-09-08T10:00:06Z,requesty,novita/sao10k/l31-70b-euryale-v2.2,RQ: l31-70b-euryale-v2.2,1.48,1.48,1.48,0.0
+2026-09-08T10:00:06Z,requesty,novita/stepfun/step-3.7-flash,RQ: step-3.7-flash,0.19999999999999998,1.15,0.04,0.0
+2026-09-08T10:00:06Z,requesty,novita/tencent/hy3,RQ: hy3,0.14,0.58,0.035,0.0
+2026-09-08T10:00:06Z,requesty,novita/zai-org/glm-4.6,RQ: glm-4.6,0.6,2.2,0.6,0.0
+2026-09-08T10:00:06Z,requesty,novita/zai-org/glm-5.1,RQ: glm-5.1,1.38,4.4,0.0,0.0
+2026-09-08T10:00:06Z,requesty,nvidia/muse-glimmer-30b,RQ: muse-glimmer-30b,0.0,0.0,0.0,0.0
+2026-09-08T10:00:06Z,requesty,nvidia/nemotron-3-nano-30b-a3b,RQ: nemotron-3-nano-30b-a3b,0.0,0.0,0.0,0.0
+2026-09-08T10:00:06Z,requesty,nvidia/nemotron-3-nano-omni-30b-a3b-reasoning,RQ: nemotron-3-nano-omni-30b-a3b-reasoning,0.0,0.0,0.0,0.0
+2026-09-08T10:00:06Z,requesty,nvidia/nemotron-3-super-120b-a12b,RQ: nemotron-3-super-120b-a12b,0.0,0.0,0.0,0.0
+2026-09-08T10:00:06Z,requesty,nvidia/nemotron-3-ultra-550b-a55b,RQ: nemotron-3-ultra-550b-a55b,0.0,0.0,0.0,0.0
+2026-09-08T10:00:06Z,requesty,nvidia/nemotron-3.5-content-safety,RQ: nemotron-3.5-content-safety,0.0,0.0,0.0,0.0
+2026-09-08T10:00:06Z,requesty,nvidia/nemotron-3.5-lightning-30b-a3b,RQ: nemotron-3.5-lightning-30b-a3b,0.0,0.0,0.0,0.0
+2026-09-08T10:00:06Z,requesty,openai-responses/gpt-4.1,RQ: gpt-4.1,2.0,8.0,0.5,0.0
+2026-09-08T10:00:06Z,requesty,openai-responses/gpt-4.1-mini,RQ: gpt-4.1-mini,0.39999999999999997,1.5999999999999999,0.09999999999999999,0.0
+2026-09-08T10:00:06Z,requesty,openai-responses/gpt-4.1-nano,RQ: gpt-4.1-nano,0.09999999999999999,0.39999999999999997,0.024999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,openai-responses/gpt-5,RQ: gpt-5,1.25,10.0,0.125,0.0
+2026-09-08T10:00:06Z,requesty,openai-responses/gpt-5-codex,RQ: gpt-5-codex,1.25,10.0,0.125,0.0
+2026-09-08T10:00:06Z,requesty,openai-responses/gpt-5-mini,RQ: gpt-5-mini,0.25,2.0,0.024999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,openai-responses/gpt-5-nano,RQ: gpt-5-nano,0.049999999999999996,0.39999999999999997,0.005,0.0
+2026-09-08T10:00:06Z,requesty,openai-responses/gpt-5-pro,RQ: gpt-5-pro,15.0,120.0,15.0,0.0
+2026-09-08T10:00:06Z,requesty,openai-responses/gpt-5.1,RQ: gpt-5.1,1.25,10.0,0.125,0.0
+2026-09-08T10:00:06Z,requesty,openai-responses/gpt-5.1:flex,RQ: gpt-5.1,0.625,5.0,0.0625,0.0
+2026-09-08T10:00:06Z,requesty,openai-responses/gpt-5.2,RQ: gpt-5.2,1.75,14.0,0.175,0.0
+2026-09-08T10:00:06Z,requesty,openai-responses/gpt-5.2:flex,RQ: gpt-5.2,0.875,7.0,0.0875,0.0
+2026-09-08T10:00:06Z,requesty,openai-responses/gpt-5.3-codex,RQ: gpt-5.3-codex,1.75,14.0,0.175,0.0
+2026-09-08T10:00:06Z,requesty,openai-responses/gpt-5.4,RQ: gpt-5.4,2.5,15.0,0.25,0.0
+2026-09-08T10:00:06Z,requesty,openai-responses/gpt-5.4-mini,RQ: gpt-5.4-mini,0.75,4.5,0.075,0.0
+2026-09-08T10:00:06Z,requesty,openai-responses/gpt-5.4-mini:flex,RQ: gpt-5.4-mini,0.375,2.25,0.0375,0.0
+2026-09-08T10:00:06Z,requesty,openai-responses/gpt-5.4-nano,RQ: gpt-5.4-nano,0.19999999999999998,1.25,0.02,0.0
+2026-09-08T10:00:06Z,requesty,openai-responses/gpt-5.4-nano:flex,RQ: gpt-5.4-nano,0.09999999999999999,0.625,0.01,0.0
+2026-09-08T10:00:06Z,requesty,openai-responses/gpt-5.4-pro,RQ: gpt-5.4-pro,30.0,180.0,30.0,0.0
+2026-09-08T10:00:06Z,requesty,openai-responses/gpt-5.4:flex,RQ: gpt-5.4,1.25,7.5,0.125,0.0
+2026-09-08T10:00:06Z,requesty,openai-responses/gpt-5.5,RQ: gpt-5.5,5.0,30.0,0.5,0.0
+2026-09-08T10:00:06Z,requesty,openai-responses/gpt-5.5-pro,RQ: gpt-5.5-pro,30.0,180.0,0.0,0.0
+2026-09-08T10:00:06Z,requesty,openai-responses/gpt-5.5:flex,RQ: gpt-5.5,2.5,15.0,0.25,0.0
+2026-09-08T10:00:06Z,requesty,openai-responses/gpt-5.6-luna,RQ: gpt-5.6-luna,0.19999999999999998,1.2,0.02,0.0
+2026-09-08T10:00:06Z,requesty,openai-responses/gpt-5.6-luna:flex,RQ: gpt-5.6-luna,0.09999999999999999,0.6,0.01,0.0
+2026-09-08T10:00:06Z,requesty,openai-responses/gpt-5.6-sol,RQ: gpt-5.6-sol,5.0,30.0,0.5,0.0
+2026-09-08T10:00:06Z,requesty,openai-responses/gpt-5.6-sol:flex,RQ: gpt-5.6-sol,2.5,15.0,0.25,0.0
+2026-09-08T10:00:06Z,requesty,openai-responses/gpt-5.6-terra,RQ: gpt-5.6-terra,2.0,12.0,0.19999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,openai-responses/gpt-5.6-terra:flex,RQ: gpt-5.6-terra,1.0,6.0,0.09999999999999999,0.0
+2026-09-08T10:00:06Z,requesty,openai-responses/gpt-6-astra,RQ: gpt-6-astra,10.0,50.0,1.0,0.0
+2026-09-08T10:00:06Z,requesty,openai-responses/gpt-6-astra:flex,RQ: gpt-6-astra,5.0,25.0,0.5,0.0
+2026-09-08T10:00:06Z,requesty,openai-responses/o3-mini,RQ: o3-mini,1.1,4.4,0.55,0.0
+2026-09-08T10:00:06Z,requesty,openai-responses/o3-pro,RQ: o3-pro,20.0,80.0,20.0,0.0
+2026-09-08T10:00:06Z,requesty,openai-responses/o4-mini,RQ: o4-mini,1.1,4.4,0.275,0.0
+2026-09-08T10:00:06Z,requesty,openai/gpt-4.1,RQ: gpt-4.1,2.0,8.0,0.5,0.0
+2026-09-08T10:00:06Z,requesty,openai/gpt-4.1-mini,RQ: gpt-4.1-mini,0.39999999999999997,1.5999999999999999,0.09999999999999999,0.0
+2026-09-08T10:00:06Z,requesty,openai/gpt-4.1-nano,RQ: gpt-4.1-nano,0.09999999999999999,0.39999999999999997,0.024999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,openai/gpt-4o,RQ: gpt-4o-2024-11-20,2.5,10.0,1.25,0.0
+2026-09-08T10:00:06Z,requesty,openai/gpt-4o-2024-05-13,RQ: gpt-4o-2024-05-13,2.5,10.0,2.5,0.0
+2026-09-08T10:00:06Z,requesty,openai/gpt-4o-2024-08-06,RQ: gpt-4o-2024-08-06,2.5,10.0,1.25,0.0
+2026-09-08T10:00:06Z,requesty,openai/gpt-4o-2024-11-20,RQ: gpt-4o-2024-11-20,2.5,10.0,1.25,0.0
+2026-09-08T10:00:06Z,requesty,openai/gpt-4o-mini,RQ: gpt-4o-mini,0.15,0.6,0.075,0.0
+2026-09-08T10:00:06Z,requesty,openai/gpt-5,RQ: gpt-5,1.25,10.0,0.125,0.0
+2026-09-08T10:00:06Z,requesty,openai/gpt-5-mini,RQ: gpt-5-mini,0.25,2.0,0.024999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,openai/gpt-5-mini:flex,RQ: gpt-5-mini,0.125,1.0,0.012499999999999999,0.0
+2026-09-08T10:00:06Z,requesty,openai/gpt-5-mini:priority,RQ: gpt-5-mini,0.44999999999999996,3.5999999999999996,0.045,0.0
+2026-09-08T10:00:06Z,requesty,openai/gpt-5-nano,RQ: gpt-5-nano,0.049999999999999996,0.39999999999999997,0.005,0.0
+2026-09-08T10:00:06Z,requesty,openai/gpt-5-nano:flex,RQ: gpt-5-nano,0.024999999999999998,0.19999999999999998,0.0025,0.0
+2026-09-08T10:00:06Z,requesty,openai/gpt-5.1,RQ: gpt-5.1,1.25,10.0,0.125,0.0
+2026-09-08T10:00:06Z,requesty,openai/gpt-5.1:flex,RQ: gpt-5.1,0.625,5.0,0.0625,0.0
+2026-09-08T10:00:06Z,requesty,openai/gpt-5.2,RQ: gpt-5.2,1.75,14.0,0.175,0.0
+2026-09-08T10:00:06Z,requesty,openai/gpt-5.2:flex,RQ: gpt-5.2,0.875,7.0,0.0875,0.0
+2026-09-08T10:00:06Z,requesty,openai/gpt-5.4,RQ: gpt-5.4,2.5,15.0,0.25,0.0
+2026-09-08T10:00:06Z,requesty,openai/gpt-5.4-mini,RQ: gpt-5.4-mini,0.75,4.5,0.075,0.0
+2026-09-08T10:00:06Z,requesty,openai/gpt-5.4-mini:flex,RQ: gpt-5.4-mini,0.375,2.25,0.0375,0.0
+2026-09-08T10:00:06Z,requesty,openai/gpt-5.4-nano,RQ: gpt-5.4-nano,0.19999999999999998,1.25,0.02,0.0
+2026-09-08T10:00:06Z,requesty,openai/gpt-5.4-nano:flex,RQ: gpt-5.4-nano,0.09999999999999999,0.625,0.01,0.0
+2026-09-08T10:00:06Z,requesty,openai/gpt-5.4:flex,RQ: gpt-5.4,1.25,7.5,0.125,0.0
+2026-09-08T10:00:06Z,requesty,openai/gpt-5.5,RQ: gpt-5.5,5.0,30.0,0.5,0.0
+2026-09-08T10:00:06Z,requesty,openai/gpt-5.5:flex,RQ: gpt-5.5,2.5,15.0,0.25,0.0
+2026-09-08T10:00:06Z,requesty,openai/gpt-5.6-luna,RQ: gpt-5.6-luna,0.19999999999999998,1.2,0.02,0.0
+2026-09-08T10:00:06Z,requesty,openai/gpt-5.6-luna:flex,RQ: gpt-5.6-luna,0.09999999999999999,0.6,0.01,0.0
+2026-09-08T10:00:06Z,requesty,openai/gpt-5.6-sol,RQ: gpt-5.6-sol,4.0,20.0,0.39999999999999997,0.0
+2026-09-08T10:00:06Z,requesty,openai/gpt-5.6-sol:flex,RQ: gpt-5.6-sol,2.5,15.0,0.25,0.0
+2026-09-08T10:00:06Z,requesty,openai/gpt-5.6-terra,RQ: gpt-5.6-terra,2.0,12.0,0.19999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,openai/gpt-5.6-terra:flex,RQ: gpt-5.6-terra,1.0,6.0,0.09999999999999999,0.0
+2026-09-08T10:00:06Z,requesty,openai/gpt-5:flex,RQ: gpt-5,0.625,5.0,0.0625,0.0
+2026-09-08T10:00:06Z,requesty,openai/gpt-5:priority,RQ: gpt-5,2.5,20.0,0.25,0.0
+2026-09-08T10:00:06Z,requesty,openai/gpt-6-astra,RQ: gpt-6-astra,10.0,50.0,1.0,0.0
+2026-09-08T10:00:06Z,requesty,openai/gpt-6-astra:flex,RQ: gpt-6-astra,5.0,25.0,0.5,0.0
+2026-09-08T10:00:06Z,requesty,openai/o1,RQ: o1,15.0,60.0,7.5,0.0
+2026-09-08T10:00:06Z,requesty,openai/o1:high,RQ: o1,15.0,60.0,7.5,0.0
+2026-09-08T10:00:06Z,requesty,openai/o1:low,RQ: o1,15.0,60.0,7.5,0.0
+2026-09-08T10:00:06Z,requesty,openai/o1:medium,RQ: o1,15.0,60.0,7.5,0.0
+2026-09-08T10:00:06Z,requesty,openai/o3,RQ: o3,2.0,8.0,0.5,0.0
+2026-09-08T10:00:06Z,requesty,openai/o3-mini,RQ: o3-mini,1.1,4.4,0.55,0.0
+2026-09-08T10:00:06Z,requesty,openai/o3-mini:high,RQ: o3-mini,1.1,4.4,0.55,0.0
+2026-09-08T10:00:06Z,requesty,openai/o3-mini:low,RQ: o3-mini,1.1,4.4,0.55,0.0
+2026-09-08T10:00:06Z,requesty,openai/o3-mini:medium,RQ: o3-mini,1.1,4.4,0.55,0.0
+2026-09-08T10:00:06Z,requesty,openai/o3:flex,RQ: o3,1.0,4.0,0.25,0.0
+2026-09-08T10:00:06Z,requesty,openai/o4-mini,RQ: o4-mini,1.1,4.4,0.275,0.0
+2026-09-08T10:00:06Z,requesty,openai/o4-mini:flex,RQ: o4-mini,0.55,2.2,0.13799999999999998,0.0
+2026-09-08T10:00:06Z,requesty,openai/o4-mini:high,RQ: o4-mini,1.1,4.4,0.275,0.0
+2026-09-08T10:00:06Z,requesty,openai/o4-mini:low,RQ: o4-mini,1.1,4.4,0.275,0.0
+2026-09-08T10:00:06Z,requesty,openai/o4-mini:medium,RQ: o4-mini,1.1,4.4,0.275,0.0
+2026-09-08T10:00:06Z,requesty,parasail/deepseek-v4-flash-0424,RQ: deepseek-v4-flash-0424,0.14,0.28,0.07,0.0
+2026-09-08T10:00:06Z,requesty,parasail/gemma3-27b-it,RQ: parasail-gemma3-27b-it,0.3,0.5,0.3,0.0
+2026-09-08T10:00:06Z,requesty,parasail/google/gemma-4-26B-A4B-it,RQ: gemma-4-26b-a4b-it,0.13,0.39999999999999997,0.049999999999999996,0.0
+2026-09-08T10:00:06Z,requesty,parasail/parasail-qwen25-vl-72b-instruct,RQ: parasail-qwen25-vl-72b-instruct,0.7,0.7,0.7,0.0
+2026-09-08T10:00:06Z,requesty,parasail/parasail-qwen3-235b-a22b-instruct-2507,RQ: qwen3-235b-a22b-instruct-2507,0.15,0.85,0.15,0.0
+2026-09-08T10:00:06Z,requesty,perplexity/sonar,RQ: sonar,1.0,1.0,1.0,0.0
+2026-09-08T10:00:06Z,requesty,perplexity/sonar-pro,RQ: sonar-pro,3.0,15.0,3.0,0.0
+2026-09-08T10:00:06Z,requesty,perplexity/sonar-reasoning-pro,RQ: sonar-reasoning-pro,2.0,8.0,2.0,0.0
+2026-09-08T10:00:06Z,requesty,poolside/laguna-m.1,RQ: laguna-m.1,0.0,0.0,0.0,0.0
+2026-09-08T10:00:06Z,requesty,poolside/laguna-xs.2,RQ: laguna-xs.2,0.0,0.0,0.0,0.0
+2026-09-08T10:00:06Z,requesty,runware/deepseek-v4-flash-0731,RQ: deepseek-v4-flash-0731,0.07600000000000001,0.153,0.014,0.0
+2026-09-08T10:00:06Z,requesty,runware/glm-5.2,RQ: glm-5.2,0.7999999999999999,2.5500000000000003,0.16,0.0
+2026-09-08T10:00:06Z,requesty,runware/glm-5.3,RQ: glm-5.3,1.2,4.0,0.19999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,runware/glm-5.3-flash,RQ: glm-5.3-flash,0.075,0.25,0.015,0.0
+2026-09-08T10:00:06Z,requesty,runware/gpt-oss-120b,RQ: gpt-oss-120b,0.032,0.14,0.032,0.0
+2026-09-08T10:00:06Z,requesty,runware/qwen3.5-4b,RQ: qwen3.5-4b,0.049999999999999996,0.07,0.005,0.0
+2026-09-08T10:00:06Z,requesty,runware/qwen3.5-9b,RQ: qwen3.5-9b,0.09,0.13,0.009,0.0
+2026-09-08T10:00:06Z,requesty,sail/deepseek-v4-flash-0731,RQ: deepseek-v4-flash-0731,0.09,0.18,0.02,0.0
+2026-09-08T10:00:06Z,requesty,sail/gemma-4-31b-it,RQ: gemma-4-31b,0.39999999999999997,0.6,0.19999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,sail/gemma-4-31b-it-nvfp4,RQ: gemma-4-31b,0.14,0.39999999999999997,0.07,0.0
+2026-09-08T10:00:06Z,requesty,sail/glm-5.2,RQ: glm-5.2,0.7999999999999999,3.0,0.16,0.0
+2026-09-08T10:00:06Z,requesty,sail/gpt-oss-120b,RQ: gpt-oss-120b,0.06,0.39999999999999997,0.03,0.0
+2026-09-08T10:00:06Z,requesty,sail/kimi-k2.6,RQ: kimi-k2.6,1.0,4.0,0.19999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,sakana/fugu-ultra,RQ: fugu-ultra,5.0,30.0,0.5,0.0
+2026-09-08T10:00:06Z,requesty,scaleway/deepseek-v4-flash-0731,RQ: deepseek-v4-flash-0731,0.45999999999999996,0.9299999999999999,0.09,0.0
+2026-09-08T10:00:06Z,requesty,scaleway/glm-5.2,RQ: glm-5.2,2.09,6.38,0.0,0.0
+2026-09-08T10:00:06Z,requesty,scaleway/gpt-oss-120b,RQ: gpt-oss-120b,0.16999999999999998,0.7,0.0,0.0
+2026-09-08T10:00:06Z,requesty,sference/deepseek-v4-flash-0731,RQ: deepseek-v4-flash-0731,0.28,0.56,0.07,0.0
+2026-09-08T10:00:06Z,requesty,sference/glm-5.2,RQ: glm-5.2,1.2,4.199999999999999,0.26,0.0
+2026-09-08T10:00:06Z,requesty,sference/glm-5.3,RQ: glm-5.3,1.2,4.199999999999999,0.26,0.0
+2026-09-08T10:00:06Z,requesty,sference/glm-5.3-flash,RQ: glm-5.3-flash,0.19999999999999998,0.6,0.07,0.0
+2026-09-08T10:00:06Z,requesty,sference/kimi-k3,RQ: kimi-k3,3.0,15.0,0.44999999999999996,0.0
+2026-09-08T10:00:06Z,requesty,sference/thinkingcap-qwen3.6-27b,RQ: thinkingcap-qwen3.6-27b,0.39999999999999997,2.6,0.049999999999999996,0.0
+2026-09-08T10:00:06Z,requesty,tensorx/deepseek-v4-flash-0731,RQ: deepseek-v4-flash-0731,0.25,0.3,0.06,0.0
+2026-09-08T10:00:06Z,requesty,tensorx/deepseek-v4-pro-0424,RQ: deepseek-v4-pro-0424,1.75,3.5,0.44,0.0
+2026-09-08T10:00:06Z,requesty,tensorx/deepseek-v4-pro-0813,RQ: deepseek-v4-pro-0813,1.75,3.5,0.44,0.0
+2026-09-08T10:00:06Z,requesty,tensorx/glm-5.2,RQ: glm-5.2,1.5,4.5,0.38,0.0
+2026-09-08T10:00:06Z,requesty,tensorx/glm-5.3,RQ: glm-5.3,1.75,4.5,0.44,0.0
+2026-09-08T10:00:06Z,requesty,tensorx/glm-5.3-flash,RQ: glm-5.3-flash,0.19999999999999998,0.5,0.049999999999999996,0.0
+2026-09-08T10:00:06Z,requesty,tensorx/kimi-k2.7-code,RQ: kimi-k2.7-code,1.25,4.5,0.31,0.0
+2026-09-08T10:00:06Z,requesty,tensorx/kimi-k3,RQ: kimi-k3,3.0,15.0,0.75,0.0
+2026-09-08T10:00:06Z,requesty,tensorx/minimax-m3,RQ: minimax-m3,0.39999999999999997,2.0,0.09999999999999999,0.0
+2026-09-08T10:00:06Z,requesty,tensorx/qwen3.8,RQ: qwen3.8-2.4t-a95b,2.5,6.0,0.63,0.0
+2026-09-08T10:00:06Z,requesty,tensorx/qwen3.8-2.4t-a95b,RQ: qwen3.8-2.4t-a95b,2.5,6.0,0.63,0.0
+2026-09-08T10:00:06Z,requesty,tensorx/qwen3.8-flash-next,RQ: qwen3.8-flash-next,0.19999999999999998,0.5,0.049999999999999996,0.0
+2026-09-08T10:00:06Z,requesty,thinkingmachines/inkling,RQ: inkling,1.87,4.68,0.374,0.0
+2026-09-08T10:00:06Z,requesty,thinkingmachines/inkling-256k,RQ: inkling-256k,1.87,4.68,0.374,0.0
+2026-09-08T10:00:06Z,requesty,vertex/claude-fable-5,RQ: claude-fable-5,10.0,50.0,1.0,0.0
+2026-09-08T10:00:06Z,requesty,vertex/claude-fable-5.1,RQ: claude-fable-5.1,10.0,50.0,0.25,0.0
+2026-09-08T10:00:06Z,requesty,vertex/claude-fable-5.1@eu,RQ: claude-fable-5.1,11.0,55.0,0.275,0.0
+2026-09-08T10:00:06Z,requesty,vertex/claude-fable-5@eu,RQ: claude-fable-5,11.0,55.0,1.1,0.0
+2026-09-08T10:00:06Z,requesty,vertex/claude-haiku-4-5,RQ: claude-haiku-4-5,1.0,5.0,0.09999999999999999,0.0
+2026-09-08T10:00:06Z,requesty,vertex/claude-haiku-4-5@europe-west1,RQ: claude-haiku-4-5,1.1,5.5,0.11,0.0
+2026-09-08T10:00:06Z,requesty,vertex/claude-haiku-4-5@us-east5,RQ: claude-haiku-4-5,1.1,5.5,0.11,0.0
+2026-09-08T10:00:06Z,requesty,vertex/claude-opus-4,RQ: claude-opus-4,15.0,75.0,1.5,0.0
+2026-09-08T10:00:06Z,requesty,vertex/claude-opus-4-1,RQ: claude-opus-4-1,15.0,75.0,1.5,0.0
+2026-09-08T10:00:06Z,requesty,vertex/claude-opus-4-1@us-east5,RQ: claude-opus-4-1,15.0,75.0,1.5,0.0
+2026-09-08T10:00:06Z,requesty,vertex/claude-opus-4-5,RQ: claude-opus-4-5,5.0,25.0,0.5,0.0
+2026-09-08T10:00:06Z,requesty,vertex/claude-opus-4-5@europe-west1,RQ: claude-opus-4-5,5.5,27.5,0.55,0.0
+2026-09-08T10:00:06Z,requesty,vertex/claude-opus-4-5@us-east5,RQ: claude-opus-4-5,5.5,27.5,0.55,0.0
+2026-09-08T10:00:06Z,requesty,vertex/claude-opus-4-6,RQ: claude-opus-4-6,5.0,25.0,0.5,0.0
+2026-09-08T10:00:06Z,requesty,vertex/claude-opus-4-6@europe-west1,RQ: claude-opus-4-6,5.5,27.5,0.55,0.0
+2026-09-08T10:00:06Z,requesty,vertex/claude-opus-4-6@us-east5,RQ: claude-opus-4-6,5.5,27.5,0.55,0.0
+2026-09-08T10:00:06Z,requesty,vertex/claude-opus-4-7,RQ: claude-opus-4-7,5.0,25.0,0.5,0.0
+2026-09-08T10:00:06Z,requesty,vertex/claude-opus-4-7@eu,RQ: claude-opus-4-7,5.5,27.5,0.55,0.0
+2026-09-08T10:00:06Z,requesty,vertex/claude-opus-4-7@us,RQ: claude-opus-4-7,5.5,27.5,0.55,0.0
+2026-09-08T10:00:06Z,requesty,vertex/claude-opus-4-8,RQ: claude-opus-4-8,5.0,25.0,0.5,0.0
+2026-09-08T10:00:06Z,requesty,vertex/claude-opus-4-8@eu,RQ: claude-opus-4-8,5.5,27.5,0.55,0.0
+2026-09-08T10:00:06Z,requesty,vertex/claude-opus-4-8@us,RQ: claude-opus-4-8,5.5,27.5,0.55,0.0
+2026-09-08T10:00:06Z,requesty,vertex/claude-opus-4@us-east5,RQ: claude-opus-4,15.0,75.0,1.5,0.0
+2026-09-08T10:00:06Z,requesty,vertex/claude-opus-5,RQ: claude-opus-5,5.0,25.0,0.5,0.0
+2026-09-08T10:00:06Z,requesty,vertex/claude-opus-5@eu,RQ: claude-opus-5,5.5,27.5,0.55,0.0
+2026-09-08T10:00:06Z,requesty,vertex/claude-opus-5@us,RQ: claude-opus-5,5.5,27.5,0.55,0.0
+2026-09-08T10:00:06Z,requesty,vertex/claude-sonnet-4,RQ: claude-sonnet-4,3.0,15.0,0.3,0.0
+2026-09-08T10:00:06Z,requesty,vertex/claude-sonnet-4-5,RQ: claude-sonnet-4-5,3.0,15.0,0.3,0.0
+2026-09-08T10:00:06Z,requesty,vertex/claude-sonnet-4-5@europe-west1,RQ: claude-sonnet-4-5,3.3000000000000003,16.5,0.33,0.0
+2026-09-08T10:00:06Z,requesty,vertex/claude-sonnet-4-5@us-east5,RQ: claude-sonnet-4-5,3.3000000000000003,16.5,0.33,0.0
+2026-09-08T10:00:06Z,requesty,vertex/claude-sonnet-4-6,RQ: claude-sonnet-4-6,3.0,15.0,0.3,0.0
+2026-09-08T10:00:06Z,requesty,vertex/claude-sonnet-4-6@europe-west1,RQ: claude-sonnet-4-6,3.3000000000000003,16.5,0.33,0.0
+2026-09-08T10:00:06Z,requesty,vertex/claude-sonnet-4-6@us-east5,RQ: claude-sonnet-4-6,3.3000000000000003,16.5,0.33,0.0
+2026-09-08T10:00:06Z,requesty,vertex/claude-sonnet-4@europe-west1,RQ: claude-sonnet-4,3.0,15.0,0.3,0.0
+2026-09-08T10:00:06Z,requesty,vertex/claude-sonnet-4@us-east5,RQ: claude-sonnet-4,3.0,15.0,0.3,0.0
+2026-09-08T10:00:06Z,requesty,vertex/claude-sonnet-5,RQ: claude-sonnet-5,2.0,10.0,0.19999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,vertex/claude-sonnet-5@eu,RQ: claude-sonnet-5,2.2,11.0,0.22,0.0
+2026-09-08T10:00:06Z,requesty,vertex/claude-sonnet-5@us,RQ: claude-sonnet-5,2.2,11.0,0.22,0.0
+2026-09-08T10:00:06Z,requesty,vertex/deepseek-v3.2,RQ: deepseek-v3.2,0.56,1.68,0.056,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-flash,RQ: gemini-2.5-flash,0.3,2.5,0.075,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-flash-image,RQ: gemini-2.5-flash-image,0.3,2.5,0.3,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-flash-image@europe-central2,RQ: gemini-2.5-flash-image,0.3,2.5,0.3,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-flash-image@europe-north1,RQ: gemini-2.5-flash-image,0.3,2.5,0.3,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-flash-image@europe-southwest1,RQ: gemini-2.5-flash-image,0.3,2.5,0.3,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-flash-image@europe-west1,RQ: gemini-2.5-flash-image,0.3,2.5,0.3,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-flash-image@europe-west4,RQ: gemini-2.5-flash-image,0.3,2.5,0.3,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-flash-image@europe-west8,RQ: gemini-2.5-flash-image,0.3,2.5,0.3,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-flash-image@us-central1,RQ: gemini-2.5-flash-image,0.3,2.5,0.3,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-flash-image@us-east1,RQ: gemini-2.5-flash-image,0.3,2.5,0.3,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-flash-image@us-east4,RQ: gemini-2.5-flash-image,0.3,2.5,0.3,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-flash-image@us-east5,RQ: gemini-2.5-flash-image,0.3,2.5,0.3,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-flash-image@us-south1,RQ: gemini-2.5-flash-image,0.3,2.5,0.3,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-flash-image@us-west1,RQ: gemini-2.5-flash-image,0.3,2.5,0.3,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-flash-image@us-west4,RQ: gemini-2.5-flash-image,0.3,2.5,0.3,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-flash-lite,RQ: gemini-2.5-flash-lite,0.09999999999999999,0.39999999999999997,0.01,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-flash-lite@europe-central2,RQ: gemini-2.5-flash-lite,0.09999999999999999,0.39999999999999997,0.01,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-flash-lite@europe-north1,RQ: gemini-2.5-flash-lite,0.09999999999999999,0.39999999999999997,0.01,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-flash-lite@europe-west1,RQ: gemini-2.5-flash-lite,0.09999999999999999,0.39999999999999997,0.01,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-flash-lite@europe-west4,RQ: gemini-2.5-flash-lite,0.09999999999999999,0.39999999999999997,0.01,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-flash-lite@europe-west8,RQ: gemini-2.5-flash-lite,0.09999999999999999,0.39999999999999997,0.01,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-flash-lite@us-central1,RQ: gemini-2.5-flash-lite,0.09999999999999999,0.39999999999999997,0.01,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-flash-lite@us-east1,RQ: gemini-2.5-flash-lite,0.09999999999999999,0.39999999999999997,0.01,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-flash-lite@us-east5,RQ: gemini-2.5-flash-lite,0.09999999999999999,0.39999999999999997,0.01,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-flash-lite@us-south1,RQ: gemini-2.5-flash-lite,0.09999999999999999,0.39999999999999997,0.01,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-flash-lite@us-west1,RQ: gemini-2.5-flash-lite,0.09999999999999999,0.39999999999999997,0.01,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-flash@europe-central2,RQ: gemini-2.5-flash,0.3,2.5,0.075,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-flash@europe-north1,RQ: gemini-2.5-flash,0.3,2.5,0.075,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-flash@europe-west1,RQ: gemini-2.5-flash,0.3,2.5,0.075,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-flash@europe-west4,RQ: gemini-2.5-flash,0.3,2.5,0.075,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-flash@europe-west8,RQ: gemini-2.5-flash,0.3,2.5,0.075,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-flash@us-central1,RQ: gemini-2.5-flash,0.3,2.5,0.075,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-flash@us-east1,RQ: gemini-2.5-flash,0.3,2.5,0.075,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-flash@us-east5,RQ: gemini-2.5-flash,0.3,2.5,0.075,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-flash@us-south1,RQ: gemini-2.5-flash,0.3,2.5,0.075,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-flash@us-west1,RQ: gemini-2.5-flash,0.3,2.5,0.075,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-pro,RQ: gemini-2.5-pro,1.25,10.0,0.31,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-pro@europe-central2,RQ: gemini-2.5-pro,1.25,10.0,0.31,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-pro@europe-north1,RQ: gemini-2.5-pro,1.25,10.0,0.31,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-pro@europe-west1,RQ: gemini-2.5-pro,1.25,10.0,0.31,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-pro@europe-west4,RQ: gemini-2.5-pro,1.25,10.0,0.31,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-pro@europe-west8,RQ: gemini-2.5-pro,1.25,10.0,0.31,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-pro@us-central1,RQ: gemini-2.5-pro,1.25,10.0,0.31,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-pro@us-east1,RQ: gemini-2.5-pro,1.25,10.0,0.31,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-pro@us-east5,RQ: gemini-2.5-pro,1.25,10.0,0.31,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-pro@us-south1,RQ: gemini-2.5-pro,1.25,10.0,0.31,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-2.5-pro@us-west1,RQ: gemini-2.5-pro,1.25,10.0,0.31,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-3-flash-preview,RQ: gemini-3-flash-preview,0.5,3.0,0.049999999999999996,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-3-flash-preview:flex,RQ: gemini-3-flash-preview,0.25,1.5,0.024999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-3-pro-image,RQ: gemini-3-pro-image,2.0,12.0,0.19999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-3-pro-image:flex,RQ: gemini-3-pro-image,1.0,6.0,0.09999999999999999,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-3-pro-preview,RQ: gemini-3.1-pro-preview,2.0,12.0,0.19999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-3.1-flash-image,RQ: gemini-3.1-flash-image,0.5,2.0,0.0,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-3.1-flash-image:flex,RQ: gemini-3.1-flash-image,0.25,1.5,0.0,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-3.1-flash-lite,RQ: gemini-3.1-flash-lite,0.25,1.5,0.024999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-3.1-flash-lite:flex,RQ: gemini-3.1-flash-lite,0.125,0.75,0.012499999999999999,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-3.1-flash-lite@eu,RQ: gemini-3.1-flash-lite,0.275,1.6500000000000001,0.0275,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-3.1-flash-lite@us,RQ: gemini-3.1-flash-lite,0.275,1.6500000000000001,0.0275,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-3.1-pro-preview,RQ: gemini-3.1-pro-preview,2.0,12.0,0.19999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-3.1-pro-preview:flex,RQ: gemini-3.1-pro-preview,1.0,6.0,0.09999999999999999,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-3.5-flash,RQ: gemini-3.5-flash,1.5,9.0,0.15,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-3.5-flash-lite,RQ: gemini-3.5-flash-lite,0.3,2.5,0.03,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-3.5-flash-lite:flex,RQ: gemini-3.5-flash-lite,0.15,1.25,0.015,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-3.5-flash-lite@eu,RQ: gemini-3.5-flash-lite,0.33,2.75,0.032999999999999995,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-3.5-flash:flex,RQ: gemini-3.5-flash,0.75,4.5,0.075,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-3.5-flash@eu,RQ: gemini-3.5-flash,1.6500000000000001,9.9,0.165,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-3.5-flash@us,RQ: gemini-3.5-flash,1.6500000000000001,9.9,0.165,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-3.6-flash,RQ: gemini-3.6-flash,1.5,7.0,0.15,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-3.6-flash:flex,RQ: gemini-3.6-flash,0.375,1.875,0.0375,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-3.7-flash,RQ: gemini-3.7-flash,0.75,3.75,0.075,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-3.7-flash@eu,RQ: gemini-3.7-flash,0.8250000000000001,4.125,0.0825,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-3.8-flash,RQ: gemini-3.8-flash,0.75,3.75,0.075,0.0
+2026-09-08T10:00:06Z,requesty,vertex/gemini-3.8-flash@eu,RQ: gemini-3.8-flash,0.8250000000000001,4.125,0.0825,0.0
+2026-09-08T10:00:06Z,requesty,vertex/kimi-k2,RQ: kimi-k2,0.6,2.5,0.06,0.0
+2026-09-08T10:00:06Z,requesty,xai/grok-3,RQ: grok-3,5.0,25.0,5.0,0.0
+2026-09-08T10:00:06Z,requesty,xai/grok-3-mini,RQ: grok-3-mini,0.3,0.5,0.3,0.0
+2026-09-08T10:00:06Z,requesty,xai/grok-3-mini:high,RQ: grok-3-mini,0.3,0.5,0.3,0.0
+2026-09-08T10:00:06Z,requesty,xai/grok-3-mini:low,RQ: grok-3-mini,0.3,0.5,0.3,0.0
+2026-09-08T10:00:06Z,requesty,xai/grok-4,RQ: grok-4,3.0,15.0,0.75,0.0
+2026-09-08T10:00:06Z,requesty,xai/grok-4-1-fast-non-reasoning,RQ: grok-4-1-fast-non-reasoning,0.19999999999999998,0.5,0.049999999999999996,0.0
+2026-09-08T10:00:06Z,requesty,xai/grok-4-1-fast-reasoning,RQ: grok-4-1-fast-reasoning,0.19999999999999998,0.5,0.049999999999999996,0.0
+2026-09-08T10:00:06Z,requesty,xai/grok-4-fast,RQ: grok-4-fast,0.19999999999999998,0.5,0.049999999999999996,0.0
+2026-09-08T10:00:06Z,requesty,xai/grok-4-fast-non-reasoning,RQ: grok-4-fast-non-reasoning,0.19999999999999998,0.5,0.049999999999999996,0.0
+2026-09-08T10:00:06Z,requesty,xai/grok-4.2-beta,RQ: grok-4.2-beta,2.0,6.0,0.19999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,xai/grok-4.3,RQ: grok-4.3,1.25,2.5,0.19999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,xai/grok-4.5,RQ: grok-4.5,2.0,6.0,0.5,0.0
+2026-09-08T10:00:06Z,requesty,xai/grok-4.6,RQ: grok-4.6,2.0,6.0,0.5,0.0
+2026-09-08T10:00:06Z,requesty,xai/grok-build-0.1,RQ: grok-build-0.1,1.0,2.0,0.09999999999999999,0.0
+2026-09-08T10:00:06Z,requesty,xai/grok-code-fast-1,RQ: grok-code-fast-1,0.19999999999999998,1.5,0.02,0.0
+2026-09-08T10:00:06Z,requesty,xiaomi/mimo-v2.5,RQ: mimo-v2.5,0.14,0.28,0.0028,0.0
+2026-09-08T10:00:06Z,requesty,xiaomi/mimo-v2.5-pro,RQ: mimo-v2.5-pro,0.435,0.87,0.0036,0.0
+2026-09-08T10:00:06Z,requesty,zai/GLM-4.5,RQ: glm-4.5,0.6,2.2,0.11,0.0
+2026-09-08T10:00:06Z,requesty,zai/GLM-4.6,RQ: glm-4.6,0.6,2.2,0.11,0.0
+2026-09-08T10:00:06Z,requesty,zai/GLM-4.7,RQ: glm-4.7,0.6,2.2,0.11,0.0
+2026-09-08T10:00:06Z,requesty,zai/GLM-5,RQ: glm-5,1.0,3.1999999999999997,0.19999999999999998,0.0
+2026-09-08T10:00:06Z,requesty,zai/glm-5.1,RQ: glm-5.1,1.4,4.4,0.26,0.0
+2026-09-08T10:00:06Z,requesty,zai/glm-5.2,RQ: glm-5.2,1.4,4.4,0.26,0.0
+2026-09-08T10:00:06Z,requesty,zai/glm-5.3,RQ: glm-5.3,1.4,4.4,0.26,0.0
+2026-09-08T10:00:06Z,requesty,zai/glm-5.3-flash,RQ: glm-5.3-flash,0.15,0.5,0.03,0.0
