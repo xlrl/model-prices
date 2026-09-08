@@ -158,6 +158,26 @@
   table.data-table th:first-child, table.data-table td:first-child { text-align: left; }
   #table-view { display: none; overflow-x: auto; }
   .hoverlayer { display: none !important; }
+  table.compare-table th, table.compare-table td { text-align: right; }
+  table.compare-table th:first-child, table.compare-table td:first-child { text-align: left; }
+  table.compare-table .cheaper { color: #1baf7a; font-weight: 600; }
+  table.compare-table .pricier { color: #e34948; font-weight: 600; }
+  @media (prefers-color-scheme: dark) {
+    table.compare-table .cheaper { color: #4dd4a4; }
+    table.compare-table .pricier { color: #ff6b6a; }
+  }
+  .compare-note { color: var(--text-muted); font-size: 0.8rem; margin: 8px 0 0; }
+  .compare-filter { margin-bottom: 8px; }
+  .compare-filter input {
+    width: 100%;
+    max-width: 360px;
+    padding: 8px 10px;
+    font-size: 0.95rem;
+    border: 1px solid var(--baseline);
+    border-radius: 6px;
+    background: var(--surface);
+    color: var(--text-primary);
+  }
   #custom-tooltip {
     position: fixed;
     pointer-events: none;
@@ -216,6 +236,16 @@
   </div>
   <div id="table-view"></div>
 </div>
+
+<div class="card">
+  <h2>Requesty vs OpenRouter</h2>
+  <p class="sub">Latest snapshot prices, $ / Mtok. Green = Requesty cheaper, red = OpenRouter cheaper. Sorted by OpenRouter input cost descending.</p>
+  <div class="compare-filter">
+    <input id="compare-search" type="text" placeholder="Filter by model id&hellip;" autocomplete="off" aria-label="Filter comparison table">
+  </div>
+  <div id="compare-table-wrap" style="overflow-x:auto;"></div>
+  <p class="compare-note" id="compare-note"></p>
+</div>
 <div id="custom-tooltip"></div>
 
 <script>__PLOTLYJS__</script>
@@ -223,6 +253,7 @@
 const DATA = __DATA__;
 const ALL_LABELS = __ALL_LABELS__;
 const DEFAULT_LABELS = __DEFAULT_LABELS__;
+const COMPARE_ROWS = __COMPARE_ROWS__;
 const PALETTE = __PALETTE__;
 const MAX_SERIES = 8;
 
@@ -520,6 +551,45 @@ renderChips();
 renderChart();
 chartEl.on("plotly_hover", showTooltip);
 chartEl.on("plotly_unhover", hideTooltip);
+
+function renderCompareTable() {
+  const wrap = document.getElementById("compare-table-wrap");
+  const note = document.getElementById("compare-note");
+  const q = document.getElementById("compare-search").value.trim().toLowerCase();
+  const rows = q ? COMPARE_ROWS.filter((r) => r.model.toLowerCase().includes(q)) : COMPARE_ROWS;
+
+  if (!rows.length) {
+    wrap.innerHTML = "<p style=\"color:var(--text-muted);font-size:0.85rem;\">No matching models.</p>";
+    note.textContent = "";
+    return;
+  }
+
+  let html = "<table class=\"data-table compare-table\"><thead><tr>" +
+    "<th>Model</th><th>OpenRouter route</th><th>OR in</th><th>OR out</th><th>Requesty route</th><th>RQ in</th><th>RQ out</th><th>&Delta; in</th><th>&Delta; out</th>" +
+    "</tr></thead><tbody>";
+  for (const r of rows) {
+    const inClass = Math.abs(r.delta_in) < 0.01 ? "" : (r.delta_in < 0 ? "cheaper" : "pricier");
+    const outClass = Math.abs(r.delta_out) < 0.01 ? "" : (r.delta_out < 0 ? "cheaper" : "pricier");
+    const routes = r.rq_routes > 1 ? " <span style=\"color:var(--text-muted)\">(" + r.rq_routes + " routes)</span>" : "";
+    html += "<tr>" +
+      "<td>" + r.model + "</td>" +
+      "<td>" + r.or_id + "</td>" +
+      "<td>" + r.or_in.toFixed(3) + "</td>" +
+      "<td>" + r.or_out.toFixed(3) + "</td>" +
+      "<td>" + r.rq_id + routes + "</td>" +
+      "<td>" + r.rq_in.toFixed(3) + "</td>" +
+      "<td>" + r.rq_out.toFixed(3) + "</td>" +
+      "<td class=\"" + inClass + "\">" + (r.delta_in >= 0 ? "+" : "") + r.delta_in.toFixed(1) + "%</td>" +
+      "<td class=\"" + outClass + "\">" + (r.delta_out >= 0 ? "+" : "") + r.delta_out.toFixed(1) + "%</td>" +
+      "</tr>";
+  }
+  html += "</tbody></table>";
+  wrap.innerHTML = html;
+  note.textContent = rows.length + " of " + COMPARE_ROWS.length + " models shown. Matched by canonical name (vendor prefix and @region/:variant suffixes stripped). Requesty shows the cheapest route; \u0394 = (Requesty \u2212 OpenRouter) / OpenRouter \u00d7 100, negative = Requesty cheaper.";
+}
+
+document.getElementById("compare-search").addEventListener("input", renderCompareTable);
+renderCompareTable();
 </script>
 </body>
 </html>

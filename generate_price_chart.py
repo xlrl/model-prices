@@ -37,17 +37,29 @@ HERE = Path(__file__).parent
 
 
 def read_default_models_file(path: Path, valid_labels: set[str]) -> list[str]:
+    """Read default model labels from a file.
+
+    Each non-comment line is matched against the available labels. Lines may be
+    exact labels ("openrouter/openai/gpt-4o") or partial substrings
+    ("gpt-4o", "claude-sonnet") — a partial line matches every label that
+    contains it. Deduplicates while preserving file order.
+    """
     if not path.exists():
         return []
-    labels = []
+    labels: list[str] = []
+    seen: set[str] = set()
     for line in path.read_text().splitlines():
         label = line.split("#", 1)[0].strip()
         if not label:
             continue
-        if label not in valid_labels:
-            print(f"warning: {path.name}: {label!r} not found in current data, skipping", file=sys.stderr)
+        matches = sorted(l for l in valid_labels if label in l)
+        if not matches:
+            print(f"warning: {path.name}: {label!r} matched no model in current data, skipping", file=sys.stderr)
             continue
-        labels.append(label)
+        for m in matches:
+            if m not in seen:
+                seen.add(m)
+                labels.append(m)
     return labels
 
 
@@ -90,23 +102,89 @@ def latest_prices(df: pd.DataFrame, provider: str) -> dict[str, tuple[float, flo
     }
 
 
+def canonical_key(model_id: str) -> str:
+    """Normalize a provider model id to a bare model name for matching.
+
+    Drops the vendor/backend prefix (everything before the last "/"),
+    lowercases, and strips @region and :variant suffixes (batch, free, flex,
+    ...) so that e.g. "moonshotai/kimi-k2.5", "moonshot/kimi-k2.5",
+    "deepinfra/moonshotai/Kimi-K2.5" and "bedrock/kimi-k2.5@us-east-1" all
+    map to "kimi-k2.5". Matching is done on this bare name because providers
+    disagree on vendor prefixes (OpenRouter: "moonshotai", Requesty:
+    "moonshot"/"bedrock"/"deepinfra").
+    """
+    name = model_id.lower().lstrip("~")
+    name = name.rsplit("/", 1)[-1]
+    name = name.split("@", 1)[0]
+    name = name.split(":", 1)[0]
+    return name
+
+
+def canonical_display(model_id: str) -> str:
+    """Display form retaining one vendor/model slash for context.
+
+    Keeps the last two path segments (so "deepinfra/moonshotai/Kimi-K2.5"
+    -> "moonshotai/kimi-k2.5"), lowercases, and strips leading ~ and
+    @region/:variant suffixes. Falls back to the bare name if there's no slash.
+    """
+    name = model_id.lower().lstrip("~")
+    name = name.split("@", 1)[0]
+    name = name.split(":", 1)[0]
+    parts = name.rsplit("/", 2)
+    return "/".join(parts[-2:]) if len(parts) > 1 else parts[-1]
+
+
+def _pick_or_price(
+    entries: list[tuple[str, float, float]],
+) -> tuple[str, float, float]:
+    """Pick the OpenRouter (model_id, in, out) to display for a canonical key.
+
+    Prefers the standard variant (no :batch/:free/:... suffix); among those,
+    the cheapest by input cost.
+    """
+    standard = [e for e in entries if ":" not in e[0] and "@" not in e[0]]
+    pool = standard or entries
+    return min(pool, key=lambda e: e[1])
+
+
+def _pick_rq_price(
+    entries: list[tuple[str, float, float]],
+) -> tuple[str, float, float]:
+    """Pick the Requesty (model_id, in, out) for a canonical key: cheapest route."""
+    return min(entries, key=lambda e: e[1])
+
+
 def build_compare_rows(df: pd.DataFrame) -> list[dict[str, object]]:
-    """Compare latest Requesty vs OpenRouter prices for models present on both."""
-    or_prices = latest_prices(df, "openrouter")
-    rq_prices = latest_prices(df, "requesty")
-    shared = sorted(set(or_prices) & set(rq_prices), key=str.lower)
+    """Compare latest Requesty vs OpenRouter prices for models present on both,
+    matching on the canonical model name so differently-prefixed ids (e.g.
+    OpenRouter "moonshotai/kimi-k2.5" vs Requesty "moonshot/kimi-k2.5" or
+    "bedrock/kimi-k2.5@us-east-1") still line up."""
+    or_raw = latest_prices(df, "openrouter")
+    rq_raw = latest_prices(df, "requesty")
+
+    or_by_key: dict[str, list[tuple[str, float, float]]] = {}
+    for mid, (inp, out) in or_raw.items():
+        or_by_key.setdefault(canonical_key(mid), []).append((mid, inp, out))
+    rq_by_key: dict[str, list[tuple[str, float, float]]] = {}
+    for mid, (inp, out) in rq_raw.items():
+        rq_by_key.setdefault(canonical_key(mid), []).append((mid, inp, out))
+
+    shared = sorted(set(or_by_key) & set(rq_by_key), key=str.lower)
     rows = []
-    for model_id in shared:
-        or_in, or_out = or_prices[model_id]
-        rq_in, rq_out = rq_prices[model_id]
+    for key in shared:
+        or_id, or_in, or_out = _pick_or_price(or_by_key[key])
+        rq_id, rq_in, rq_out = _pick_rq_price(rq_by_key[key])
         delta_in = (rq_in - or_in) / or_in * 100 if or_in else 0.0
         delta_out = (rq_out - or_out) / or_out * 100 if or_out else 0.0
         rows.append({
-            "model": model_id,
+            "model": canonical_display(or_id),
+            "or_id": or_id,
             "or_in": or_in,
             "or_out": or_out,
+            "rq_id": rq_id,
             "rq_in": rq_in,
             "rq_out": rq_out,
+            "rq_routes": len(rq_by_key[key]),
             "delta_in": delta_in,
             "delta_out": delta_out,
         })
@@ -253,32 +331,20 @@ def render_html(df: pd.DataFrame, max_default: int, defaults_file: Path) -> str:
     df = df.copy()
     df["label"] = df["provider"] + "/" + df["model_id"]
 
-    main_providers = ("openrouter", "eurouter")
-    main_df = df[df["provider"].isin(main_providers)]
-    rq_df = df[df["provider"] == "requesty"]
-
-    main_series = build_series(main_df)
-    rq_series = build_series(rq_df)
-    main_labels = sorted(main_series.keys())
-    rq_labels = sorted(rq_series.keys())
-
-    main_defaults = read_default_models_file(defaults_file, set(main_labels))
-    if not main_defaults:
-        main_defaults = default_labels_by_price_change(main_df, max_default)
-    rq_defaults = default_labels_by_price_change(rq_df, max_default)
-
+    series = build_series(df)
+    all_labels = sorted(series.keys())
+    defaults = read_default_models_file(defaults_file, set(all_labels))
+    if not defaults:
+        defaults = default_labels_by_price_change(df, max_default)
     compare_rows = build_compare_rows(df)
 
     plotlyjs = plotly.offline.get_plotlyjs()
     template = (HERE / "price_chart_template.html").read_text()
     return (
         template.replace("__PLOTLYJS__", plotlyjs)
-        .replace("__MAIN_DATA__", json.dumps(main_series, separators=(",", ":")))
-        .replace("__MAIN_ALL_LABELS__", json.dumps(main_labels))
-        .replace("__MAIN_DEFAULT_LABELS__", json.dumps(main_defaults))
-        .replace("__RQ_DATA__", json.dumps(rq_series, separators=(",", ":")))
-        .replace("__RQ_ALL_LABELS__", json.dumps(rq_labels))
-        .replace("__RQ_DEFAULT_LABELS__", json.dumps(rq_defaults))
+        .replace("__DATA__", json.dumps(series, separators=(",", ":")))
+        .replace("__ALL_LABELS__", json.dumps(all_labels))
+        .replace("__DEFAULT_LABELS__", json.dumps(defaults))
         .replace("__COMPARE_ROWS__", json.dumps(compare_rows, separators=(",", ":")))
         .replace("__PALETTE__", json.dumps(PALETTE))
     )
