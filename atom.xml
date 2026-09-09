@@ -4,7 +4,14 @@
   <link href="https://xlrl.github.io/model-prices/"/>
   <link href="https://xlrl.github.io/model-prices/atom.xml" rel="self"/>
   <id>https://xlrl.github.io/model-prices/</id>
-  <updated>2026-09-08T10:00:06Z</updated>
+  <updated>2026-09-09T10:00:04Z</updated>
+  <entry>
+    <title>Model changes – 2026-09-09 (23 models)</title>
+    <link href="https://xlrl.github.io/model-prices/"/>
+    <id>tag:model-prices,2026-09-09:2026-09-09T10:00:04</id>
+    <updated>2026-09-09T10:00:04Z</updated>
+    <content type="html">&lt;ul&gt;&lt;li&gt;+ openrouter/deepseek/deepseek-v4-flash-vision-exp:batch: added — input $0.11, output $0.33 (per Mtok)&lt;/li&gt;&lt;li&gt;+ openrouter/inception/mercury-2.5: added — input $0.04, output $0.15 (per Mtok)&lt;/li&gt;&lt;li&gt;+ openrouter/nex-agi/nex-n2.5-mini:free: added — input $0, output $0 (per Mtok)&lt;/li&gt;&lt;li&gt;+ openrouter/nex-agi/nex-n2.5-pro:free: added — input $0, output $0 (per Mtok)&lt;/li&gt;&lt;li&gt;+ openrouter/z-ai/glm-5.2:batch: added — input $0.7, output $2.2 (per Mtok)&lt;/li&gt;&lt;li&gt;+ openrouter/z-ai/glm-5.3:batch: added — input $0.7, output $2.2 (per Mtok)&lt;/li&gt;&lt;li&gt;- openrouter/inception/mercury-2.5-preview: removed — was input $0.04, output $0.15 (per Mtok)&lt;/li&gt;&lt;li&gt;- openrouter/nex-agi/nex-n2-mini: removed — was input $0.025, output $0.1 (per Mtok)&lt;/li&gt;&lt;li&gt;- openrouter/nex-agi/nex-n2-pro: removed — was input $0.25, output $1 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/deepseek/deepseek-v4-flash-0731:batch: input $0.14 → $0.11, output $0.28 → $0.33 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/deepseek/deepseek-v4-flash-vision-exp: input $0.44 → $0.22, output $1.32 → $0.66 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/deepseek/deepseek-v4-pro-0813:batch: input $1.32 → $0.66, output $3.96 → $1.98 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/ibm-granite/granite-4.2-8b: input $0.1 → $0.06, output $0.15 → $0.25 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/meta/muse-glimmer-30b:batch: input $0.35 → $0.175, output $1.5 → $0.75 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/minimax/minimax-m1: input $0.4 → $0.55, output $2.2 → $2.2 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/qwen/qwen3-235b-a22b-2507: input $0.09 → $0.22, output $0.55 → $0.88 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/qwen/qwen3-next-80b-a3b-instruct: input $0.1 → $0.09, output $1.1 → $1.1 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/qwen/qwen3.5-397b-a17b: input $0.39 → $0.55, output $2.34 → $3.5 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/z-ai/glm-4.6: input $0.55 → $0.43, output $2.2 → $1.75 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/z-ai/glm-5.3-flash:batch: input $0.15 → $0.075, output $0.5 → $0.25 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/~moonshotai/kimi-latest: input $2.5 → $2.4, output $14 → $12 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/~z-ai/glm-flash-latest: input $0.07125 → $0.075, output $0.2375 → $0.25 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/~z-ai/glm-latest: input $1.12 → $1.113, output $3.52 → $3.498 (per Mtok)&lt;/li&gt;&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>Model changes – 2026-09-08 (6 models)</title>
     <link href="https://xlrl.github.io/model-prices/"/>
