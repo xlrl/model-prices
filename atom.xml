@@ -4,7 +4,14 @@
   <link href="https://xlrl.github.io/model-prices/"/>
   <link href="https://xlrl.github.io/model-prices/atom.xml" rel="self"/>
   <id>https://xlrl.github.io/model-prices/</id>
-  <updated>2026-09-12T10:00:06Z</updated>
+  <updated>2026-09-13T10:00:05Z</updated>
+  <entry>
+    <title>Model changes – 2026-09-13 (15 models)</title>
+    <link href="https://xlrl.github.io/model-prices/"/>
+    <id>tag:model-prices,2026-09-13:2026-09-13T10:00:05</id>
+    <updated>2026-09-13T10:00:05Z</updated>
+    <content type="html">&lt;ul&gt;&lt;li&gt;+ requesty/deepinfra/deepseek-v4.1-flash: added — input $0.2, output $0.6 (per Mtok)&lt;/li&gt;&lt;li&gt;+ requesty/deepinfra/deepseek-v4.1-flash:flex: added — input $0.16, output $0.48 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/deepseek/deepseek-v4-flash: input $0.06678 → $0.04928, output $0.13356 → $0.09856 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/deepseek/deepseek-v4-pro: input $0.799182 → $1.6, output $1.59836 → $3.2 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/google/gemma-4-26b-a4b-it: input $0.042 → $0.09, output $0.22 → $0.3 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/meta-llama/llama-3.1-70b-instruct: input $0.72 → $0.4, output $0.72 → $0.4 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/meta/muse-glimmer-30b: input $0.3 → $0.35, output $1.1 → $1.5 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/minimax/minimax-m2.5: input $0.3 → $0.27, output $1.2 → $1.08 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/moonshotai/kimi-k3: input $2.30273 → $2.64814, output $11.5502 → $13.2827 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/qwen/qwen3-30b-a3b-instruct-2507: input $0.09 → $0.04815, output $0.3 → $0.19305 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/z-ai/glm-5.3-flash: input $0.075 → $0.15, output $0.25 → $0.5 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/z-ai/glm-5.3: input $1.4 → $1.092, output $4.4 → $3.432 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/~deepseek/deepseek-v4-flash-latest: input $0.03 → $0.0352, output $0.07 → $0.1056 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/~moonshotai/kimi-latest: input $2.125 → $2.1, output $11.9 → $10.95 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/~z-ai/glm-latest: input $0.8727 → $0.936, output $3.36 → $3.168 (per Mtok)&lt;/li&gt;&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>Model changes – 2026-09-12 (93 models)</title>
     <link href="https://xlrl.github.io/model-prices/"/>
