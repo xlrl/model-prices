@@ -10,6 +10,7 @@ GitHub Pages (https://xlrl.github.io/model-prices/).
 
 import argparse
 import json
+import re
 import subprocess
 import sys
 from datetime import UTC, datetime
@@ -39,22 +40,28 @@ HERE = Path(__file__).parent
 def read_default_models_file(path: Path, valid_labels: set[str]) -> list[str]:
     """Read default model labels from a file.
 
-    Each non-comment line is matched against the available labels. Lines may be
-    exact labels ("openrouter/openai/gpt-4o") or partial substrings
-    ("gpt-4o", "claude-sonnet") — a partial line matches every label that
-    contains it. Deduplicates while preserving file order.
+    Each non-comment line is a regex, matched with re.search against the
+    available labels ("openrouter/openai/gpt-4o"). E.g. "gpt-5\\.6-terra$"
+    matches only the exact model, not its "-pro" sibling; "gpt-5\\.6-terra"
+    (unanchored) matches both, plus any :batch/:free variants. Deduplicates
+    while preserving file order.
     """
     if not path.exists():
         return []
     labels: list[str] = []
     seen: set[str] = set()
     for line in path.read_text().splitlines():
-        label = line.split("#", 1)[0].strip()
-        if not label:
+        pattern = line.split("#", 1)[0].strip()
+        if not pattern:
             continue
-        matches = sorted(l for l in valid_labels if label in l)
+        try:
+            regex = re.compile(pattern)
+        except re.error as e:
+            print(f"warning: {path.name}: {pattern!r} is not a valid regex ({e}), skipping", file=sys.stderr)
+            continue
+        matches = sorted(l for l in valid_labels if regex.search(l))
         if not matches:
-            print(f"warning: {path.name}: {label!r} matched no model in current data, skipping", file=sys.stderr)
+            print(f"warning: {path.name}: {pattern!r} matched no model in current data, skipping", file=sys.stderr)
             continue
         for m in matches:
             if m not in seen:
