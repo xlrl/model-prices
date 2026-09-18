@@ -1,9 +1,10 @@
 # Default models preselected when generate_price_chart.py builds the chart.
-# One label per line, exactly as shown in the chart's search box: provider/model_id.
+# One regex per line, matched with re.search against provider/model_id labels
+# as shown in the chart's search box. Anchor with $ for an exact model
+# (e.g. "gpt-5\.6-terra$" excludes "gpt-5.6-terra-pro").
 # Lines starting with # and blank lines are ignored.
-openrouter/anthropic/claude-sonnet-5
-openrouter/openai/gpt-5.6-terra
-openrouter/deepseek/deepseek-v4-pro
-openrouter/moonshotai/kimi-k2.5
-openrouter/moonshotai/kimi-k3
-openrouter/z-ai/glm-5.2
+openrouter/anthropic/claude-sonnet-5$
+openrouter/deepseek/deepseek-v4(-pro|-flash)$
+openrouter/moonshotai/kimi-k2.5$
+openrouter/moonshotai/kimi-k3$
+openrouter/z-ai/glm-5.[23]$
