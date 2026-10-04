@@ -4,7 +4,14 @@
   <title>Model price history</title>
   <link>https://xlrl.github.io/model-prices/</link>
   <description>Price changes tracked for LLM API models.</description>
-  <lastBuildDate>Sat, 03 Oct 2026 10:00:06 +0000</lastBuildDate>
+  <lastBuildDate>Sun, 04 Oct 2026 10:00:07 +0000</lastBuildDate>
+  <item>
+    <title>Model changes – 2026-10-04 (15 models)</title>
+    <link>https://xlrl.github.io/model-prices/</link>
+    <guid isPermaLink="false">model-prices-2026-10-04T10:00:07</guid>
+    <pubDate>Sun, 04 Oct 2026 10:00:07 +0000</pubDate>
+    <description><![CDATA[<ul><li>openrouter/deepseek/deepseek-chat-v3-0324: input $0.29 → $0.25, output $1.14 → $1 (per Mtok)</li><li>openrouter/deepseek/deepseek-v4-flash-0731: input $0.0188 → $0.0152, output $1.28 → $1.28 (per Mtok)</li><li>openrouter/deepseek/deepseek-v4-flash: input $0.028 → $0.0224, output $0.056 → $1.28 (per Mtok)</li><li>openrouter/deepseek/deepseek-v4-pro-0813: input $0.66 → $0.55, output $1.98 → $4.2 (per Mtok)</li><li>openrouter/deepseek/deepseek-v4.1-flash: input $0.3 → $0.003, output $1.2 → $2.4 (per Mtok)</li><li>openrouter/meta-llama/llama-3.3-70b-instruct: input $0.1 → $0.22, output $0.32 → $0.5 (per Mtok)</li><li>openrouter/moonshotai/kimi-k3: input $2.7 → $0.72, output $13.5 → $13 (per Mtok)</li><li>openrouter/qwen/qwen3.8-27b: input $0.42 → $0.425, output $3 → $2.55 (per Mtok)</li><li>openrouter/z-ai/glm-5.2: input $0.41 → $0.38, output $3.99 → $3.49 (per Mtok)</li><li>openrouter/~deepseek/deepseek-flash-latest: input $0.02 → $0.003, output $0.6 → $2.4 (per Mtok)</li><li>openrouter/~deepseek/deepseek-pro-latest: input $0.12 → $0.1901, output $4.2 → $4.2 (per Mtok)</li><li>openrouter/~deepseek/deepseek-v4-flash-latest: input $0.0188 → $0.0152, output $1.28 → $1.28 (per Mtok)</li><li>openrouter/~moonshotai/kimi-latest: input $0.9895 → $0.6731, output $13 → $13 (per Mtok)</li><li>openrouter/~z-ai/glm-flash-latest: input $0.035 → $0.0352, output $0.5 → $0.5 (per Mtok)</li><li>openrouter/~z-ai/glm-latest: input $0.12 → $0.05, output $4 → $5 (per Mtok)</li></ul>]]></description>
+  </item>
   <item>
     <title>Model changes – 2026-10-03 (17 models)</title>
     <link>https://xlrl.github.io/model-prices/</link>
