@@ -4,7 +4,14 @@
   <link href="https://xlrl.github.io/model-prices/"/>
   <link href="https://xlrl.github.io/model-prices/atom.xml" rel="self"/>
   <id>https://xlrl.github.io/model-prices/</id>
-  <updated>2026-10-11T10:00:05Z</updated>
+  <updated>2026-10-12T10:00:05Z</updated>
+  <entry>
+    <title>Model changes – 2026-10-12 (13 models)</title>
+    <link href="https://xlrl.github.io/model-prices/"/>
+    <id>tag:model-prices,2026-10-12:2026-10-12T10:00:05</id>
+    <updated>2026-10-12T10:00:05Z</updated>
+    <content type="html">&lt;ul&gt;&lt;li&gt;openrouter/deepseek/deepseek-v4-flash-0731: input $0.0149 → $0.016, output $0.64 → $0.64 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/deepseek/deepseek-v4-pro-0813: input $0.66 → $1.32, output $1.98 → $3.96 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/deepseek/deepseek-v4-pro: input $0.2088 → $0.95526, output $0.4176 → $1.91052 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/google/gemma-4-26b-a4b-it: input $0.0675 → $0.09, output $0.225 → $0.3 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/moonshotai/kimi-k3: input $0.8 → $0.73, output $10 → $10 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/z-ai/glm-5.3-flash: input $0.15 → $0.0232, output $0.5 → $1.2 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/z-ai/glm-5.3: input $0.07 → $0.079, output $4.8 → $4.8 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/~deepseek/deepseek-flash-latest: input $0.0348 → $0.0336, output $0.1392 → $1.188 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/~deepseek/deepseek-pro-latest: input $0.21912 → $0.25, output $0.65736 → $5 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/~deepseek/deepseek-v4-flash-latest: input $0.0149 → $0.0128, output $0.64 → $0.768 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/~moonshotai/kimi-latest: input $0.75 → $0.72, output $14.9 → $24 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/~z-ai/glm-flash-latest: input $0.04 → $0.0232, output $0.5 → $1.2 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/~z-ai/glm-latest: input $0.07 → $0.055, output $4.8 → $5 (per Mtok)&lt;/li&gt;&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>Model changes – 2026-10-11 (18 models)</title>
     <link href="https://xlrl.github.io/model-prices/"/>
