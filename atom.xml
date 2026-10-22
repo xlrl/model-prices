@@ -4,7 +4,14 @@
   <link href="https://xlrl.github.io/model-prices/"/>
   <link href="https://xlrl.github.io/model-prices/atom.xml" rel="self"/>
   <id>https://xlrl.github.io/model-prices/</id>
-  <updated>2026-10-21T10:00:04Z</updated>
+  <updated>2026-10-22T10:00:06Z</updated>
+  <entry>
+    <title>Model changes – 2026-10-22 (11 models)</title>
+    <link href="https://xlrl.github.io/model-prices/"/>
+    <id>tag:model-prices,2026-10-22:2026-10-22T10:00:06</id>
+    <updated>2026-10-22T10:00:06Z</updated>
+    <content type="html">&lt;ul&gt;&lt;li&gt;+ openrouter/recursive/flint-v1.0:free: added — input $0, output $0 (per Mtok)&lt;/li&gt;&lt;li&gt;+ requesty/runware/deepseek-v4.1-flash-1017: added — input $0.15, output $0.6 (per Mtok)&lt;/li&gt;&lt;li&gt;- openrouter/google/gemini-2.5-flash-lite:batch: removed — was input $0.05, output $0.2 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/deepseek/deepseek-v4-pro-0813: input $0.66 → $1.32, output $1.98 → $3.96 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/deepseek/deepseek-v4.1-flash: input $0.049 → $0.3, output $0.375 → $1.2 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/qwen/qwen3.5-397b-a17b: input $0.39 → $0.5, output $2.34 → $3.6 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/z-ai/glm-5.3-flash: input $0.041191 → $0.0052, output $0.12 → $0.193 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/~deepseek/deepseek-flash-latest: input $0.049 → $0.07, output $0.375 → $0.5 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/~deepseek/deepseek-pro-latest: input $0.225 → $0.2235, output $8 → $8 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/~moonshotai/kimi-latest: input $0.238 → $0.238, output $24 → $16 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/~z-ai/glm-flash-latest: input $0.041191 → $0.0052, output $0.12 → $0.193 (per Mtok)&lt;/li&gt;&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>Model changes – 2026-10-21 (18 models)</title>
     <link href="https://xlrl.github.io/model-prices/"/>
