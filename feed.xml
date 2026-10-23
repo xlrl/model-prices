@@ -4,7 +4,14 @@
   <title>Model price history</title>
   <link>https://xlrl.github.io/model-prices/</link>
   <description>Price changes tracked for LLM API models.</description>
-  <lastBuildDate>Thu, 22 Oct 2026 10:00:06 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 23 Oct 2026 10:00:04 +0000</lastBuildDate>
+  <item>
+    <title>Model changes – 2026-10-23 (11 models)</title>
+    <link>https://xlrl.github.io/model-prices/</link>
+    <guid isPermaLink="false">model-prices-2026-10-23T10:00:04</guid>
+    <pubDate>Fri, 23 Oct 2026 10:00:04 +0000</pubDate>
+    <description><![CDATA[<ul><li>+ openrouter/minimax/minimax-m3.1-flash: added — input $0.15, output $0.6 (per Mtok)</li><li>+ requesty/melious/clef-flash: added — input $0.09, output $0 (per Mtok)</li><li>+ requesty/melious/clef: added — input $0.24, output $0 (per Mtok)</li><li>- openrouter/minimax/minimax-m3.1-flash:free: removed — was input $0, output $0 (per Mtok)</li><li>openrouter/mistralai/mistral-small-3.2-24b-instruct: input $0.09375 → $0.075, output $0.25 → $0.2 (per Mtok)</li><li>openrouter/qwen/qwen3.5-9b: input $0.08 → $0.17, output $0.13 → $0.25 (per Mtok)</li><li>openrouter/qwen/qwen3.8-27b: input $0.04 → $0.2, output $1.35 → $2.5 (per Mtok)</li><li>openrouter/reflection/beam-1.0-501b-a23b: input $0.3 → $0.25, output $1 → $1 (per Mtok)</li><li>openrouter/z-ai/glm-5.3-flash: input $0.0052 → $0.0052, output $0.193 → $0.1985 (per Mtok)</li><li>openrouter/~deepseek/deepseek-pro-latest: input $0.2235 → $0.2565, output $8 → $8 (per Mtok)</li><li>openrouter/~z-ai/glm-flash-latest: input $0.0052 → $0.0052, output $0.193 → $0.1985 (per Mtok)</li></ul>]]></description>
+  </item>
   <item>
     <title>Model changes – 2026-10-22 (11 models)</title>
     <link>https://xlrl.github.io/model-prices/</link>
