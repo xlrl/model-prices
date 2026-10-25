@@ -4,7 +4,14 @@
   <link href="https://xlrl.github.io/model-prices/"/>
   <link href="https://xlrl.github.io/model-prices/atom.xml" rel="self"/>
   <id>https://xlrl.github.io/model-prices/</id>
-  <updated>2026-10-24T10:00:04Z</updated>
+  <updated>2026-10-25T11:00:03Z</updated>
+  <entry>
+    <title>Model changes – 2026-10-25 (12 models)</title>
+    <link href="https://xlrl.github.io/model-prices/"/>
+    <id>tag:model-prices,2026-10-25:2026-10-25T11:00:03</id>
+    <updated>2026-10-25T11:00:03Z</updated>
+    <content type="html">&lt;ul&gt;&lt;li&gt;+ openrouter/liquid/lfm-2.5-2.6b: added — input $0.35, output $0.5 (per Mtok)&lt;/li&gt;&lt;li&gt;+ requesty/tensorx/minimax-m3.1-flash: added — input $0.3, output $1.2 (per Mtok)&lt;/li&gt;&lt;li&gt;- openrouter/openai/gpt-3.5-turbo-instruct: removed — was input $1.5, output $2 (per Mtok)&lt;/li&gt;&lt;li&gt;- openrouter/openai/gpt-3.5-turbo: removed — was input $0.5, output $1.5 (per Mtok)&lt;/li&gt;&lt;li&gt;- openrouter/openai/gpt-3.5-turbo:batch: removed — was input $0.25, output $0.75 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/deepseek/deepseek-v4-flash-0731: input $0.04444 → $0.0422, output $0.13332 → $0.1694 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/deepseek/deepseek-v4-pro: input $0.368184 → $0.2088, output $0.736368 → $0.4176 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/meta-llama/llama-3.2-3b-instruct: input $0.0509 → $0.05, output $0.335 → $0.33 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/minimax/minimax-m2.5: input $0.27 → $0.3, output $0.95 → $1.2 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/~moonshotai/kimi-latest: input $0.19 → $0.191, output $8.94 → $16 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/~z-ai/glm-flash-latest: input $0.0175 → $0.0513, output $0.1425 → $0.0701 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/~z-ai/glm-latest: input $0.075 → $0.0703, output $4.295 → $4.3843 (per Mtok)&lt;/li&gt;&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>Model changes – 2026-10-24 (25 models)</title>
     <link href="https://xlrl.github.io/model-prices/"/>
