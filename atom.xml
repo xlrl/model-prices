@@ -4,7 +4,14 @@
   <link href="https://xlrl.github.io/model-prices/"/>
   <link href="https://xlrl.github.io/model-prices/atom.xml" rel="self"/>
   <id>https://xlrl.github.io/model-prices/</id>
-  <updated>2026-10-31T11:00:04Z</updated>
+  <updated>2026-11-01T11:00:06Z</updated>
+  <entry>
+    <title>Model changes – 2026-11-01 (14 models)</title>
+    <link href="https://xlrl.github.io/model-prices/"/>
+    <id>tag:model-prices,2026-11-01:2026-11-01T11:00:06</id>
+    <updated>2026-11-01T11:00:06Z</updated>
+    <content type="html">&lt;ul&gt;&lt;li&gt;- openrouter/poolside/laguna-s-2.1: removed — was input $0.09, output $0.18 (per Mtok)&lt;/li&gt;&lt;li&gt;- openrouter/poolside/laguna-s-2.1:free: removed — was input $0, output $0 (per Mtok)&lt;/li&gt;&lt;li&gt;- openrouter/poolside/laguna-xs-2.1: removed — was input $0.06, output $0.12 (per Mtok)&lt;/li&gt;&lt;li&gt;- openrouter/poolside/laguna-xs-2.1:free: removed — was input $0, output $0 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/deepseek/deepseek-v4-pro-0813: input $0.66 → $0.115, output $1.98 → $4 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/openai/gpt-oss-120b: input $0.15 → $0.017, output $0.6 → $0.064 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/openai/gpt-oss-20b: input $0.018 → $0.03, output $0.09 → $0.13 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/qwen/qwen3.8-27b: input $0.04 → $0.15, output $2.3 → $1.875 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/z-ai/glm-4.7: input $0.54 → $0.6, output $1.98 → $2.2 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/z-ai/glm-5.3-flash: input $0.0163 → $0.0285, output $0.1479 → $0.0923 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/z-ai/glm-5.3: input $0.0699 → $0.08, output $1.4 → $3.6 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/~deepseek/deepseek-flash-latest: input $0.0141 → $0.035, output $0.144 → $0.5 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/~deepseek/deepseek-v4-flash-latest: input $0.05764 → $0.0434, output $0.17292 → $0.3 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/~z-ai/glm-flash-latest: input $0.0163 → $0.0285, output $0.1479 → $0.0923 (per Mtok)&lt;/li&gt;&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>Model changes – 2026-10-31 (17 models)</title>
     <link href="https://xlrl.github.io/model-prices/"/>
