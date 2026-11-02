@@ -4,7 +4,14 @@
   <link href="https://xlrl.github.io/model-prices/"/>
   <link href="https://xlrl.github.io/model-prices/atom.xml" rel="self"/>
   <id>https://xlrl.github.io/model-prices/</id>
-  <updated>2026-11-01T11:00:06Z</updated>
+  <updated>2026-11-02T11:00:05Z</updated>
+  <entry>
+    <title>Model changes – 2026-11-02 (4 models)</title>
+    <link href="https://xlrl.github.io/model-prices/"/>
+    <id>tag:model-prices,2026-11-02:2026-11-02T11:00:05</id>
+    <updated>2026-11-02T11:00:05Z</updated>
+    <content type="html">&lt;ul&gt;&lt;li&gt;openrouter/google/gemma-4-26b-a4b-it: input $0.0675 → $0.1, output $0.225 → $0.3 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/meta-llama/llama-3.2-3b-instruct: input $0.05 → $0.0509, output $0.33 → $0.335 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/openai/gpt-oss-120b: input $0.017 → $0.15, output $0.064 → $0.6 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/~deepseek/deepseek-v4-flash-latest: input $0.0434 → $0.059, output $0.3 → $0.3 (per Mtok)&lt;/li&gt;&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>Model changes – 2026-11-01 (14 models)</title>
     <link href="https://xlrl.github.io/model-prices/"/>

@@ -4,7 +4,14 @@
   <title>Model price history</title>
   <link>https://xlrl.github.io/model-prices/</link>
   <description>Price changes tracked for LLM API models.</description>
-  <lastBuildDate>Sun, 01 Nov 2026 11:00:06 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 02 Nov 2026 11:00:05 +0000</lastBuildDate>
+  <item>
+    <title>Model changes – 2026-11-02 (4 models)</title>
+    <link>https://xlrl.github.io/model-prices/</link>
+    <guid isPermaLink="false">model-prices-2026-11-02T11:00:05</guid>
+    <pubDate>Mon, 02 Nov 2026 11:00:05 +0000</pubDate>
+    <description><![CDATA[<ul><li>openrouter/google/gemma-4-26b-a4b-it: input $0.0675 → $0.1, output $0.225 → $0.3 (per Mtok)</li><li>openrouter/meta-llama/llama-3.2-3b-instruct: input $0.05 → $0.0509, output $0.33 → $0.335 (per Mtok)</li><li>openrouter/openai/gpt-oss-120b: input $0.017 → $0.15, output $0.064 → $0.6 (per Mtok)</li><li>openrouter/~deepseek/deepseek-v4-flash-latest: input $0.0434 → $0.059, output $0.3 → $0.3 (per Mtok)</li></ul>]]></description>
+  </item>
   <item>
     <title>Model changes – 2026-11-01 (14 models)</title>
     <link>https://xlrl.github.io/model-prices/</link>
