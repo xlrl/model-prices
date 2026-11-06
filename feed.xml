@@ -4,7 +4,14 @@
   <title>Model price history</title>
   <link>https://xlrl.github.io/model-prices/</link>
   <description>Price changes tracked for LLM API models.</description>
-  <lastBuildDate>Thu, 05 Nov 2026 11:00:05 +0000</lastBuildDate>
+  <lastBuildDate>Fri, 06 Nov 2026 11:00:08 +0000</lastBuildDate>
+  <item>
+    <title>Model changes – 2026-11-06 (22 models)</title>
+    <link>https://xlrl.github.io/model-prices/</link>
+    <guid isPermaLink="false">model-prices-2026-11-06T11:00:08</guid>
+    <pubDate>Fri, 06 Nov 2026 11:00:08 +0000</pubDate>
+    <description><![CDATA[<ul><li>+ openrouter/google/gemini-omni-1.1-flash: added — input $1.5, output $9 (per Mtok)</li><li>+ openrouter/google/gemini-omni-1.2-flash: added — input $1.5, output $9 (per Mtok)</li><li>+ openrouter/openrouter/auto-code: added — input $-1e+06, output $-1e+06 (per Mtok)</li><li>+ requesty/lyceum/kimi-k3.1-pro: added — input $2, output $10 (per Mtok)</li><li>- openrouter/minimax/minimax-01: removed — was input $0.2, output $1.1 (per Mtok)</li><li>- openrouter/minimax/minimax-m2-her: removed — was input $0.3, output $1.2 (per Mtok)</li><li>- openrouter/minimax/minimax-m2.1: removed — was input $0.3, output $1.2 (per Mtok)</li><li>- openrouter/minimax/minimax-m2: removed — was input $0.255, output $1.02 (per Mtok)</li><li>- openrouter/nvidia/nemotron-3.5-content-safety:free: removed — was input $0, output $0 (per Mtok)</li><li>openrouter/deepseek/deepseek-chat: input $0.2574 → $0.32, output $1.0287 → $0.89 (per Mtok)</li><li>openrouter/deepseek/deepseek-v4-flash-vision-exp: input $0.2156 → $0.44, output $0.6468 → $1.32 (per Mtok)</li><li>openrouter/deepseek/deepseek-v4-pro-0813: input $0.103 → $0.1165, output $4.11 → $4.66 (per Mtok)</li><li>openrouter/deepseek/deepseek-v4-pro: input $1.6 → $0.95526, output $3.2 → $1.91052 (per Mtok)</li><li>openrouter/deepseek/deepseek-v4.1-flash: input $0.045 → $0.051, output $0.5 → $0.567 (per Mtok)</li><li>openrouter/google/gemma-4-26b-a4b-it: input $0.041 → $0.09, output $0.123 → $0.3 (per Mtok)</li><li>openrouter/meta-llama/llama-3.3-70b-instruct: input $0.2 → $0.59, output $0.52 → $0.79 (per Mtok)</li><li>openrouter/minimax/minimax-m2.7: input $0.3 → $0.21, output $1.2 → $0.84 (per Mtok)</li><li>openrouter/nvidia/nemotron-3-super-120b-a12b: input $0.3 → $0.075, output $2.4 → $0.4 (per Mtok)</li><li>openrouter/reflection/beam-1.0-501b-a23b: input $0.25 → $0.3, output $1 → $1 (per Mtok)</li><li>openrouter/~deepseek/deepseek-pro-latest: input $0.0927 → $0.0999, output $8 → $8 (per Mtok)</li><li>openrouter/~moonshotai/kimi-latest: input $0.1824 → $0.1529, output $9.3388 → $9.3388 (per Mtok)</li><li>openrouter/~z-ai/glm-flash-latest: input $0.0285 → $0.0284, output $0.0923 → $0.0923 (per Mtok)</li></ul>]]></description>
+  </item>
   <item>
     <title>Model changes – 2026-11-05 (36 models)</title>
     <link>https://xlrl.github.io/model-prices/</link>
