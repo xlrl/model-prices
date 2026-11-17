@@ -4,7 +4,14 @@
   <link href="https://xlrl.github.io/model-prices/"/>
   <link href="https://xlrl.github.io/model-prices/atom.xml" rel="self"/>
   <id>https://xlrl.github.io/model-prices/</id>
-  <updated>2026-11-16T11:00:05Z</updated>
+  <updated>2026-11-17T11:00:07Z</updated>
+  <entry>
+    <title>Model changes – 2026-11-17 (21 models)</title>
+    <link href="https://xlrl.github.io/model-prices/"/>
+    <id>tag:model-prices,2026-11-17:2026-11-17T11:00:07</id>
+    <updated>2026-11-17T11:00:07Z</updated>
+    <content type="html">&lt;ul&gt;&lt;li&gt;+ openrouter/tencent/hy4-flash: added — input $0.035, output $0.1405 (per Mtok)&lt;/li&gt;&lt;li&gt;+ openrouter/z-ai/glm-5.2:batch: added — input $0.322, output $0.989 (per Mtok)&lt;/li&gt;&lt;li&gt;+ requesty/tencent/hy4-flash: added — input $0.07, output $0.281 (per Mtok)&lt;/li&gt;&lt;li&gt;+ requesty/tencent/hy4: added — input $0.834, output $2.501 (per Mtok)&lt;/li&gt;&lt;li&gt;- requesty/nebius/deepseek-v4-pro-0424: removed — was input $1.75, output $3.5 (per Mtok)&lt;/li&gt;&lt;li&gt;- requesty/nebius/zai-org/glm-5.1: removed — was input $1.4, output $4.4 (per Mtok)&lt;/li&gt;&lt;li&gt;- requesty/sference/kimi-k3: removed — was input $3, output $15 (per Mtok)&lt;/li&gt;&lt;li&gt;- requesty/xiaomi/mimo-v2.5-pro: removed — was input $0.435, output $0.87 (per Mtok)&lt;/li&gt;&lt;li&gt;- requesty/xiaomi/mimo-v2.5: removed — was input $0.14, output $0.28 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/deepseek/deepseek-v4.1-flash-1017: input $0.15 → $0.036, output $0.6 → $0.5 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/deepseek/deepseek-v4.1-flash-1017:batch: input $0.037 → $0.036, output $0.325 → $0.15 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/deepseek/deepseek-v4.1-flash: input $0.14 → $0.051, output $0.42 → $0.567 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/meta/muse-glimmer-30b: input $0.3 → $0.35, output $1.2 → $1.5 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/moonshotai/kimi-k3.1-pro:batch: input $0.7 → $0.372, output $6 → $5.583 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/nvidia/nemotron-3-ultra-550b-a55b: input $0.6 → $0.5, output $2.4 → $2.2 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/qwen/qwen3.5-9b: input $0.17 → $0.08, output $0.25 → $0.118 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/qwen/qwen4-max: input $1.5 → $1.425, output $4.5 → $4.275 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/z-ai/glm-5.3-flash: input $0.0399 → $0.15, output $0.0784 → $0.5 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/z-ai/glm-5.3-flash:batch: input $0.05 → $0.024, output $0.18 → $0.069 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/z-ai/glm-5.3-prime: input $2.8 → $1.68, output $8.8 → $5.28 (per Mtok)&lt;/li&gt;&lt;li&gt;openrouter/z-ai/glm-5.3:batch: input $0.45 → $0.281, output $2 → $1.25 (per Mtok)&lt;/li&gt;&lt;/ul&gt;</content>
+  </entry>
   <entry>
     <title>Model changes – 2026-11-16 (27 models)</title>
     <link href="https://xlrl.github.io/model-prices/"/>
