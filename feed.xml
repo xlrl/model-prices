@@ -4,7 +4,14 @@
   <title>Model price history</title>
   <link>https://xlrl.github.io/model-prices/</link>
   <description>Price changes tracked for LLM API models.</description>
-  <lastBuildDate>Sun, 22 Nov 2026 11:00:05 +0000</lastBuildDate>
+  <lastBuildDate>Mon, 23 Nov 2026 11:00:06 +0000</lastBuildDate>
+  <item>
+    <title>Model changes – 2026-11-23 (16 models)</title>
+    <link>https://xlrl.github.io/model-prices/</link>
+    <guid isPermaLink="false">model-prices-2026-11-23T11:00:06</guid>
+    <pubDate>Mon, 23 Nov 2026 11:00:06 +0000</pubDate>
+    <description><![CDATA[<ul><li>+ openrouter/dots-studio/dots-3-note-preview:free: added — input $0, output $0 (per Mtok)</li><li>- requesty/mistral/leanstral-1-5: removed — was input $0, output $0 (per Mtok)</li><li>- requesty/vertex/deepseek-v3.2: removed — was input $0.56, output $1.68 (per Mtok)</li><li>- requesty/xai/grok-build-0.1: removed — was input $1, output $2 (per Mtok)</li><li>openrouter/deepseek/deepseek-v4-flash-0731: input $0.0443 → $0.0434, output $0.3 → $0.3 (per Mtok)</li><li>openrouter/google/gemma-3-27b-it: input $0.08 → $0.08, output $0.45 → $0.16 (per Mtok)</li><li>openrouter/google/gemma-4-26b-a4b-it: input $0.0675 → $0.09, output $0.225 → $0.3 (per Mtok)</li><li>openrouter/moonshotai/kimi-k3.1-pro: input $0.253 → $0.2403, output $8.8 → $8.4023 (per Mtok)</li><li>openrouter/openai/gpt-oss-120b: input $0.09 → $0.05, output $0.36 → $0.25 (per Mtok)</li><li>openrouter/openai/gpt-oss-20b: input $0.075 → $0.03, output $0.3 → $0.13 (per Mtok)</li><li>openrouter/qwen/qwen3.6-35b-a3b: input $0.1 → $0.05, output $0.9 → $0.7 (per Mtok)</li><li>openrouter/z-ai/glm-4.7: input $0.4 → $0.6, output $1.75 → $2.2 (per Mtok)</li><li>openrouter/z-ai/glm-5.3-flash: input $0.15 → $0.0399, output $0.5 → $0.0784 (per Mtok)</li><li>openrouter/~deepseek/deepseek-pro-latest: input $0.0999 → $0.0999, output $8 → $5 (per Mtok)</li><li>openrouter/~deepseek/deepseek-v4-flash-latest: input $0.044 → $0.0434, output $0.132 → $0.3 (per Mtok)</li><li>openrouter/~z-ai/glm-flash-latest: input $0.047 → $0.0399, output $0.0729 → $0.0784 (per Mtok)</li></ul>]]></description>
+  </item>
   <item>
     <title>Model changes – 2026-11-22 (11 models)</title>
     <link>https://xlrl.github.io/model-prices/</link>
